@@ -115,8 +115,11 @@ def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2):
     blocks = extract.top_blocks(open(src_md, encoding="utf-8").read())
     tmp = f".{os.path.basename(out_pdf)}.md"
     tried = []
+    last_rendered = None
 
     def attempt(pt):
+        nonlocal last_rendered
+        last_rendered = pt
         set_font(pt)
         heights = measure(blocks)
         max_h, groups = repack.partition(heights, ncols)
@@ -156,6 +159,12 @@ def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2):
         if got2 != want_pages:
             break
         pt, got, heights, groups, max_h = nxt, got2, heights2, groups2, max_h2
+
+    # attempt() always overwrites out_pdf, even on a failed try -- if the last
+    # render wasn't the accepted pt (e.g. the climb loop's final overshoot),
+    # re-render so the file on disk actually matches what we report/return
+    if last_rendered != pt and got == want_pages:
+        got, heights, groups, max_h = attempt(pt)
 
     os.remove(tmp)
     if got != want_pages:
