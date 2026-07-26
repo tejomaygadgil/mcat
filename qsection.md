@@ -168,7 +168,7 @@
 
 #### (9) Penetration, Pauli & Shielding
 
-- **s &lt; p &lt; d &lt; f** (within shell)
+- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
 - **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
 - **Shielding** — only **core** (inner) e⁻ shield effectively; valence e⁻ shield each other poorly
