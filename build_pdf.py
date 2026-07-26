@@ -36,7 +36,7 @@ EQ_WIDTH_OVERRIDES = {
     "q_nrange": 42,
     "q_l": 6, "q_ml": 17, "q_ms": 18, "q_lrange": 62, "q_mlrange": 72,
     "q_msval": 20, "q_2l1": 30, "q_n2": 14, "q_2n2": 20, "q_lmax": 42,
-    "x_hmu": 52, "m_m": 10, "m_n": 8, "m_ns": 16, "m_np": 17, "m_n1d": 40,
+    "x_hmu": 52, "m_Z": 9, "m_m": 10, "m_n": 8, "m_ns": 16, "m_np": 17, "m_n1d": 40,
     "x_dpeq": 64, "x_dxeq": 86,
     "w_hnu": 18,
     "w_cln": 40, "w_ephot": 104, "w_deb": 76,

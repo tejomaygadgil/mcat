@@ -135,6 +135,7 @@ MATHVARS = {
     "x_hmu":     r"h/(m\cdot u)",
     "m_m":       r"m",
     "m_n":       r"n",
+    "m_Z":       r"Z",
     "m_ns":      r"ns",
     "m_np":      r"np",
     "m_n1d":     r"(n\!-\!1)d",

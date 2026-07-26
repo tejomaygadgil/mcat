@@ -117,6 +117,14 @@
 
 #### (7) Reading an Electron Configuration
 
+**Which element?**
+
+1. Noble-gas core → its own <img src="assets/m_Z.png" class="eqi">: [He]2 [Ne]10 [Ar]18 [Kr]36 [Xe]54
+2. Add every superscript to it = total e⁻ = <img src="assets/m_Z.png" class="eqi"> (neutral atom)
+3. Look up <img src="assets/m_Z.png" class="eqi"> on the periodic table
+
+- Cross-check: outermost subshell → period = <img src="assets/m_n.png" class="eqi">, block → group
+
 **Paramagnetic vs diamagnetic**
 
 1. Draw boxes for the outer subshell — **s 1 · p 3 · d 5 · f 7**
