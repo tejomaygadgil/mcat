@@ -117,3 +117,19 @@ for name, latex in WHITE_ON_DARK.items():
                 bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
     print("wrote", out_path)
+
+# small inline formulas for the Bohr level-formula have/want/use table
+BOHR_TABLE = {
+    "s5_de":      r"2.18\times10^{-18}\left|\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right|",
+    "s5_solven":  r"\dfrac{1}{n^2} = \dfrac{1}{n_{known}^2} \mp \dfrac{\Delta E}{2.18\times10^{-18}}",
+    "s5_cascade": r"\dfrac{1}{n_i^2} = 1 - \dfrac{\Delta E_{total}}{2.18\times10^{-18}}",
+}
+for name, latex in BOHR_TABLE.items():
+    fig = plt.figure()
+    fig.text(0.5, 0.5, f"${latex}$", fontsize=FONTSIZE, color="#111111",
+             ha="center", va="center")
+    out_path = os.path.join(OUT_DIR, f"{name}.png")
+    fig.savefig(out_path, dpi=DPI, transparent=True,
+                bbox_inches="tight", pad_inches=0.02)
+    plt.close(fig)
+    print("wrote", out_path)

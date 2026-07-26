@@ -35,11 +35,11 @@
 |---|---|
 | "how many **joules** from *n* grams" | (3) — mol, then ×<img src="assets/s_na.png" class="eqi"> |
 | "longest λ that **ejects** an e⁻" | (20) threshold, not (2) |
-| "electron **microscope**", any moving particle | (6) |
-| "falls ... **in two steps**" | (5) — add both photon energies |
-| "**unusually big increase**" in IE | (13) — first core e⁻ |
-| "most **negative** EA" = "**largest** EA" | (14) — same element |
-| "essentially **equal to**" (EA vs IE) | (14) — same magnitude |
+| "electron **microscope**", any moving particle | (5) |
+| "falls ... **in two steps**" | Bohr level formula box — add both photon energies |
+| "**unusually big increase**" in IE | (12) — first core e⁻ |
+| "most **negative** EA" = "**largest** EA" | (13) — same element |
+| "essentially **equal to**" (EA vs IE) | (13) — same magnitude |
 | "contributes **most** to the structure" | (18) — FC nearest 0 |
 | "using the **bond energies given**" | (23), not (22) |
 | "**strongest / shortest** bond" | (17) — order before ΔEN |
@@ -105,10 +105,7 @@
 | **Planck** | Energy emitted only in fixed amounts (quanta) |
 | **Einstein** | Light arrives in packets (photons) of fixed energy |
 | **Heisenberg** | Position and velocity not both knowable |
-| **de Broglie** | Matter has wave properties |
-| **Bohr** | e⁻ occupy fixed energy levels |
-| **Pauli** | No two e⁻ share all four quantum numbers |
-| **Hund** | Orbitals fill singly, spins parallel, before pairing |
+| **Bohr** | e⁻ occupy fixed energy levels; explains line spectra — **no Rydberg needed** |
 
 </div>
 
@@ -117,22 +114,20 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (5) Bohr Model & Line Spectra
+#### Bohr Level Formula — HW7 only, not on exam list
 
-- e⁻ occupy **fixed energy levels**; dropping between them emits a photon
 - Gives **discrete colored lines**, unique per element — not a continuous band
 - Excited H emits in IR, visible, and UV
-- Exam list says **no Rydberg**, but HW7 11–12 need the level formula:
 
 <img src="assets/e3_bohr.png" class="eq">
 <img src="assets/e3_dele.png" class="eq">
 
 | **have** | **want** | **use** |
 |---|---|---|
-| n_i, n_f | ΔE | 2.18e-18 × \|1/n_f² − 1/n_i²\| |
+| n_i, n_f | ΔE | <img src="assets/s5_de.png" class="eqi"> |
 | n_i, n_f | λ | ΔE (row above), then λ ⇄ E via (3) |
-| λ, one n | other n | ΔE = hc/λ via (3); solve 1/n² = 1/n_known² ∓ ΔE/2.18e-18 |
-| 2 λ's, cascade to n=1 | n_initial | sum ΔE₁+ΔE₂ via (3); solve 1/n_i² = 1 − ΔE_total/2.18e-18 |
+| λ, one n | other n | ΔE = hc/λ via (3); solve <img src="assets/s5_solven.png" class="eqi"> |
+| 2 λ's, cascade to n=1 | n_initial | sum ΔE₁+ΔE₂ via (3); solve <img src="assets/s5_cascade.png" class="eqi"> |
 
 - **Emission** drops (n_i > n_f) · **absorption** climbs
 - n = 1 → 4: ΔE = 2.18e-18(1 − 1/16) = **2.0438×10⁻¹⁸ J**
@@ -140,7 +135,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (6) de Broglie
+#### (5) de Broglie
 
 <img src="assets/v_debroglie.png" class="eq">
 
@@ -153,7 +148,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (7) Electron Configuration
+#### (6) Electron Configuration
 
 1. Fill in Aufbau order (see Units)
 2. Respect **s2 p6 d10 f14**
@@ -167,7 +162,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (8) Reading an Electron Configuration
+#### (7) Reading an Electron Configuration
 
 **Paramagnetic vs diamagnetic**
 
@@ -191,7 +186,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (9) Ion Configuration
+#### (8) Ion Configuration
 
 1. Start from the neutral atom
 2. **Anion:** add e⁻ into the outer p until it reaches a noble-gas configuration
@@ -203,7 +198,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (10) Penetration, Pauli & Shielding
+#### (9) Penetration, Pauli & Shielding
 
 - **Penetration** — an orbital reaching into the core region is less shielded, so it sits at **lower energy**. Within a shell **s &lt; p &lt; d &lt; f**
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
@@ -212,7 +207,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (11) <img src="assets/s_zeff_w.png" class="eqi"> & Core Electrons
+#### (10) <img src="assets/s_zeff_w.png" class="eqi"> & Core Electrons
 
 <img src="assets/v_zeffdef.png" class="eq">
 
@@ -225,7 +220,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (12) Rank Atomic Size
+#### (11) Rank Atomic Size
 
 - Down a group **bigger** (new shell) · across a period **smaller** (<img src="assets/s_zeff.png" class="eqi"> pulls in)
 - **↑ = lower-left** · **↓ = upper-right**
@@ -235,7 +230,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (13) Rank Ionization Energy
+#### (12) Rank Ionization Energy
 
 - Across a period **↑** · down a group **↓** (opposite of radius)
 - **↑ = upper-right** (He ↑ of all) · **↓ = lower-left**
@@ -245,7 +240,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (14) Rank Electron Affinity
+#### (13) Rank Electron Affinity
 
 - **Most eager for an e⁻ = halogens, upper right** — this course writes it both as "most negative EA" and "largest positive EA"; either phrasing means the same element
 - Noble gases and full/half-full subshells ≈ 0 or unfavorable
@@ -254,7 +249,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (15) Families & Diagonal Rule
+#### (14) Families & Diagonal Rule
 
 <div class="nohdr" markdown="1">
 
@@ -298,7 +293,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (16) Lattice Energy
+#### (15) Lattice Energy
 
 Energy **released** when gaseous ions form the solid crystal.
 
@@ -312,15 +307,21 @@ Energy **released** when gaseous ions form the solid crystal.
 </div>
 <div class="problem" markdown="1">
 
-#### (17) Electronegativity & Bond Polarity
+#### (16) Electronegativity
 
 EN = an atom's ability to attract the electrons shared in a bond.
 
 <img src="assets/v_en.png" class="eq">
 
-1. Read EN off the chart — EN ↑ up and to the right, F highest, noble gases excluded
-2. Take the absolute difference
-3. Classify
+- Read EN off the chart — EN ↑ up and to the right, F highest, noble gases excluded
+
+</div>
+<div class="problem" markdown="1">
+
+#### (17) Bond Polarity
+
+1. Take the absolute difference (ΔEN)
+2. Classify
 
 <div class="nohdr" markdown="1">
 
