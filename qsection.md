@@ -103,11 +103,17 @@
 
 <img src="assets/v_debroglie.png" class="eq">
 
-1. m → kg: g ×1e-3, amu ×1.661e-27
-2. u → m/s: km/s ×1e3
-3. λ = h/(mu)
+<div class="lut" markdown="1">
 
-- Answer is in m; ×1e9 for nm
+| **m ↓ / u →** | **m/s** | **km/s** |
+|---|---|---|
+| **kg** | 6.626e-34 | 6.626e-37 |
+| **g** | 6.626e-31 | 6.626e-34 |
+| **amu** | 3.9892e-7 | 3.9892e-10 |
+
+</div>
+
+- λ (m) = cell / (m × u) · answer is in m; ×1e9 for nm
 
 </div>
 <div class="problem" markdown="1">
