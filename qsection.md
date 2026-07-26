@@ -93,7 +93,7 @@
 |---|---|---|---|
 | <img src="assets/v_c.png" class="eqi"> | 2.9979e8 m/s | <img src="assets/v_h.png" class="eqi"> | 6.626e-34 J·s |
 | <img src="assets/s5_R.png" class="eqi"> | 2.18e-18 J | <img src="assets/s5_hc.png" class="eqi"> | 1.9864e-25 J·m |
-| <img src="assets/s5_Rh.png" class="eqi"> | 3.2901e15 Hz | <img src="assets/s5_Rhc.png" class="eqi"> | 1.0975e7 / m |
+| <img src="assets/s5_hR.png" class="eqi"> | 3.0394e-16 s | <img src="assets/s5_hcR.png" class="eqi"> | 9.1120e-8 m |
 
 </div>
 <div class="problem" markdown="1">
