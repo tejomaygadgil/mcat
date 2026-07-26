@@ -87,19 +87,13 @@
 </div>
 
 - Orbital = **region where an e⁻ is most likely found**
-- Gives **discrete colored lines**, unique per element — not a continuous band
-- Excited H emits in IR, visible, and UV
-
-<img src="assets/e3_dele.png" class="eq">
+- <img src="assets/e3_dele.png" class="eq">
 
 | **Variable** | **Value** | **Variable** | **Value** |
 |---|---|---|---|
 | <img src="assets/v_c.png" class="eqi"> | 2.9979e8 m/s | <img src="assets/v_h.png" class="eqi"> | 6.626e-34 J·s |
 | <img src="assets/s5_R.png" class="eqi"> | 2.18e-18 J | <img src="assets/s5_hc.png" class="eqi"> | 1.9864e-25 J·m |
-| <img src="assets/s5_Rh.png" class="eqi"> | 3.2901e15 Hz | <img src="assets/s5_Rhc.png" class="eqi"> | 1.0975e7 m⁻¹ |
-
-- **Emission** drops (n_i > n_f) · **absorption** climbs
-- Cascade to ground in 2 steps → sum both photon energies (via the h·c row), solve <img src="assets/s5_ninit.png" class="eqi"> from the R row
+| <img src="assets/s5_Rh.png" class="eqi"> | 3.2901e15 Hz | <img src="assets/s5_Rhc.png" class="eqi"> | 1.0975e7 / m |
 
 </div>
 <div class="problem" markdown="1">
