@@ -25,8 +25,8 @@ EQ_WIDTH_OVERRIDES = {
     "v_c": 6, "v_h": 7, "v_me": 15, "v_na": 18, "v_zeff": 22,
     "v_en": 112, "v_u": 62, "v_zeffdef": 108, "v_debroglie": 52,
     "v_cln": 44, "v_eph": 78, "v_fc": 205,
-    "s_na": 17, "s_zeff": 21, "s_ephot": 38, "s_dhrxn": 32,
-    "s_lamthr": 52, "s_dhf": 26, "s_zeffeq": 92, "s_zeff_w": 21,
+    "s_na": 17, "s_zeff": 21, "s_dhrxn": 32,
+    "s_dhf": 26, "s_zeffeq": 92, "s_zeff_w": 21,
     "s5_ninit": 45,
     "s5_R": 8, "s5_hc": 18, "s5_hR": 32, "s5_hcR": 48,
 }

@@ -90,9 +90,7 @@ for name, latex in INLINE.items():
 INLINE2 = {
     "s_na":     r"N_A",
     "s_zeff":   r"Z_{eff}",
-    "s_ephot":  r"E_{photon}",
     "s_dhrxn":  r"\Delta H_{rxn}",
-    "s_lamthr": r"\lambda_{threshold}",
     "s_dhf":    r"\Delta H\degree_f",
     "s_zeffeq": r"Z_{eff} \approx Z - \mathrm{core}\ e^-",
 }
