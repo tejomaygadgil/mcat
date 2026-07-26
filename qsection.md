@@ -168,11 +168,16 @@
 
 #### (9) Quantum Numbers, Penetration & Shielding
 
+| **sublevel** = subshell | **s** | **p** | **d** | **f** |
+|---|---|---|---|---|
+| <img src="assets/q_l.png" class="eqi"> | 0 | 1 | 2 | 3 |
+| <img src="assets/q_ml.png" class="eqi"> | 0 | −1…+1 | −2…+2 | −3…+3 |
+| **orbitals** (<img src="assets/q_2l1.png" class="eqi">) | 1 | 3 | 5 | 7 |
+| **max e⁻** (2 per orbital) | 2 | 6 | 10 | 14 |
+
 | **Symbol** | **Allowed** | **Meaning** |
 |---|---|---|
-| <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #)|
-| <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_lrange.png" class="eqi"> | **sublevel** = subshell, 0=s · 1=p · 2=d · 3=f |
-| <img src="assets/q_ml.png" class="eqi"> | <img src="assets/q_mlrange.png" class="eqi"> | **orbital** (slides: "suborbital"), <img src="assets/q_2l1.png" class="eqi">: s 1 · p 3 · d 5 · f 7 |
+| <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #) |
 | <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin**, 2 e⁻ per orbital (Pauli) |
 
 - **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (Units)
