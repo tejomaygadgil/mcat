@@ -127,11 +127,15 @@
 <img src="assets/e3_bohr.png" class="eq">
 <img src="assets/e3_dele.png" class="eq">
 
-1. Photon: |ΔE| = hc/λ — go λ ⇄ energy with (3)
-2. **Emission** drops (n_i > n_f) · **absorption** climbs
-3. Falls to ground **in two steps** → add the two photon energies, then solve for n_i
+| **have** | **want** | **use** |
+|---|---|---|
+| n_i, n_f | ΔE | 2.18e-18 × \|1/n_f² − 1/n_i²\| |
+| n_i, n_f | λ | ΔE (row above), then λ ⇄ E via (3) |
+| λ, one n | other n | ΔE = hc/λ via (3); solve 1/n² = 1/n_known² ∓ ΔE/2.18e-18 |
+| 2 λ's, cascade to n=1 | n_initial | sum ΔE₁+ΔE₂ via (3); solve 1/n_i² = 1 − ΔE_total/2.18e-18 |
 
-- n = 1 → 4 absorbs 2.18e-18(1 − 1/16) = **2.04e-18 J**
+- **Emission** drops (n_i > n_f) · **absorption** climbs
+- n = 1 → 4: ΔE = 2.18e-18(1 − 1/16) = **2.0438×10⁻¹⁸ J**
 
 </div>
 <div class="problem" markdown="1">
