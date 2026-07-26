@@ -58,12 +58,17 @@ def set_font(pt):
     open("build_pdf.py", "w").write(s)
 
 
+def _tick(msg):
+    print(f"\r{msg}", end="", flush=True)
+
+
 def measure(blocks):
     """Rendered height of each block at the real column width, in points."""
     inject = helpers()
     style = css()
     out = []
-    for b in blocks:
+    for i, b in enumerate(blocks, 1):
+        _tick(f"    measuring block {i}/{len(blocks)}   ")
         body = markdown.markdown(inject(b), extensions=MD_EXT)
         html = (
             f'<!DOCTYPE html><html><head><meta charset="utf-8"><style>{style}\n'
@@ -75,12 +80,12 @@ def measure(blocks):
         a = np.array(img.convert("L"))
         rows = np.where((a < 200).sum(axis=1) > 0)[0]
         out.append(int(rows.max() - rows.min() + 1) if len(rows) else 0)
+    _tick(" " * 40)
     return out
 
 
-def paginate(blocks, ncols):
-    """Emit markdown with break markers for an even ncols split."""
-    _, groups = repack.partition(measure(blocks), ncols)
+def paginate(blocks, groups):
+    """Emit markdown with break markers for the given column groups."""
     parts = []
     for i, (a, b) in enumerate(groups):
         if i == 0:
@@ -90,37 +95,76 @@ def paginate(blocks, ncols):
         else:
             sep = "\n\n<!--colbreak-->\n\n"
         parts.append(sep + "\n".join(blocks[a:b]))
-    return "".join(parts) + "\n", groups
+    return "".join(parts) + "\n"
 
 
 def pages_of(pdf):
     return len(convert_from_path(pdf, dpi=50))
 
 
-def build(src_md, out_pdf, ncols, want_pages, font_candidates):
-    """Largest font that ACTUALLY renders in want_pages -- verified, not predicted.
+def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2):
+    """Largest font (in `step` increments) that ACTUALLY renders in want_pages.
 
-    The predicted column height is accurate to a percent or so, which is not
-    enough to trust near the limit, so each candidate is rendered and counted.
+    Ink height scales close to linearly with font size, so rather than
+    scanning every candidate we measure once at start_pt, estimate the size
+    that should just hit the page cap, and verify it by rendering. Line-wrap
+    reflow means that estimate can land a step off the true boundary, so we
+    nudge in the needed direction until the rendered page count matches --
+    typically 2-3 renders total instead of a full scan of the font ladder.
     """
     blocks = extract.top_blocks(open(src_md, encoding="utf-8").read())
     tmp = f".{os.path.basename(out_pdf)}.md"
-    for pt in font_candidates:
+    tried = []
+
+    def attempt(pt):
         set_font(pt)
         heights = measure(blocks)
-        laid_out, groups = paginate(blocks, ncols)
-        open(tmp, "w", encoding="utf-8").write(laid_out)
+        max_h, groups = repack.partition(heights, ncols)
+        open(tmp, "w", encoding="utf-8").write(paginate(blocks, groups))
+        _tick(f"    rendering PDF at {pt}pt ...")
         subprocess.run([sys.executable, "build_pdf.py", tmp, out_pdf], check=True,
                        stdout=subprocess.DEVNULL)
         got = pages_of(out_pdf)
-        if got == want_pages:
-            os.remove(tmp)
-            fill = ", ".join(f"{100*sum(heights[a:b])/PAGE_H:.0f}%" for a, b in groups)
-            print(f"  {out_pdf}: {got} page(s) at {pt}pt   columns {fill}")
-            return pt
-    if os.path.exists(tmp):
-        os.remove(tmp)
-    raise SystemExit(f"{src_md}: nothing fits {want_pages} pages")
+        _tick(" " * 40)
+        print(f"  {pt}pt -> {got} page(s)")
+        tried.append(pt)
+        return got, heights, groups, max_h
+
+    pt = start_pt
+    got, heights, groups, max_h = attempt(pt)
+
+    if got != want_pages:
+        est = round(round(pt * CAP / max_h / step) * step, 2)
+        est = max(min(est, start_pt - step), min_pt)
+        if est not in tried:
+            pt = est
+            got, heights, groups, max_h = attempt(pt)
+
+    while got != want_pages and round(pt - step, 2) >= min_pt:
+        pt = round(pt - step, 2)
+        if pt in tried:
+            break
+        got, heights, groups, max_h = attempt(pt)
+
+    # the estimate can undershoot -- climb back up while it still fits, so we
+    # don't leave readable font size on the table
+    while got == want_pages and round(pt + step, 2) <= start_pt:
+        nxt = round(pt + step, 2)
+        if nxt in tried:
+            break
+        got2, heights2, groups2, max_h2 = attempt(nxt)
+        if got2 != want_pages:
+            break
+        pt, got, heights, groups, max_h = nxt, got2, heights2, groups2, max_h2
+
+    os.remove(tmp)
+    if got != want_pages:
+        raise SystemExit(f"{src_md}: nothing fits {want_pages} pages in "
+                          f"[{min_pt}, {start_pt}]pt ({len(tried)} render(s) tried)")
+    fill = ", ".join(f"{100*sum(heights[a:b])/PAGE_H:.0f}%" for a, b in groups)
+    print(f"  {out_pdf}: {got} page(s) at {pt}pt   columns {fill}   "
+          f"({len(tried)} render(s))")
+    return pt
 
 
 if __name__ == "__main__":
@@ -131,13 +175,10 @@ if __name__ == "__main__":
 
     print("2. building instruction sheet (must be 2 pages) ...")
     build("qsection.md", "chem_x19a_mt3_instruction_sheet.pdf",
-          ncols=4, want_pages=2,
-          font_candidates=[10.0, 9.8, 9.6, 9.4, 9.2, 9.0, 8.8, 8.6,
-                           8.4, 8.2, 8.0, 7.8, 7.6])
+          ncols=4, want_pages=2, start_pt=10.0, min_pt=7.6)
 
     print("3. building info sheet (must be 1 page) ...")
     build("info_sheet.md", "chem_x19a_mt3_info_sheet.pdf",
-          ncols=2, want_pages=1,
-          font_candidates=[9.4, 9.2, 9.0, 8.8, 8.6])
+          ncols=2, want_pages=1, start_pt=9.4, min_pt=8.6)
 
     print("\ndone.")
