@@ -32,9 +32,9 @@
 
 | Ranges | **γ** | **X** | **UV** | **vis** | **IR** | **μw** | **radio** |
 |---|---|---|---|---|---|---|---|
-| **Frequency (ν)** | **↑** | | | | | | **↓** |
-| **Energy (E)** | **↑** | | | | | | **↓** |
-| **Wavelength (λ)** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–1e9 | &gt;1e9 |
+| **Frequency (<img src="assets/m_nu.png" class="eqi">)** | **↑** | | | | | | **↓** |
+| **Energy (<img src="assets/m_E.png" class="eqi">)** | **↑** | | | | | | **↓** |
+| **Wavelength (<img src="assets/m_lam.png" class="eqi">)** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–1e9 | &gt;1e9 |
 
 </div>
 
@@ -43,11 +43,11 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (2) c = λν (Speed of light = wavelength × frequency)
+#### (2) <img src="assets/w_cln.png" class="eqi"> (Speed of light = wavelength × frequency)
 
 <div class="lut" markdown="1">
 
-| **λ ↓ / ν →** | **Hz** | **kHz** | **MHz** | **GHz** |
+| **<img src="assets/m_lam.png" class="eqi"> ↓ / <img src="assets/m_nu.png" class="eqi"> →** | **Hz** | **kHz** | **MHz** | **GHz** |
 |---|---|---|---|---|
 | **m** | 3.00e8<br>(m/s) | 3.00e5<br>(m·kHz) | 3.00e2<br>(m·MHz) | 3.00e-1<br>(m·GHz) |
 | **nm** | 3.00e17<br>(nm·Hz) | 3.00e14<br>(nm·kHz) | 3.00e11<br>(nm·MHz) | 3.00e8<br>(nm·GHz) |
@@ -57,15 +57,15 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (3) E = hν = h (c/λ) (Energy = Planck × frequency)
+#### (3) <img src="assets/w_ephot.png" class="eqi"> (Energy = Planck × frequency)
 
 <div class="lut" markdown="1">
 
-| **E ↓ / λ, ν →** | **λ (m)** | **λ (nm)** | **ν (Hz)** |
+| **<img src="assets/m_E.png" class="eqi"> ↓ / <img src="assets/m_lam.png" class="eqi">, <img src="assets/m_nu.png" class="eqi"> →** | **<img src="assets/m_lam.png" class="eqi"> (m)** | **<img src="assets/m_lam.png" class="eqi"> (nm)** | **<img src="assets/m_nu.png" class="eqi"> (Hz)** |
 |---|---|---|---|
-| **J / photon** | 1.9864e-25 / λ<br>(J·m) | 1.9864e-16 / λ<br>(J·nm) | 6.626e-34 × ν<br>(J·s) |
-| **J / mol** | 1.1962e-1 / λ<br>(J·m/mol) | 1.1962e8 / λ<br>(J·nm/mol) | 3.9902e-10 × ν<br>(J·s/mol) |
-| **kJ / mol** | 1.1962e-4 / λ<br>(kJ·m/mol) | 1.1962e5 / λ<br>(kJ·nm/mol) | 3.9902e-13 × ν<br>(kJ·s/mol) |
+| **J / photon** | 1.9864e-25 / <img src="assets/m_lam.png" class="eqi"><br>(J·m) | 1.9864e-16 / <img src="assets/m_lam.png" class="eqi"><br>(J·nm) | 6.626e-34 × <img src="assets/m_nu.png" class="eqi"><br>(J·s) |
+| **J / mol** | 1.1962e-1 / <img src="assets/m_lam.png" class="eqi"><br>(J·m/mol) | 1.1962e8 / <img src="assets/m_lam.png" class="eqi"><br>(J·nm/mol) | 3.9902e-10 × <img src="assets/m_nu.png" class="eqi"><br>(J·s/mol) |
+| **kJ / mol** | 1.1962e-4 / <img src="assets/m_lam.png" class="eqi"><br>(kJ·m/mol) | 1.1962e5 / <img src="assets/m_lam.png" class="eqi"><br>(kJ·nm/mol) | 3.9902e-13 × <img src="assets/m_nu.png" class="eqi"><br>(kJ·s/mol) |
 
 </div>
 
@@ -105,7 +105,7 @@
 
 <div class="lut lut-w1" markdown="1">
 
-| **λ (m) given h / (m · u);<br>m ↓ / u →** | **m/s** | **km/s** |
+| **<img src="assets/m_lam.png" class="eqi"> (m) given h / (m · <img src="assets/m_uv.png" class="eqi">);<br>m ↓ / <img src="assets/m_uv.png" class="eqi"> →** | **m/s** | **km/s** |
 |---|---|---|
 | **kg** | 6.626e-34 | 6.626e-37 |
 | **g** | 6.626e-31 | 6.626e-34 |
@@ -202,7 +202,7 @@
 
 - Across a period **↑** · down a group **↓** (opposite of radius)
 - **↑ = upper-right** (He ↑ of all) · **↓ = lower-left**
-- IE₂ > IE₁ always
+- <img src="assets/m_ie2.png" class="eqi"> > <img src="assets/m_ie1.png" class="eqi"> always
 - **Big jump** appears once the first **core** e⁻ is removed
 
 </div>
@@ -210,9 +210,9 @@
 
 #### (13) Rank Electron Affinity
 
-- **Most eager for an e⁻ = halogens, upper right** — this course writes it both as "most negative EA" and "largest positive EA"; either phrasing means the same element
+- **Most eager for an e⁻ = halogens, upper right** — this course writes it both as "most negative <img src="assets/m_ea.png" class="eqi">" and "largest positive <img src="assets/m_ea.png" class="eqi">"; either phrasing means the same element
 - Noble gases and full/half-full subshells ≈ 0 or unfavorable
-- **EA(X) and IE of X⁻ are the same magnitude** — F + e⁻ releases exactly what F⁻ → F costs
+- **<img src="assets/m_ea.png" class="eqi">(X) and <img src="assets/m_ie.png" class="eqi"> of X⁻ are the same magnitude** — F + e⁻ releases exactly what F⁻ → F costs
 
 </div>
 <div class="problem" markdown="1">
@@ -277,18 +277,18 @@ Energy **released** when gaseous ions form the solid crystal.
 
 #### (16) Electronegativity
 
-EN = an atom's ability to attract the electrons shared in a bond.
+<img src="assets/m_en.png" class="eqi"> = an atom's ability to attract the electrons shared in a bond.
 
 <img src="assets/v_en.png" class="eq">
 
-- Read EN off the chart — EN ↑ up and to the right, F highest, noble gases excluded
+- Read <img src="assets/m_en.png" class="eqi"> off the chart — <img src="assets/m_en.png" class="eqi"> ↑ up and to the right, F highest, noble gases excluded
 
 </div>
 <div class="problem" markdown="1">
 
 #### (17) Bond Polarity
 
-1. Take the absolute difference (ΔEN)
+1. Take the absolute difference (<img src="assets/m_den.png" class="eqi">)
 2. Classify
 
 <div class="nohdr" markdown="1">
@@ -301,9 +301,9 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 </div>
 
-- **"Most polar" → ΔEN alone** (largest difference wins)
-- **"Strongest / shortest bond" → bond order FIRST:** triple > double > single. ΔEN only breaks ties between equal orders — a C≡N beats a high-ΔEN Si=O
-- Larger ΔEN → stronger, shorter bond, but the guide flags this as *not always true*
+- **"Most polar" → <img src="assets/m_den.png" class="eqi"> alone** (largest difference wins)
+- **"Strongest / shortest bond" → bond order FIRST:** triple > double > single. <img src="assets/m_den.png" class="eqi"> only breaks ties between equal orders — a C≡N beats a high-<img src="assets/m_den.png" class="eqi"> Si=O
+- Larger <img src="assets/m_den.png" class="eqi"> → stronger, shorter bond, but the guide flags this as *not always true*
 
 </div>
 <div class="problem" markdown="1">
@@ -312,9 +312,9 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 <img src="assets/v_fc.png" class="eq">
 
-1. FC on every atom
-2. Check ΣFC = the overall charge
-3. Pick the structure with FCs **nearest 0**
+1. <img src="assets/m_fc.png" class="eqi"> on every atom
+2. Check <img src="assets/m_sfc.png" class="eqi"> = the overall charge
+3. Pick the structure with <img src="assets/m_fc.png" class="eqi">s **nearest 0**
 4. Put any −1 on the **more electronegative** atom
 
 - Equivalent resonance forms → real bonds are the **average** (e.g. 1½)
@@ -347,27 +347,30 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 - Every C makes 4 bonds; a –COOH carbon carries one **=O** and one **–O–H**; every O gets 2 lone pairs
 - Ions go in brackets with the charge outside
-- If the all-single-bond form leaves the center with a nonzero FC, add double bonds to zero it (e.g. two S=O in SO₄²⁻)
+- If the all-single-bond form leaves the center with a nonzero <img src="assets/m_fc.png" class="eqi">, add double bonds to zero it (e.g. two S=O in SO₄²⁻)
 
 </div>
 <div class="problem" markdown="1">
 
-#### (20) Photoelectric Effect (hv - binding / work)
+#### (20) Photoelectric Effect (<img src="assets/w_hnu.png" class="eqi"> - binding / work)
 
 <img src="assets/e3_photo.png" class="eq">
 <img src="assets/e3_photo_u.png" class="eq">
 
 | **Variable** | **Value** |
 |---|---|
-| mₑ | 9.11e-31 kg |
-| hc | 1.9864e-25 J·m |
-| 2hc/mₑ | 4.3609e5 m³/s² |
+| <img src="assets/v_h.png" class="eqi"> | 6.626e-34 J·s |
+| <img src="assets/v_me.png" class="eqi"> | 9.11e-31 kg |
+| <img src="assets/s5_hc.png" class="eqi"> | 1.9864e-25 J·m |
+| <img src="assets/s20_2hcme.png" class="eqi"> | 4.3609e5 m³/s² |
 
 | **Have** | **Want** | **Use** |
 |---|---|---|
-| [Φ **or** <img src="assets/s5_lamthr.png" class="eqi"> **or** <img src="assets/s5_nuthr.png" class="eqi">] **and** λ | u | 1. KE = h(c/λ) − Φ<br>2. u = √(2·KE/mₑ) |
-| λ & <img src="assets/s5_lamthr.png" class="eqi"> | u | u equation above |
-| Φ | molar binding energy | Φ × <img src="assets/s_na.png" class="eqi"> (/1e3 for kJ/mol) |
+| <img src="assets/s5_nuthr.png" class="eqi"> or <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi"> | <img src="assets/x_phithr.png" class="eqi"> |
+| <img src="assets/m_phi.png" class="eqi"> | <img src="assets/s5_lamthr.png" class="eqi"> = longest <img src="assets/m_lam.png" class="eqi"> that ejects | <img src="assets/x_lamthr.png" class="eqi"> |
+| <img src="assets/m_phi.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi"> per mol | <img src="assets/m_phi.png" class="eqi"> × <img src="assets/s_na.png" class="eqi"> (/1e3 for kJ/mol) |
+| <img src="assets/m_phi.png" class="eqi">, <img src="assets/m_lam.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | 1. <img src="assets/x_keeq.png" class="eqi"><br>2. <img src="assets/x_ueq.png" class="eqi"> |
+| <img src="assets/m_lam.png" class="eqi">, <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | 2nd eq above (skips <img src="assets/m_phi.png" class="eqi"> **and** <img src="assets/m_ke.png" class="eqi">) |
 
 </div>
 <div class="problem" markdown="1">
@@ -376,11 +379,11 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 <img src="assets/e3_heisenberg.png" class="eq">
 
-1. Δp = m·Δu (kg, m/s)
-2. Δx ≥ h/(4π·Δp)
+1. <img src="assets/x_dpeq.png" class="eqi"> (kg, m/s)
+2. <img src="assets/x_dxeq.png" class="eqi">
 
 - Result is the **minimum** uncertainty
-- Rearrange the same way to solve for Δu
+- Rearrange the same way to solve for <img src="assets/m_du.png" class="eqi">
 - Keep everything in kg, m, s
 
 </div>
@@ -390,13 +393,13 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 <img src="assets/e3_bornhaber.png" class="eq">
 
-1. List every step with its sign: sublimation (+), IE (+), bond dissociation (+), EA (usually −), U (−)
+1. List every step with its sign: sublimation (+), <img src="assets/m_ie.png" class="eqi"> (+), bond dissociation (+), <img src="assets/m_ea.png" class="eqi"> (usually −), <img src="assets/m_Ul.png" class="eqi"> (−)
 2. **Halve** the bond dissociation if you need only one atom
 3. Chain: elements → gaseous atoms → gaseous ions → solid
 4. Set the chain equal to <img src="assets/s_dhf.png" class="eqi">
 5. Solve for the single unknown
 
-- Use IE₂ as well when the cation is 2+
+- Use <img src="assets/m_ie2.png" class="eqi"> as well when the cation is 2+
 - U runs ions(g) → solid, so it comes out **negative**; report |U| if asked for a positive lattice energy
 
 </div>
@@ -407,12 +410,12 @@ EN = an atom's ability to attract the electrons shared in a bond.
 <img src="assets/e3_bondenthalpy.png" class="eq">
 
 1. List bonds broken (reactants) and formed (products), using the balanced coefficients
-2. Σ BE(broken), always positive
-3. Σ BE(formed), subtracted
-4. ΔH = Σ broken − Σ formed
+2. <img src="assets/m_sig.png" class="eqi"> BE(broken), always positive
+3. <img src="assets/m_sig.png" class="eqi"> BE(formed), subtracted
+4. <img src="assets/m_dH.png" class="eqi"> = <img src="assets/m_sig.png" class="eqi"> broken − <img src="assets/m_sig.png" class="eqi"> formed
 
 - Bonds unchanged on both sides cancel — skip them
-- Negative ΔH = exothermic
+- Negative <img src="assets/m_dH.png" class="eqi"> = exothermic
 - For "heat released by *g* of X," convert g → mol and scale
 
 </div>

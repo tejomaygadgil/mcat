@@ -103,10 +103,54 @@ for name, latex in INLINE2.items():
     plt.close(fig)
     print("wrote", out_path)
 
+# document-wide inline math variables (all mathematical variables render as LaTeX)
+MATHVARS = {
+    "m_lam": r"\lambda",
+    "m_nu":  r"\nu",
+    "m_phi": r"\Phi",
+    "m_E":   r"E",
+    "m_uv":  r"u",
+    "m_ke":  r"KE",
+    "m_ie":  r"IE",
+    "m_ie1": r"IE_1",
+    "m_ie2": r"IE_2",
+    "m_ea":  r"EA",
+    "m_fc":  r"FC",
+    "m_en":  r"EN",
+    "m_den": r"\Delta EN",
+    "m_Ul":  r"U",
+    "m_dH":  r"\Delta H",
+    "m_dp":  r"\Delta p",
+    "m_dx":  r"\Delta x",
+    "m_du":  r"\Delta u",
+    "m_sfc": r"\Sigma FC",
+    "m_sig": r"\Sigma",
+    # compound expressions -- single image reads better than stitched letters
+    "x_phithr":  r"\Phi = h\nu_{thr} = h(c/\lambda_{thr})",
+    "x_lamthr":  r"\lambda_{thr} = hc/\Phi",
+    "x_keeq":    r"KE = h(c/\lambda) - \Phi",
+    "x_ueq":     r"u = \sqrt{2\,KE/m_e}",
+    "x_dpeq":    r"\Delta p = m\cdot\Delta u",
+    "x_dxeq":    r"\Delta x \geq h/(4\pi\cdot\Delta p)",
+}
+for name, latex in MATHVARS.items():
+    fig = plt.figure()
+    fig.text(0.5, 0.5, f"${latex}$", fontsize=FONTSIZE, color="#111111",
+             ha="center", va="center")
+    out_path = os.path.join(OUT_DIR, f"{name}.png")
+    fig.savefig(out_path, dpi=DPI, transparent=True,
+                bbox_inches="tight", pad_inches=0.02)
+    plt.close(fig)
+    print("wrote", out_path)
+
 # white-text variant, only for symbols placed on a black header background
 # (e.g. "#### (11) Z_eff & Core Electrons") -- reuses the same LaTeX source
 WHITE_ON_DARK = {
     "s_zeff_w": INLINE2["s_zeff"],
+    "w_cln":    r"c = \lambda\nu",
+    "w_ephot":  r"E = h\nu = h\,(c/\lambda)",
+    "w_deb":    r"\lambda = h/(m\cdot u)",
+    "w_hnu":    r"h\nu",
 }
 for name, latex in WHITE_ON_DARK.items():
     fig = plt.figure()
@@ -127,6 +171,7 @@ BOHR_TABLE = {
     "s5_hc":      r"hc",
     "s5_hR":      r"h/R",
     "s5_hcR":     r"hc/R",
+    "s20_2hcme":  r"2hc/m_e",
 }
 for name, latex in BOHR_TABLE.items():
     fig = plt.figure()

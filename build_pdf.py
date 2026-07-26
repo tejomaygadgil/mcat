@@ -28,7 +28,15 @@ EQ_WIDTH_OVERRIDES = {
     "s_na": 17, "s_zeff": 21, "s_dhrxn": 32,
     "s_dhf": 26, "s_zeffeq": 92, "s_zeff_w": 21,
     "s5_ninit": 45, "s5_lamthr": 30, "s5_nuthr": 28,
-    "s5_R": 8, "s5_hc": 18, "s5_hR": 32, "s5_hcR": 48,
+    "m_lam": 7, "m_nu": 7, "m_phi": 9, "m_E": 8, "m_uv": 6,
+    "m_ke": 20, "m_ie": 15, "m_ie1": 21, "m_ie2": 21, "m_ea": 19,
+    "m_fc": 17, "m_en": 19, "m_den": 33, "m_Ul": 9, "m_dH": 21,
+    "m_dp": 19, "m_dx": 19, "m_du": 19, "m_sfc": 29, "m_sig": 10,
+    "x_phithr": 128, "x_lamthr": 60, "x_keeq": 86, "x_ueq": 66,
+    "x_dpeq": 64, "x_dxeq": 86,
+    "w_hnu": 18,
+    "w_cln": 40, "w_ephot": 104, "w_deb": 76,
+    "s5_R": 8, "s5_hc": 18, "s5_hR": 32, "s5_hcR": 48, "s20_2hcme": 48,
 }
 
 def eq_style(png_path):
