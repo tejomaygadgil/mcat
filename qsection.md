@@ -166,9 +166,18 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (9) Penetration, Pauli & Shielding
+#### (9) Quantum Numbers, Penetration & Shielding
 
-- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
+| **Symbol** | **Allowed** | **Meaning** |
+|---|---|---|
+| <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **shell** — row on table |
+| <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_lrange.png" class="eqi"> | **subshell** — 0=s · 1=p · 2=d · 3=f |
+| <img src="assets/q_ml.png" class="eqi"> | <img src="assets/q_mlrange.png" class="eqi"> | **orbital** — <img src="assets/q_2l1.png" class="eqi"> each: s 1 · p 3 · d 5 · f 7 |
+| <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin** — 2 e⁻ per orbital (Pauli) |
+
+- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (Units)
+- <img src="assets/q_lmax.png" class="eqi">, so **3f and 2d don't exist** — check the sublevel is real before ranking it
+- Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
 - **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
 - **Shielding** — only **core** (inner) e⁻ shield effectively; valence e⁻ shield each other poorly

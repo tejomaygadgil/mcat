@@ -138,6 +138,17 @@ MATHVARS = {
     "m_ns":      r"ns",
     "m_np":      r"np",
     "m_n1d":     r"(n\!-\!1)d",
+    "q_l":       r"l",
+    "q_ml":      r"m_l",
+    "q_ms":      r"m_s",
+    "q_nrange":  r"1, 2, 3, \ldots",
+    "q_lrange":  r"0, 1, \ldots, n\!-\!1",
+    "q_mlrange": r"-l, \ldots, 0, \ldots, +l",
+    "q_msval":   r"\pm 1/2",
+    "q_2l1":     r"2l\!+\!1",
+    "q_n2":      r"n^2",
+    "q_2n2":     r"2n^2",
+    "q_lmax":    r"l \leq n\!-\!1",
 }
 for name, latex in MATHVARS.items():
     fig = plt.figure()
