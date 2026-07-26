@@ -352,19 +352,25 @@ EN = an atom's ability to attract the electrons shared in a bond.
 </div>
 <div class="problem" markdown="1">
 
-#### (20) Photoelectric Effect
+#### (20) Photoelectric Effect (hv - binding / work)
 
 <img src="assets/e3_photo.png" class="eq">
+<img src="assets/e3_photo_u.png" class="eq">
 
-1. <img src="assets/s_ephot.png" class="eqi"> = hν = hc/λ
-2. KE = <img src="assets/s_ephot.png" class="eqi"> − Φ
-3. Speed: u = √(2·KE/mₑ)
-4. Threshold (KE = 0): λ = hc/Φ
+<div class="nohdr" markdown="1">
 
-- Φ (also written **W**) = work function = minimum energy to eject an e⁻
-- Given a threshold λ instead of Φ: Φ = hc/<img src="assets/s_lamthr.png" class="eqi">
-- ×<img src="assets/s_na.png" class="eqi"> for a per-mole binding energy
-- **↑ λ** ⇄ **↓ ν** ⇄ threshold
+| | |
+|---|---|
+| mₑ | 9.11e-31 kg |
+| hc | 1.9864e-25 J·m |
+| 2hc/mₑ | 4.3609e5 m³/s² |
+
+</div>
+
+- Molar binding energy: Φ × <img src="assets/s_na.png" class="eqi"> (÷1000 for kJ/mol)
+
+- Have Φ (or λ_threshold/ν_threshold) **and** operating λ → KE = h(c/λ) − Φ, then u = √(2·KE/mₑ)
+- Have **only** λ and λ_threshold (no Φ given) → skip straight to u with the equation above
 
 </div>
 <div class="problem" markdown="1">
