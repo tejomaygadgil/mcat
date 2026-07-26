@@ -27,6 +27,7 @@ EQ_WIDTH_OVERRIDES = {
     "s_na": 17, "s_zeff": 21, "s_ephot": 38, "s_dhrxn": 32,
     "s_lamthr": 52, "s_dhf": 26, "s_zeffeq": 92, "s_zeff_w": 21,
     "s5_de": 150, "s5_solven": 190, "s5_cascade": 170,
+    "s5_nif": 45, "s5_ninit": 45,
 }
 
 def eq_style(png_path):

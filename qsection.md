@@ -124,10 +124,10 @@
 
 | **have** | **want** | **use** |
 |---|---|---|
-| n_i, n_f | ΔE | <img src="assets/s5_de.png" class="eqi"> |
-| n_i, n_f | λ | ΔE (row above), then λ ⇄ E via (3) |
+| <img src="assets/s5_nif.png" class="eqi"> | ΔE | <img src="assets/s5_de.png" class="eqi"> |
+| <img src="assets/s5_nif.png" class="eqi"> | λ | ΔE (row above), then λ ⇄ E via (3) |
 | λ, one n | other n | ΔE = hc/λ via (3); solve <img src="assets/s5_solven.png" class="eqi"> |
-| 2 λ's, cascade to n=1 | n_initial | sum ΔE₁+ΔE₂ via (3); solve <img src="assets/s5_cascade.png" class="eqi"> |
+| 2 λ's, cascade to n=1 | <img src="assets/s5_ninit.png" class="eqi"> | sum ΔE₁+ΔE₂ via (3); solve <img src="assets/s5_cascade.png" class="eqi"> |
 
 - **Emission** drops (n_i > n_f) · **absorption** climbs
 - n = 1 → 4: ΔE = 2.18e-18(1 − 1/16) = **2.0438×10⁻¹⁸ J**

@@ -123,6 +123,8 @@ BOHR_TABLE = {
     "s5_de":      r"2.18\times10^{-18}\left|\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right|",
     "s5_solven":  r"\dfrac{1}{n^2} = \dfrac{1}{n_{known}^2} \mp \dfrac{\Delta E}{2.18\times10^{-18}}",
     "s5_cascade": r"\dfrac{1}{n_i^2} = 1 - \dfrac{\Delta E_{total}}{2.18\times10^{-18}}",
+    "s5_nif":     r"n_i,\ n_f",
+    "s5_ninit":   r"n_{initial}",
 }
 for name, latex in BOHR_TABLE.items():
     fig = plt.figure()
