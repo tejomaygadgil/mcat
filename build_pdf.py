@@ -16,7 +16,7 @@ EQ_WIDTH_OVERRIDES = {
     "s2_calor": 168, "s2_combined": 100, "s2_hess": 85, "s2_yield": 120,
     "s2_molarity": 95, "s2_mv": 105, "s2_gasmm": 115,
     "e3_speed": 175, "e3_energy": 195, "e3_debroglie": 170,
-    "e3_photo": 210, "e3_photo_thresh": 175, "e3_photo_u": 190,
+    "e3_photo": 210, "e3_photo_u": 190,
     "e3_heisenberg": 175, "e3_formalcharge": 220,
     "e3_bondenthalpy": 240, "e3_mole": 110, "e3_me": 130, "e3_ke": 90,
     "e3_dele": 220, "s5_ni_solve": 105, "s5_nf_solve": 105, "e3_zeff": 130, "e3_lattice": 78, "e3_den": 120,
@@ -27,7 +27,7 @@ EQ_WIDTH_OVERRIDES = {
     "v_cln": 44, "v_eph": 78, "v_fc": 205,
     "s_na": 17, "s_zeff": 21, "s_dhrxn": 32,
     "s_dhf": 26, "s_zeffeq": 92, "s_zeff_w": 21,
-    "s5_ninit": 45,
+    "s5_ninit": 45, "s5_lamthr": 30, "s5_nuthr": 28,
     "s5_R": 8, "s5_hc": 18, "s5_hR": 32, "s5_hcR": 48,
 }
 

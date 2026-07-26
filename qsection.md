@@ -365,8 +365,8 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 | **have** | **want** | **use** |
 |---|---|---|
-| Φ (or λ_threshold/ν_threshold) & operating λ | u | KE = h(c/λ) − Φ, then u = √(2·KE/mₑ) |
-| only λ & λ_threshold (no Φ given) | u | skip straight to u with the equation above |
+| Φ (or <img src="assets/s5_lamthr.png" class="eqi">/<img src="assets/s5_nuthr.png" class="eqi">) & operating λ | u | KE = h(c/λ) − Φ, then u = √(2·KE/mₑ) |
+| only λ & <img src="assets/s5_lamthr.png" class="eqi"> (no Φ given) | u | skip straight to u with the equation above |
 | Φ | molar binding energy | Φ × <img src="assets/s_na.png" class="eqi"> (÷1000 for kJ/mol) |
 
 </div>

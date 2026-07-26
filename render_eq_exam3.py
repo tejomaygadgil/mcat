@@ -14,8 +14,7 @@ EQUATIONS = {
     "e3_energy":      r"E = h\nu = \dfrac{hc}{\lambda},\ \ h = 6.63\times10^{-34}\,\mathrm{J\cdot s}",
     "e3_debroglie":   r"\lambda = \dfrac{h}{mu}\ \ (m\ \mathrm{in\ kg},\ u\ \mathrm{in\ m/s})",
     "e3_photo":       r"KE = h\nu - \Phi = h(c/\lambda) - \Phi = \dfrac{1}{2}m_eu^2",
-    "e3_photo_thresh":r"\Phi = h\nu_{threshold} = h(c/\lambda_{threshold})",
-    "e3_photo_u":     r"u = \sqrt{(2hc/m_e)(1/\lambda - 1/\lambda_{threshold})}",
+    "e3_photo_u":     r"u = \sqrt{(2hc/m_e)(1/\lambda - 1/\lambda_{thr})}",
     "e3_heisenberg":  r"\Delta x\cdot\Delta p \geq \dfrac{h}{4\pi},\ \ \Delta p = m\Delta u",
     "e3_formalcharge":r"FC = (\#\,\mathrm{valence}\ e^-) - [\mathrm{nonbonding}\ e^- + \#\,\mathrm{bonds}]",
     "e3_bondenthalpy":r"\Delta H_{rxn} = \Sigma\Delta H(\mathrm{bonds\ broken}) - \Sigma\Delta H(\mathrm{bonds\ formed})",
@@ -122,6 +121,8 @@ for name, latex in WHITE_ON_DARK.items():
 # small inline formulas for the Bohr level-formula have/want/use table
 BOHR_TABLE = {
     "s5_ninit":   r"n_{initial}",
+    "s5_lamthr":  r"\lambda_{thr}",
+    "s5_nuthr":   r"\nu_{thr}",
     "s5_R":       r"R",
     "s5_hc":      r"hc",
     "s5_hR":      r"h/R",
