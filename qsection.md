@@ -105,7 +105,7 @@
 
 <div class="lut lut-w1" markdown="1">
 
-| **<img src="assets/m_lam.png" class="eqi"> (m) given h / (m · <img src="assets/m_uv.png" class="eqi">);<br>m ↓ / <img src="assets/m_uv.png" class="eqi"> →** | **m/s** | **km/s** |
+| **<img src="assets/m_lam.png" class="eqi"> (m) given <img src="assets/x_hmu.png" class="eqi">;<br><img src="assets/m_m.png" class="eqi"> ↓ / <img src="assets/m_uv.png" class="eqi"> →** | **m/s** | **km/s** |
 |---|---|---|
 | **kg** | 6.626e-34 | 6.626e-37 |
 | **g** | 6.626e-31 | 6.626e-34 |
@@ -124,7 +124,7 @@
 
 - **Cr = [Ar]4s¹3d⁵** · **Cu = [Ar]4s¹3d¹⁰** (half/full d wins)
 - Impossible if any subshell is over-filled (3s³, 2p⁸)
-- Faster than writing Aufbau: read it off the table — s-block (gp 1–2) → ns, p-block (13–18) → np, d-block → (n−1)d; the period number is n
+- Faster than writing Aufbau: read it off the table — s-block (gp 1–2) → <img src="assets/m_ns.png" class="eqi">, p-block (13–18) → <img src="assets/m_np.png" class="eqi">, d-block → <img src="assets/m_n1d.png" class="eqi">; the period number is <img src="assets/m_n.png" class="eqi">
 - Can be a transition metal; ground state only
 
 </div>
@@ -148,8 +148,8 @@
 
 **Valence electrons**
 
-- Count e⁻ in the **highest n** (outer s + p) = the group number, 1A→1 … 8A→8
-- Everything below the highest n is **core**
+- Count e⁻ in the **highest <img src="assets/m_n.png" class="eqi">** (outer s + p) = the group number, 1A→1 … 8A→8
+- Everything below the highest <img src="assets/m_n.png" class="eqi"> is **core**
 
 </div>
 <div class="problem" markdown="1">
@@ -158,7 +158,7 @@
 
 1. Start from the neutral atom
 2. **Anion:** add e⁻ into the outer p until it reaches a noble-gas configuration
-3. **Cation:** remove from the **highest n first**
+3. **Cation:** remove from the **highest <img src="assets/m_n.png" class="eqi"> first**
 
 - Transition metals lose **4s before 3d**
 - Exam ions are main-group, not transition metals
@@ -168,7 +168,8 @@
 
 #### (9) Penetration, Pauli & Shielding
 
-- **Penetration** — an orbital reaching into the core region is less shielded, so it sits at **lower energy**. Within a shell **s &lt; p &lt; d &lt; f**
+- **s &lt; p &lt; d &lt; f** (within shell)
+- **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
 - **Shielding** — only **core** (inner) e⁻ shield effectively; valence e⁻ shield each other poorly
 
@@ -367,7 +368,7 @@ Energy **released** when gaseous ions form the solid crystal.
 | **Have** | **Want** | **Use** |
 |---|---|---|
 | <img src="assets/s5_nuthr.png" class="eqi"> or <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi"> | <img src="assets/x_phithr.png" class="eqi"> |
-| <img src="assets/m_phi.png" class="eqi"> | <img src="assets/s5_lamthr.png" class="eqi"> = longest <img src="assets/m_lam.png" class="eqi"> that ejects | <img src="assets/x_lamthr.png" class="eqi"> |
+| <img src="assets/m_phi.png" class="eqi"> | <img src="assets/s5_lamthr.png" class="eqi"> (max ej. <img src="assets/m_lam.png" class="eqi">) | <img src="assets/x_lamthr.png" class="eqi"> |
 | <img src="assets/m_phi.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi"> per mol | <img src="assets/m_phi.png" class="eqi"> × <img src="assets/s_na.png" class="eqi"> (/1e3 for kJ/mol) |
 | <img src="assets/m_phi.png" class="eqi">, <img src="assets/m_lam.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | 1. <img src="assets/x_keeq.png" class="eqi"><br>2. <img src="assets/x_ueq.png" class="eqi"> |
 | <img src="assets/m_lam.png" class="eqi">, <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | 2nd eq above (skips <img src="assets/m_phi.png" class="eqi"> **and** <img src="assets/m_ke.png" class="eqi">) |

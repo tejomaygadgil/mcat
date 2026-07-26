@@ -33,6 +33,7 @@ EQ_WIDTH_OVERRIDES = {
     "m_fc": 17, "m_en": 19, "m_den": 33, "m_Ul": 9, "m_dH": 21,
     "m_dp": 19, "m_dx": 19, "m_du": 19, "m_sfc": 29, "m_sig": 10,
     "x_phithr": 128, "x_lamthr": 60, "x_keeq": 86, "x_ueq": 66,
+    "x_hmu": 52, "m_m": 10, "m_n": 8, "m_ns": 16, "m_np": 17, "m_n1d": 40,
     "x_dpeq": 64, "x_dxeq": 86,
     "w_hnu": 18,
     "w_cln": 40, "w_ephot": 104, "w_deb": 76,

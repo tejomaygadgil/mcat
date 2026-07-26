@@ -132,6 +132,12 @@ MATHVARS = {
     "x_ueq":     r"u = \sqrt{2\,KE/m_e}",
     "x_dpeq":    r"\Delta p = m\cdot\Delta u",
     "x_dxeq":    r"\Delta x \geq h/(4\pi\cdot\Delta p)",
+    "x_hmu":     r"h/(m\cdot u)",
+    "m_m":       r"m",
+    "m_n":       r"n",
+    "m_ns":      r"ns",
+    "m_np":      r"np",
+    "m_n1d":     r"(n\!-\!1)d",
 }
 for name, latex in MATHVARS.items():
     fig = plt.figure()
