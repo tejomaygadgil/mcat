@@ -143,6 +143,7 @@ hr { border: none; margin: 3pt 0; }
 .lut table { font-size: 7.2pt; table-layout: fixed; }
 .lut th, .lut td { padding: 0.8pt 1.5pt; text-align: center; word-break: break-word; }
 .lut th:nth-child(1), .lut td:nth-child(1) { text-align: left; }
+.lut-w1 th:nth-child(1), .lut-w1 td:nth-child(1) { width: 42%; }
 .emtable table { font-size: 6.8pt; }
 .emtable th, .emtable td { padding: 0.5pt 1pt; text-align: center; white-space: nowrap; }
 .emtable th:nth-child(1), .emtable td:nth-child(1) { text-align: left; }

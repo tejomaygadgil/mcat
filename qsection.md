@@ -103,17 +103,15 @@
 
 <img src="assets/v_debroglie.png" class="eq">
 
-<div class="lut" markdown="1">
+<div class="lut lut-w1" markdown="1">
 
-| **m ↓ / u →** | **m/s** | **km/s** |
+| **λ (m) given h / (m · u);<br>m ↓ / u →** | **m/s** | **km/s** |
 |---|---|---|
 | **kg** | 6.626e-34 | 6.626e-37 |
 | **g** | 6.626e-31 | 6.626e-34 |
 | **amu** | 3.9892e-7 | 3.9892e-10 |
 
 </div>
-
-- λ (m) = cell / (m × u) · answer is in m; ×1e9 for nm
 
 </div>
 <div class="problem" markdown="1">
