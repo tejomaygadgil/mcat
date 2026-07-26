@@ -98,7 +98,7 @@
 2. Respect **s2 p6 d10 f14**
 3. Apply the exceptions
 
-- Aufbau: 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
+- Aufbau = **increasing energy** →: 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
 
 | Trend | → across period | ↓ down group |
 |---|---|---|
@@ -165,6 +165,7 @@
 | <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #) |
 | <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin**, 2 e⁻ per orbital (Pauli) |
 
+- **energy** set by <img src="assets/m_n.png" class="eqi"> and <img src="assets/q_l.png" class="eqi"> **only** — <img src="assets/q_ml.png" class="eqi">, <img src="assets/q_ms.png" class="eqi"> are degenerate
 - **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (6)
 - <img src="assets/q_lmax.png" class="eqi">, so **3f and 2d don't exist** — check the sublevel is real before ranking it
 - Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
