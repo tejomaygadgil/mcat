@@ -1,31 +1,5 @@
 <div class="problem" markdown="1">
 
-#### Units
-
-<div class="nohdr" markdown="1">
-
-| | | | |
-|---|---|---|---|
-| <img src="assets/v_c.png" class="eqi"> | 3.00e8 m/s | **1 nm** | 1e-9 m |
-| <img src="assets/v_h.png" class="eqi"> | 6.63e-34 J·s | **1 MHz** | 1e6 Hz |
-| <img src="assets/v_me.png" class="eqi"> | 9.11e-31 kg | **1 Hz** | 1/s |
-| <img src="assets/v_na.png" class="eqi"> | 6.022e23 | **1 amu** | 1.661e-27 kg |
-
-</div>
-
-| Trend | → across period | ↓ down group |
-|---|---|---|
-| <img src="assets/v_zeff.png" class="eqi"> | increases | ~constant |
-| Atomic radius | decreases | increases |
-| Ionization energy | increases | decreases |
-| Electron affinity | more favorable | less favorable |
-
-- Aufbau: 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
-- Capacity **s2 p6 d10 f14** · orbitals **s1 p3 d5 f7**
-
-</div>
-<div class="problem" markdown="1">
-
 #### (1) EM Spectrum
 
 <div class="emtable" markdown="1">
@@ -113,14 +87,25 @@
 
 </div>
 
+- Answer is in m — **×1e9 for nm** (1 nm = 1e-9 m)
+
 </div>
 <div class="problem" markdown="1">
 
 #### (6) Electron Configuration
 
-1. Fill in Aufbau order (see Units)
+1. Fill in Aufbau order (below)
 2. Respect **s2 p6 d10 f14**
 3. Apply the exceptions
+
+- Aufbau: 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
+
+| Trend | → across period | ↓ down group |
+|---|---|---|
+| <img src="assets/v_zeff.png" class="eqi"> | increases | ~constant |
+| Atomic radius | decreases | increases |
+| Ionization energy | increases | decreases |
+| Electron affinity | more favorable | less favorable |
 
 - **Cr = [Ar]4s¹3d⁵** · **Cu = [Ar]4s¹3d¹⁰** (half/full d wins)
 - Impossible if any subshell is over-filled (3s³, 2p⁸)
@@ -180,7 +165,7 @@
 | <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #) |
 | <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin**, 2 e⁻ per orbital (Pauli) |
 
-- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (Units)
+- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (6)
 - <img src="assets/q_lmax.png" class="eqi">, so **3f and 2d don't exist** — check the sublevel is real before ranking it
 - Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
 - **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
