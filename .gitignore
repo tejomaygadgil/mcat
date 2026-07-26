@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# uv / venv
+.venv/
+venv/
+
+# Build output — regenerated every run by build_all.py
+/assets/
+
+# OS
+.DS_Store

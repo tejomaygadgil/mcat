@@ -1,0 +1,17 @@
+[project]
+name = "chem-x19a-mt3"
+version = "0.1.0"
+description = "CHEMx19A Exam III instruction & info sheets, built from markdown to PDF"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "markdown>=3.4",
+    "weasyprint>=60",
+    "Pillow>=10",
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "pdf2image>=1.16",
+]
+
+[tool.uv]
+package = false
