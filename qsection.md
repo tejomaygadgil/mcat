@@ -88,6 +88,7 @@
 
 - Orbital = **region where an e⁻ is most likely found**
 - <img src="assets/e3_dele.png" class="eq">
+- <img src="assets/s5_ni_solve.png" class="eqi">; <img src="assets/s5_nf_solve.png" class="eqi">
 
 | **Variable** | **Value** | **Variable** | **Value** |
 |---|---|---|---|

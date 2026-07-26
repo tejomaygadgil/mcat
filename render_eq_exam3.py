@@ -36,7 +36,9 @@ for name, latex in EQUATIONS.items():
     print("wrote", out_path)
 
 EXTRA = {
-    "e3_dele":      r"E = h\nu = h(c/\lambda) = R\left|1/n_f^2-1/n_i^2\right|",
+    "e3_dele":      r"E = h\nu = h(c/\lambda) = R(1/n_f^2-1/n_i^2)",
+    "s5_ni_solve":  r"n_i = \sqrt{1/\left(1/n_f^2 - hc/(R\lambda)\right)}",
+    "s5_nf_solve":  r"n_f = \sqrt{1/\left(1/n_i^2 + hc/(R\lambda)\right)}",
     "e3_zeff":      r"Z_{eff} \approx Z - (\mathrm{core}\ e^-)",
     "e3_lattice":   r"U \propto \dfrac{q_1 q_2}{r_1 + r_2}",
     "e3_den":       r"\Delta EN = |EN_A - EN_B|",
