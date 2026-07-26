@@ -173,9 +173,7 @@
 | <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #) |
 | <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin**, 2 e⁻ per orbital (Pauli) |
 
-- **energy** set by <img src="assets/m_n.png" class="eqi"> and <img src="assets/q_l.png" class="eqi"> **only** — <img src="assets/q_ml.png" class="eqi">, <img src="assets/q_ms.png" class="eqi"> are degenerate
-- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (6)
-- **3f and 2d don't exist** (row 1 above) — check the sublevel is real before ranking it
+- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
 - Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
 - **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
