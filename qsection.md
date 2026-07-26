@@ -163,7 +163,7 @@
 
 | **sublevel** = subshell | **s** | **p** | **d** | **f** |
 |---|---|---|---|---|
-| <img src="assets/q_l.png" class="eqi"> | 0 | 1 | 2 | 3 |
+| <img src="assets/q_lmax.png" class="eqi"> | 0 | 1 | 2 | 3 |
 | <img src="assets/q_ml.png" class="eqi"> | 0 | −1…+1 | −2…+2 | −3…+3 |
 | **orbitals** (<img src="assets/q_2l1.png" class="eqi">) | 1 | 3 | 5 | 7 |
 | **max e⁻** (2 per orbital) | 2 | 6 | 10 | 14 |
@@ -175,7 +175,7 @@
 
 - **energy** set by <img src="assets/m_n.png" class="eqi"> and <img src="assets/q_l.png" class="eqi"> **only** — <img src="assets/q_ml.png" class="eqi">, <img src="assets/q_ms.png" class="eqi"> are degenerate
 - **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">) · across shells use **Aufbau** (6)
-- <img src="assets/q_lmax.png" class="eqi">, so **3f and 2d don't exist** — check the sublevel is real before ranking it
+- **3f and 2d don't exist** (row 1 above) — check the sublevel is real before ranking it
 - Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
 - **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
