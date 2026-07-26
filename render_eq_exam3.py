@@ -36,8 +36,8 @@ for name, latex in EQUATIONS.items():
     print("wrote", out_path)
 
 EXTRA = {
-    "e3_bohr":      r"E_n = -2.18\times10^{-18}\,\mathrm{J}\,(1/n^2)",
-    "e3_dele":      r"\Delta E = -2.18\times10^{-18}\left(\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right)\mathrm{J}",
+    "e3_bohr":      r"E_n = -\dfrac{R}{n^2}",
+    "e3_dele":      r"E = h\nu = \dfrac{hc}{\lambda} = -R\left(\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right)",
     "e3_zeff":      r"Z_{eff} \approx Z - (\mathrm{core}\ e^-)",
     "e3_lattice":   r"U \propto \dfrac{q_1 q_2}{r_1 + r_2}",
     "e3_den":       r"\Delta EN = |EN_A - EN_B|",
@@ -120,11 +120,13 @@ for name, latex in WHITE_ON_DARK.items():
 
 # small inline formulas for the Bohr level-formula have/want/use table
 BOHR_TABLE = {
-    "s5_de":      r"2.18\times10^{-18}\left|\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right|",
-    "s5_solven":  r"\dfrac{1}{n^2} = \dfrac{1}{n_{known}^2} \mp \dfrac{\Delta E}{2.18\times10^{-18}}",
-    "s5_cascade": r"\dfrac{1}{n_i^2} = 1 - \dfrac{\Delta E_{total}}{2.18\times10^{-18}}",
-    "s5_nif":     r"n_i,\ n_f",
     "s5_ninit":   r"n_{initial}",
+    "s5_R":       r"R",
+    "s5_hc":      r"hc",
+    "s5_Rh":      r"R/h",
+    "s5_Rhc":     r"R/(hc)",
+    "s5_nu_r":    r"\nu = \dfrac{R}{h}\left(\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right)",
+    "s5_invlam_r":r"\dfrac{1}{\lambda} = \dfrac{R}{hc}\left(\dfrac{1}{n_f^2}-\dfrac{1}{n_i^2}\right)",
 }
 for name, latex in BOHR_TABLE.items():
     fig = plt.figure()

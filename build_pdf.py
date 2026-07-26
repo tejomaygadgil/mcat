@@ -18,7 +18,7 @@ EQ_WIDTH_OVERRIDES = {
     "e3_speed": 175, "e3_energy": 195, "e3_debroglie": 170,
     "e3_photo": 130, "e3_heisenberg": 175, "e3_formalcharge": 220,
     "e3_bondenthalpy": 240, "e3_mole": 110, "e3_me": 130, "e3_ke": 90,
-    "e3_bohr": 150, "e3_dele": 200, "e3_zeff": 130, "e3_lattice": 78, "e3_den": 120,
+    "e3_bohr": 90, "e3_dele": 220, "e3_zeff": 130, "e3_lattice": 78, "e3_den": 120,
     "e3_bornhaber": 235, "e3_cln": 60, "e3_ephoton": 92,
     "e3_debroglie2": 58, "e3_fc": 215,
     "v_c": 6, "v_h": 7, "v_me": 15, "v_na": 18, "v_zeff": 22,
@@ -26,8 +26,9 @@ EQ_WIDTH_OVERRIDES = {
     "v_cln": 44, "v_eph": 78, "v_fc": 205,
     "s_na": 17, "s_zeff": 21, "s_ephot": 38, "s_dhrxn": 32,
     "s_lamthr": 52, "s_dhf": 26, "s_zeffeq": 92, "s_zeff_w": 21,
-    "s5_de": 150, "s5_solven": 190, "s5_cascade": 170,
-    "s5_nif": 45, "s5_ninit": 45,
+    "s5_ninit": 45,
+    "s5_R": 8, "s5_hc": 18, "s5_Rh": 32, "s5_Rhc": 48,
+    "s5_nu_r": 175, "s5_invlam_r": 175,
 }
 
 def eq_style(png_path):
@@ -140,8 +141,8 @@ hr { border: none; margin: 3pt 0; }
          margin: 0 0 4pt; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .chbox h2 { margin-top: 0; }
 .nohdr thead { display: none; }
-.lut table { font-size: 7.2pt; }
-.lut th, .lut td { padding: 0.8pt 1.5pt; text-align: center; white-space: nowrap; }
+.lut table { font-size: 7.2pt; table-layout: fixed; }
+.lut th, .lut td { padding: 0.8pt 1.5pt; text-align: center; word-break: break-word; }
 .lut th:nth-child(1), .lut td:nth-child(1) { text-align: left; }
 .emtable table { font-size: 6.8pt; }
 .emtable th, .emtable td { padding: 0.5pt 1pt; text-align: center; white-space: nowrap; }

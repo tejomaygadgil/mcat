@@ -22,29 +22,6 @@
 
 - Aufbau: 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
 - Capacity **s2 p6 d10 f14** · orbitals **s1 p3 d5 f7**
-- **Exam supplies:** periodic table (Z · group · period · molar mass) and an **EN chart** — read values off them, don't recall them
-
-</div>
-<div class="problem" markdown="1">
-
-#### Watch the wording
-
-<div class="nohdr" markdown="1">
-
-| | |
-|---|---|
-| "how many **joules** from *n* grams" | (3) — mol, then ×<img src="assets/s_na.png" class="eqi"> |
-| "longest λ that **ejects** an e⁻" | (20) threshold, not (2) |
-| "electron **microscope**", any moving particle | (5) |
-| "falls ... **in two steps**" | Bohr level formula box — add both photon energies |
-| "**unusually big increase**" in IE | (12) — first core e⁻ |
-| "most **negative** EA" = "**largest** EA" | (13) — same element |
-| "essentially **equal to**" (EA vs IE) | (13) — same magnitude |
-| "contributes **most** to the structure" | (18) — FC nearest 0 |
-| "using the **bond energies given**" | (23), not (22) |
-| "**strongest / shortest** bond" | (17) — order before ΔEN |
-
-</div>
 
 </div>
 <div class="problem" markdown="1">
@@ -57,7 +34,7 @@
 |---|---|---|---|---|---|---|---|
 | **Frequency (ν)** | **↑** | | | | | | **↓** |
 | **Energy (E)** | **↑** | | | | | | **↓** |
-| **Wavelength (λ), nm** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–1e9 | &gt;1e9 |
+| **Wavelength (λ)** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–1e9 | &gt;1e9 |
 
 </div>
 
@@ -72,8 +49,8 @@
 
 | **λ ↓ / ν →** | **Hz** | **kHz** | **MHz** | **GHz** |
 |---|---|---|---|---|
-| **m** | 3.00e8 m/s | 3.00e5 | 3.00e2 | 3.00e-1 |
-| **nm** | 3.00e17 | 3.00e14 | 3.00e11 | 3.00e8 |
+| **m** | 3.00e8<br>(m/s) | 3.00e5<br>(m·kHz) | 3.00e2<br>(m·MHz) | 3.00e-1<br>(m·GHz) |
+| **nm** | 3.00e17<br>(nm·Hz) | 3.00e14<br>(nm·kHz) | 3.00e11<br>(nm·MHz) | 3.00e8<br>(nm·GHz) |
 
 </div>
 
@@ -86,9 +63,9 @@
 
 | **E ↓ / λ, ν →** | **λ (m)** | **λ (nm)** | **ν (Hz)** |
 |---|---|---|---|
-| **J / photon** | 1.9864e-25 / λ | 1.9864e-16 / λ | 6.626e-34 × ν |
-| **J / mol** | 1.1962e-1 / λ | 1.1962e8 / λ | 3.9902e-10 × ν |
-| **kJ / mol** | 1.1962e-4 / λ | 1.1962e5 / λ | 3.9902e-13 × ν |
+| **J / photon** | 1.9864e-25 / λ<br>(J·m) | 1.9864e-16 / λ<br>(J·nm) | 6.626e-34 × ν<br>(J·s) |
+| **J / mol** | 1.1962e-1 / λ<br>(J·m/mol) | 1.1962e8 / λ<br>(J·nm/mol) | 3.9902e-10 × ν<br>(J·s/mol) |
+| **kJ / mol** | 1.1962e-4 / λ<br>(kJ·m/mol) | 1.1962e5 / λ<br>(kJ·nm/mol) | 3.9902e-13 × ν<br>(kJ·s/mol) |
 
 </div>
 
@@ -105,32 +82,28 @@
 | **Planck** | Energy emitted only in fixed amounts (quanta) |
 | **Einstein** | Light arrives in packets (photons) of fixed energy |
 | **Heisenberg** | Position and velocity not both knowable |
-| **Bohr** | e⁻ occupy fixed energy levels; explains line spectra — **no Rydberg needed** |
+| **Bohr** | e⁻ occupy fixed energy levels; explains line spectra |
 
 </div>
 
 - Orbital = **region where an e⁻ is most likely found**
-
-</div>
-<div class="problem" markdown="1">
-
-#### Bohr Level Formula — HW7 only, not on exam list
-
 - Gives **discrete colored lines**, unique per element — not a continuous band
 - Excited H emits in IR, visible, and UV
 
 <img src="assets/e3_bohr.png" class="eq">
 <img src="assets/e3_dele.png" class="eq">
 
-| **have** | **want** | **use** |
+| | value | used for |
 |---|---|---|
-| <img src="assets/s5_nif.png" class="eqi"> | ΔE | <img src="assets/s5_de.png" class="eqi"> |
-| <img src="assets/s5_nif.png" class="eqi"> | λ | ΔE (row above), then λ ⇄ E via (3) |
-| λ, one n | other n | ΔE = hc/λ via (3); solve <img src="assets/s5_solven.png" class="eqi"> |
-| 2 λ's, cascade to n=1 | <img src="assets/s5_ninit.png" class="eqi"> | sum ΔE₁+ΔE₂ via (3); solve <img src="assets/s5_cascade.png" class="eqi"> |
+| <img src="assets/v_c.png" class="eqi"> | 2.9979e8 m/s | λ ⇄ ν: c = λν, see (2) |
+| <img src="assets/v_h.png" class="eqi"> | 6.626e-34 J·s | E = hν |
+| <img src="assets/s5_R.png" class="eqi"> | 2.18e-18 J | the −R(...) term above |
+| <img src="assets/s5_hc.png" class="eqi"> | 1.9864e-25 J·m | E from λ directly: E = hc/λ, see (3) |
+| <img src="assets/s5_Rh.png" class="eqi"> | 3.2901e15 Hz | <img src="assets/s5_nu_r.png" class="eqi"> |
+| <img src="assets/s5_Rhc.png" class="eqi"> | 1.0975e7 m⁻¹ | <img src="assets/s5_invlam_r.png" class="eqi"> |
 
 - **Emission** drops (n_i > n_f) · **absorption** climbs
-- n = 1 → 4: ΔE = 2.18e-18(1 − 1/16) = **2.0438×10⁻¹⁸ J**
+- Cascade to ground in 2 steps → sum both photon energies (via the h·c row), solve <img src="assets/s5_ninit.png" class="eqi"> from the R row
 
 </div>
 <div class="problem" markdown="1">
@@ -443,25 +416,5 @@ EN = an atom's ability to attract the electrons shared in a bond.
 - Bonds unchanged on both sides cancel — skip them
 - Negative ΔH = exothermic
 - For "heat released by *g* of X," convert g → mol and scale
-
-</div>
-<div class="problem" markdown="1">
-
-#### Sanity check — expected size
-
-<div class="nohdr" markdown="1">
-
-| | |
-|---|---|
-| visible photon | ~1e-19 J (a mole ~1e5 J) |
-| e⁻ de Broglie λ | ~1e-10 m |
-| photoelectron speed | ~1e5–1e6 m/s |
-| Δx (Heisenberg) | ~1e-8 m |
-| lattice energy U | hundreds–thousands kJ/mol |
-| bond enthalpy | 150–1000 kJ/mol · <img src="assets/s_dhrxn.png" class="eqi"> tens–hundreds |
-
-</div>
-
-- Off by 1e3 → a unit conversion was skipped. Off by ~6e23 → the mole step.
 
 </div>
