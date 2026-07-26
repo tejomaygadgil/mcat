@@ -6,10 +6,10 @@
 
 | | | | |
 |---|---|---|---|
-| <img src="assets/v_c.png" class="eqi"> | 3.00×10⁸ m/s | **1 nm** | 10⁻⁹ m |
-| <img src="assets/v_h.png" class="eqi"> | 6.63×10⁻³⁴ J·s | **1 MHz** | 10⁶ Hz |
-| <img src="assets/v_me.png" class="eqi"> | 9.11×10⁻³¹ kg | **1 Hz** | 1/s |
-| <img src="assets/v_na.png" class="eqi"> | 6.022×10²³ | **1 amu** | 1.661×10⁻²⁷ kg |
+| <img src="assets/v_c.png" class="eqi"> | 3.00e8 m/s | **1 nm** | 1e-9 m |
+| <img src="assets/v_h.png" class="eqi"> | 6.63e-34 J·s | **1 MHz** | 1e6 Hz |
+| <img src="assets/v_me.png" class="eqi"> | 9.11e-31 kg | **1 Hz** | 1/s |
+| <img src="assets/v_na.png" class="eqi"> | 6.022e23 | **1 amu** | 1.661e-27 kg |
 
 </div>
 
@@ -53,52 +53,46 @@
 
 <div class="emtable" markdown="1">
 
-| | **γ** | **X** | **UV** | **vis** | **IR** | **μw** | **radio** |
+| Ranges | **γ** | **X** | **UV** | **vis** | **IR** | **μw** | **radio** |
 |---|---|---|---|---|---|---|---|
 | **Frequency (ν)** | **↑** | | | | | | **↓** |
 | **Energy (E)** | **↑** | | | | | | **↓** |
-| **Wavelength (λ), nm** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–10⁶ | 10⁶–10⁹ | &gt;10⁹ |
+| **Wavelength (λ), nm** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–1e9 | &gt;1e9 |
 
 </div>
 
-- Visible: violet · blue · green · yellow · orange · red
+- **vis** (violet · blue · green · yellow · orange · red)
 
 </div>
 <div class="problem" markdown="1">
 
-#### (2) c = λν (speed of light = wavelength × frequency)
-
-**λ × ν = cell** → divide the cell by whichever you're given
+#### (2) c = λν (Speed of light = wavelength × frequency)
 
 <div class="lut" markdown="1">
 
-| **λ ↓ ν →** | **Hz** | **kHz** | **MHz** | **GHz** |
+| **λ ↓ / ν →** | **Hz** | **kHz** | **MHz** | **GHz** |
 |---|---|---|---|---|
-| **m** | 3.00×10⁸ | 3.00×10⁵ | 3.00×10² | 3.00×10⁻¹ |
-| **nm** | 3.00×10¹⁷ | 3.00×10¹⁴ | 3.00×10¹¹ | 3.00×10⁸ |
+| **m** | 3.00e8 m/s | 3.00e5 | 3.00e2 | 3.00e-1 |
+| **nm** | 3.00e17 | 3.00e14 | 3.00e11 | 3.00e8 |
 
 </div>
-
-- Check: 500 nm ⇄ 6.00×10¹⁴ Hz
 
 </div>
 <div class="problem" markdown="1">
 
-#### (3) E = hν = hc/λ (energy = Planck × frequency)
+#### (3) E = hν = h (c/λ) (Energy = Planck × frequency)
 
 <div class="lut" markdown="1">
 
-| **E ↓ given →** | **λ m** | **λ nm** | **ν Hz** |
+| **E ↓ / λ, ν →** | **λ (m)** | **λ (nm)** | **ν (Hz)** |
 |---|---|---|---|
-| **J / photon** | 1.99×10⁻²⁵ / λ | 1.99×10⁻¹⁶ / λ | 6.63×10⁻³⁴ × ν |
-| **kJ / mol** | 1.20×10⁻⁴ / λ | 1.20×10⁵ / λ | 3.99×10⁻¹³ × ν |
+| **J / photon** | 1.9864e-25 / λ | 1.9864e-16 / λ | 6.626e-34 × ν |
+| **J / mol** | 1.1962e-1 / λ | 1.1962e8 / λ | 3.9902e-10 × ν |
+| **kJ / mol** | 1.1962e-4 / λ | 1.1962e5 / λ | 3.9902e-13 × ν |
 
 </div>
 
-- kJ/mol row already has ×6.022×10²³ and ÷1000 built in
-- Given grams → mol → ×6.022×10²³ for photon **count**
-- Check with 500 nm: **6.00×10¹⁴ Hz · 3.98×10⁻¹⁹ J · 240 kJ/mol**
-
+- Grams → mol → ×6.022e23 for photon **count**
 </div>
 <div class="problem" markdown="1">
 
@@ -137,7 +131,7 @@
 2. **Emission** drops (n_i > n_f) · **absorption** climbs
 3. Falls to ground **in two steps** → add the two photon energies, then solve for n_i
 
-- n = 1 → 4 absorbs 2.18×10⁻¹⁸(1 − 1/16) = **2.04×10⁻¹⁸ J**
+- n = 1 → 4 absorbs 2.18e-18(1 − 1/16) = **2.04e-18 J**
 
 </div>
 <div class="problem" markdown="1">
@@ -146,11 +140,11 @@
 
 <img src="assets/v_debroglie.png" class="eq">
 
-1. m → kg: g ×10⁻³, amu ×1.661×10⁻²⁷
-2. u → m/s: km/s ×10³
+1. m → kg: g ×1e-3, amu ×1.661e-27
+2. u → m/s: km/s ×1e3
 3. λ = h/(mu)
 
-- Answer is in m; ×10⁹ for nm
+- Answer is in m; ×1e9 for nm
 
 </div>
 <div class="problem" markdown="1">
@@ -454,15 +448,15 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 | | |
 |---|---|
-| visible photon | ~10⁻¹⁹ J (a mole ~10⁵ J) |
-| e⁻ de Broglie λ | ~10⁻¹⁰ m |
-| photoelectron speed | ~10⁵–10⁶ m/s |
-| Δx (Heisenberg) | ~10⁻⁸ m |
+| visible photon | ~1e-19 J (a mole ~1e5 J) |
+| e⁻ de Broglie λ | ~1e-10 m |
+| photoelectron speed | ~1e5–1e6 m/s |
+| Δx (Heisenberg) | ~1e-8 m |
 | lattice energy U | hundreds–thousands kJ/mol |
 | bond enthalpy | 150–1000 kJ/mol · <img src="assets/s_dhrxn.png" class="eqi"> tens–hundreds |
 
 </div>
 
-- Off by 10³ → a unit conversion was skipped. Off by ~6×10²³ → the mole step.
+- Off by 1e3 → a unit conversion was skipped. Off by ~6e23 → the mole step.
 
 </div>
