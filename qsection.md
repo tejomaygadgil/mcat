@@ -173,10 +173,11 @@
 | <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #) |
 | <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin**, 2 e⁻ per orbital (Pauli) |
 
-- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
 - Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
-- **Penetration** — orbital reaching into core region is less shielded, so **lower energy**.
+- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
 - **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
+- **Penetration** — orbital reaching into the core region
+- ↑ shielding ⇄ ↑ reduced <img src="assets/s_zeff.png" class="eqi"> ⇄ ↓ penetration ⇄ **↑ energy** (reverse also holds)
 - **Shielding** — only **core** (inner) e⁻ shield effectively; valence e⁻ shield each other poorly
 
 </div>
