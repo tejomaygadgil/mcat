@@ -60,7 +60,6 @@
 
 </div>
 
-- Orbital = **region where an e⁻ is most likely found**
 - <img src="assets/e3_dele.png" class="eq">
 - <img src="assets/s5_ni_solve.png" class="eqi">; <img src="assets/s5_nf_solve.png" class="eqi">
 
@@ -94,11 +93,18 @@
 
 #### (6) Electron Configuration
 
-1. Fill in Aufbau order (below)
-2. Respect **s2 p6 d10 f14**
-3. Apply the exceptions
+| **Symbol** | **Name** | **Value** |
+|---|---|---|
+| <img src="assets/m_n.png" class="eqi"> | **Principal energy level** (shell) | (1, 2, 3, ...) |
+| <img src="assets/q_l.png" class="eqi"> | **Sublevel** = subshell (shape) | (0, ..., n - 1) |
+| <img src="assets/q_ml.png" class="eqi"> | **Orbital** (orientations) |  (-l, ..., l) |
+| <img src="assets/q_ms.png" class="eqi"> |  **Spin** (2 per orbital) | <img src="assets/q_msval.png" class="eqi"> |
 
-- Aufbau = **increasing energy** →: 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
+* **s** (0; 0, 1), **p** (1; ±1, 3), **d** (2; ±2, 5), **f** (3; ±3, 7)
+
+1. 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
+2. Respect **s2 p6 d10 f14**
+3. Apply exceptions
 
 | Trend | → across period | ↓ down group |
 |---|---|---|
@@ -107,7 +113,7 @@
 | Ionization energy | increases | decreases |
 | Electron affinity | more favorable | less favorable |
 
-- **Cr = [Ar]4s¹3d⁵** · **Cu = [Ar]4s¹3d¹⁰** (half/full d wins)
+- **Cr = [Ar]4s¹3d⁵** · **Cu = [Ar]4s¹3d¹⁰** (half/full d wins) · same trick one row down: **Mo, Ag** (and Au)
 - Impossible if any subshell is over-filled (3s³, 2p⁸)
 - Faster than writing Aufbau: read it off the table — s-block (gp 1–2) → <img src="assets/m_ns.png" class="eqi">, p-block (13–18) → <img src="assets/m_np.png" class="eqi">, d-block → <img src="assets/m_n1d.png" class="eqi">; the period number is <img src="assets/m_n.png" class="eqi">
 - Can be a transition metal; ground state only
@@ -160,18 +166,6 @@
 <div class="problem" markdown="1">
 
 #### (9) Quantum Numbers, Penetration & Shielding
-
-| **sublevel** = subshell | **s** | **p** | **d** | **f** |
-|---|---|---|---|---|
-| <img src="assets/q_lmax.png" class="eqi"> | 0 | 1 | 2 | 3 |
-| <img src="assets/q_ml.png" class="eqi"> | 0 | −1…+1 | −2…+2 | −3…+3 |
-| **orbitals** (<img src="assets/q_2l1.png" class="eqi">) | 1 | 3 | 5 | 7 |
-| **max e⁻** (2 per orbital) | 2 | 6 | 10 | 14 |
-
-| **Symbol** | **Allowed** | **Meaning** |
-|---|---|---|
-| <img src="assets/m_n.png" class="eqi"> | <img src="assets/q_nrange.png" class="eqi"> | **Principal energy level**, **shell** (row #) |
-| <img src="assets/q_ms.png" class="eqi"> | <img src="assets/q_msval.png" class="eqi"> | **spin**, 2 e⁻ per orbital (Pauli) |
 
 - Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
 - **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
