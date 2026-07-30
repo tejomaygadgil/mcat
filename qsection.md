@@ -209,8 +209,9 @@
 | **7A** | halogens | reactive nonmetals (upward) | gain 1 | 1− |
 | **8A** | noble gases | **inert** | — | 0 |
 
-- **Lanthanide** (58–71) · **Actinide** (90–103)
+- **Lanthanide** (58–71), **Actinide** (90–103)
 - **Diagonal rule** (e.g. Li~Mg, **Be~Al**, B~Si)
+- **Diatomic** (H₂, N₂, O₂, F₂, Cl₂, Br₂ (l), I₂ (s))
 
 </div>
 <div class="problem" markdown="1">
@@ -233,10 +234,7 @@
 
 **Odds & ends**
 
-- Lanthanides = 4f row (**Ce**) · actinides = 5f (U)
-- Diatomic: H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂
 - Metallic character ↑ down, ↓ across → **lower-left** wins
-- Isoelectronic = matches a noble gas e- count (K⁺, Cl⁻, Ca²⁺ = Ar)
 
 </div>
 <div class="problem" markdown="1">
