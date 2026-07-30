@@ -279,15 +279,7 @@
 <img src="assets/e3_heisenberg.png" class="eq">
 
 1. <img src="assets/x_dpeq.png" class="eqi"> (kg, m/s)
-2. <img src="assets/x_dxeq.png" class="eqi">
-
-| **Variable** | **Value** |
-|---|---|
-| <img src="assets/s21_h4pi.png" class="eqi"> | 5.2728e-35 J·s |
-
-- Result is the **minimum** uncertainty
-- Rearrange the same way to solve for <img src="assets/m_du.png" class="eqi">
-- Keep everything in kg, m, s
+2. <img src="assets/x_dxeq.png" class="eqi"> (**minimum** uncertainty)
 
 </div>
 <div class="problem" markdown="1">
