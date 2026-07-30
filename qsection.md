@@ -212,23 +212,20 @@
 - <img src="assets/m_en.png" class="eqi"> = e- attraction in cov. bond.
 - Read <img src="assets/m_en.png" class="eqi"> off the chart — F highest, noble gases excluded
 
+| <img src="assets/m_den.png" class="eqi"> | **Label** |
+|---|---|
+| 0 | pure non cov. |
+| 0.1 – 0.5 | slightly pol. cov. |
+| 0.5 – 1.6 | pol. cov. |
+| &gt; 1.6 | ionic |
+
 </div>
 <div class="problem" markdown="1">
 
 #### (17) Bond Polarity
 
 1. Take the absolute difference (<img src="assets/m_den.png" class="eqi">)
-2. Classify
-
-<div class="nohdr" markdown="1">
-
-| | |
-|---|---|
-| ~0 | nonpolar covalent |
-| 0.4 – 1.9 | polar covalent |
-| ≥ 2.0 | ionic |
-
-</div>
+2. Classify with the table in (16)
 
 - **"Most polar" → <img src="assets/m_den.png" class="eqi"> alone** (largest difference wins)
 - **"Strongest / shortest bond" → bond order FIRST:** triple > double > single. <img src="assets/m_den.png" class="eqi"> only breaks ties between equal orders — a C≡N beats a high-<img src="assets/m_den.png" class="eqi"> Si=O
