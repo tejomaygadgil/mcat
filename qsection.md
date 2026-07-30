@@ -92,7 +92,11 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (6) Electron Configuration
+#### (6) Electron Configuration (Aufbau, Pauli, Hund)
+
+* 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
+* Round-robin sublevel before double occupaton (Hund)
+* Two e- per orbital (Pauli's exclusion)
 
 | **Symbol** | **Name** | **Value** |
 |---|---|---|
@@ -101,17 +105,16 @@
 | <img src="assets/q_ml.png" class="eqi"> | **Orbital** (orientations) |  (-l, ..., l) |
 | <img src="assets/q_ms.png" class="eqi"> |  **Spin** (2 per orbital) | <img src="assets/q_msval.png" class="eqi"> |
 
-| | <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_ml.png" class="eqi"> | **# orbitals** | **# e⁻** |
+| Sublevel | <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_ml.png" class="eqi"> | **# orbitals** | **# e⁻** |
 |---|---|---|---|---|
 | **s** | 0 | 0 | 1 | 2 |
 | **p** | 1 | ±1 | 3 | 6 |
 | **d** | 2 | ±2 | 5 | 10 |
 | **f** | 3 | ±3 | 7 | 14 |
 
-* 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
-
-- **Cr [Ar]4s¹3d⁵**;
-- **Cu [Ar]4s¹3d¹⁰**;
+- **Cr [Ar]4s¹3d⁵** · **Mo [Kr]5s¹4d⁵**
+- **Cu [Ar]4s¹3d¹⁰** · **Ag [Kr]5s¹4d¹⁰** · **Au [Xe]6s¹4f¹⁴5d¹⁰**
+- **Pd [Kr]4d¹⁰** (no 5s at all)
 
 </div>
 <div class="problem" markdown="1">
@@ -120,21 +123,9 @@
 
 1. Add every superscript to get <img src="assets/m_Z.png" class="eqi">
 
-**Para / diamagnetic**
-
-1. Draw boxes for the outer shell
-2. Fill singly, parallel spins, before pairing (Hund)
-3. If any unpaired e⁻ then paramagnetic, else diamagnetic
-
-**Excited / ground state**
-
-- Ground = Follows Aufbau
-- Excited = an e⁻ sits higher than Aufbau
-
-**Valence electrons**
-
-- Count e⁻ in the **highest <img src="assets/m_n.png" class="eqi">** (outer s + p) = the group number, 1A→1 … 8A→8
-- Everything below the highest <img src="assets/m_n.png" class="eqi"> is **core**
+- **Paramagnetic** (at least 1 unpaired valence e-, else diamagnetic)
+- **Ground state** (follows Aufbau, else excited)
+- **Valence electrons** (highest / outer shell, else core)
 
 </div>
 <div class="problem" markdown="1">
