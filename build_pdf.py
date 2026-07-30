@@ -18,7 +18,7 @@ EQ_WIDTH_OVERRIDES = {
     "e3_speed": 175, "e3_energy": 195, "e3_debroglie": 170,
     "e3_photo": 210, "e3_photo_u": 190,
     "e3_heisenberg": 175, "e3_formalcharge": 220,
-    "e3_bondenthalpy": 240, "e3_mole": 110, "e3_me": 130, "e3_ke": 90,
+    "e3_bondenthalpy": 240, "e3_dhfsum": 240, "e3_mole": 110, "e3_me": 130, "e3_ke": 90,
     "e3_dele": 220, "s5_ni_solve": 105, "s5_nf_solve": 105, "e3_zeff": 130, "e3_lattice": 78, "e3_den": 120,
     "e3_bornhaber": 235, "e3_cln": 60, "e3_ephoton": 92,
     "e3_debroglie2": 58, "e3_fc": 215,

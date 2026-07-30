@@ -44,6 +44,7 @@ EXTRA = {
     "e3_lattice":   r"U \propto \dfrac{q_1 q_2}{r_1 + r_2}",
     "e3_den":       r"\Delta EN = |EN_A - EN_B|",
     "e3_bornhaber": r"\Delta H\degree_f = \Delta H_{sub} + \Sigma IE + \tfrac{1}{2}BE + EA + U",
+    "e3_dhfsum":    r"\Delta H_{rxn} = \Sigma\Delta H\degree_f(\mathrm{products}) - \Sigma\Delta H\degree_f(\mathrm{reactants})",
     "e3_cln":       r"c = \lambda\nu",
     "e3_ephoton":   r"E = h\nu = \dfrac{hc}{\lambda}",
     "e3_debroglie2":r"\lambda = \dfrac{h}{mu}",

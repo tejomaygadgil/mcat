@@ -288,7 +288,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (22) Born–Haber Cycle
+#### (22) Born–Haber Cycle For Lattice Energy (U)
 
 <img src="assets/e3_bornhaber.png" class="eq">
 
@@ -301,7 +301,8 @@
 5. Solve for the single unknown
 
 - Use <img src="assets/m_ie2.png" class="eqi"> as well when the cation is 2+
-- U runs ions(g) → solid, so it comes out **negative**; report |U| if asked for a positive lattice energy
+- U runs ions(g) → solid, so it comes out **negative**
+- Report |U| if asked for a positive lattice energy
 
 </div>
 <div class="problem" markdown="1">
@@ -309,6 +310,10 @@
 #### (23) Bond Enthalpy
 
 <img src="assets/e3_bondenthalpy.png" class="eq">
+
+<img src="assets/e3_dhfsum.png" class="eq">
+
+- n.b. **opposite order**: bonds go broken − formed, <img src="assets/s_dhf.png" class="eqi"> goes products − reactants
 
 1. List bonds broken (reactants) and formed (products), using the balanced coefficients
 2. <img src="assets/m_sig.png" class="eqi"> BE(broken), always positive
