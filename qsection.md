@@ -97,6 +97,7 @@
 * 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
 * Round-robin sublevel before double occupaton (Hund)
 * Two e- per orbital (Pauli's exclusion)
+- <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e- per shell
 
 | **Symbol** | **Name** | **Value** |
 |---|---|---|
@@ -121,7 +122,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (7)–(8) Reading EC, Anion, Cation
+#### (7-8) Reading EC, Anion, Cation
 
 <div class="nohdr" markdown="1">
 
@@ -141,14 +142,10 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (9) Quantum Numbers, Penetration & Shielding
-
-- Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e-
-- **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
-- **Pauli exclusion** — no two e- carry the same four quantum numbers → 2 per orbital, opposite spins
-- **Penetration** — orbital reaching into the core region
-- ↑ shielding ⇄ ↑ reduced <img src="assets/s_zeff.png" class="eqi"> ⇄ ↓ penetration ⇄ **↑ energy** (reverse also holds)
-- **Shielding** — only **core** (inner) e- shield effectively; valence e- shield each other poorly
+#### (9) Penetration, Shielding
+- ↑ penetration (core electrons) = ↓ shielding = ↓ energy
+- **Energy** s &lt; p &lt; d &lt; f (same shell)
+- **Core** e- shield valence e-
 
 </div>
 <div class="problem" markdown="1">
@@ -166,35 +163,20 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (11)–(13) Trends
+#### (11-13) Trends
 
 | | **Trend** | **Top** | **Bot** | **Left** | **Right** |
 |---|---|---|---|---|---|
-| **(11) Atomic size** (radius) | ↙ | ↓ | ↑ | ↑ | ↓ |
-| **(12) Ionization energy** | ↗ | ↑ | ↓ | ↓ | ↑ |
-| **(13) Electron affinity** | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **(11) Atomic size** (radius) | ↙ (f > p) | ↓ | ↑ | ↑ | ↓ |
+| **(12) Ionization energy (IE)** | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **(13) Electron affinity (EA)** | ↗ | ↑ | ↓ | ↓ | ↑ |
 | **<img src="assets/v_zeff.png" class="eqi">** | ↘ | ↓ | ↑ | ↓ | ↑ |
 | **Metallic** | ↙ | ↓ | ↑ | ↑ | ↓ |
 | **Nonmetallic** | ↗ | ↑ | ↓ | ↓ | ↑ |
 | **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ | ↑ | ↓ | ↓ | ↑ |
 
-**Atomic size**
-
-- Down a group **bigger** (new shell) · across a period **smaller** (<img src="assets/s_zeff.png" class="eqi"> pulls in)
-- Group position beats period position when both apply
-- cation &lt; neutral &lt; anion
-
-**Ionization energy**
-
-- He ↑ of all · opposite of radius
-- <img src="assets/m_ie2.png" class="eqi"> > <img src="assets/m_ie1.png" class="eqi"> always
-- **Big jump** appears once the first **core** e- is removed
-
-**Electron affinity**
-
-- **Most eager for an e- = halogens, upper right** — this course writes it both as "most negative <img src="assets/m_ea.png" class="eqi">" and "largest positive <img src="assets/m_ea.png" class="eqi">"; either phrasing means the same element
-- Noble gases and full/half-full subshells ≈ 0 or unfavorable
-- **<img src="assets/m_ea.png" class="eqi">(X) and <img src="assets/m_ie.png" class="eqi"> of X⁻ are the same magnitude** — F + e- releases exactly what F⁻ → F costs
+- **Atomic size** (cation &lt; neutral &lt; anion)
+- **Electron affinity** (exo. exc. Be, Mg, Noble)
 
 </div>
 <div class="problem" markdown="1">
