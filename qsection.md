@@ -121,25 +121,22 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (7) Reading EC
+#### (7)–(8) Reading EC, Anion, Cation
 
-1. Add every superscript to get <img src="assets/m_Z.png" class="eqi">
+<div class="nohdr" markdown="1">
 
-- **Paramagnetic** (at least 1 unpaired val. e-, else dia.)
-- **Ground state** (follows Aufbau, else excited)
-- **Valence electrons** (highest / outer shell, else core)
+| | |
+|---|---|
+| **EC → element** | add every superscript to get <img src="assets/m_Z.png" class="eqi"> |
+| **Paramagnetic** | at least 1 unpaired val. e- (else dia.) |
+| **Ground state** | follows Aufbau (else excited) |
+| **Valence electrons** | highest / outer shell (else core) |
+| **Anion** | count val. e- needed until noble gas |
+| **Cation** | remove val. e- until noble gas |
+| **Tx metal** | remove s before d |
+| **Isoelectric** | same EC (e.g. Na+, Al3+, F-, N3-, Ne) |
 
 </div>
-<div class="problem" markdown="1">
-
-#### (8) Electron Configuration (Anion, Cation)
-
-1. Start from the neutral atom
-2. **Anion** Count val. e- needed until noble gas
-3. **Cation** Remove val. e- until noble gas
-
-- Tx metal: remove s before d
-- Isoelectric: same configuration (e.g. Na+, Al3+, F-, N3-, and Ne)
 
 </div>
 <div class="problem" markdown="1">
