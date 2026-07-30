@@ -176,7 +176,11 @@
 | **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ | ↑ | ↓ | ↓ | ↑ |
 
 - **Atomic size** (cation &lt; neutral &lt; anion)
-- **Electron affinity** (exo. exc. Be, Mg, Noble)
+
+| **Trend** | **Bond** | **Enthalpy** | **Exception** |
+|---|---|---|---|
+| **IE** | broken | endothermic | Be, Mg, Noble: extra high (full s / octet) |
+| **EA** | formed | exothermic | Be, Mg, Noble: unfavorable (~0) |
 
 </div>
 <div class="problem" markdown="1">
