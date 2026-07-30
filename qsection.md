@@ -168,11 +168,15 @@
 
 #### (11)–(13) Trends
 
-| **Trend** | **Top** | **Bot** | **Left** | **Right** |
-|---|---|---|---|---|
-| **(11) Atomic size** (radius) (↙) | ↓ | ↑ | ↑ | ↓ |
-| **(12) Ionization energy** (↗) | ↑ | ↓ | ↓ | ↑ |
-| **(13) Electron affinity** (↗) | ↑ | ↓ | ↓ | ↑ |
+| | **Trend** | **Top** | **Bot** | **Left** | **Right** |
+|---|---|---|---|---|---|
+| **(11) Atomic size** (radius) | ↙ | ↓ | ↑ | ↑ | ↓ |
+| **(12) Ionization energy** | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **(13) Electron affinity** | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **<img src="assets/v_zeff.png" class="eqi">** | → | ~ | ~ | ↓ | ↑ |
+| **Metallic** | ↙ | ↓ | ↑ | ↑ | ↓ |
+| **Nonmetallic** | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ | ↑ | ↓ | ↓ | ↑ |
 
 **Atomic size**
 
@@ -226,10 +230,6 @@
 
 - 2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g)
 - H₂(g) + Cl₂(g) → 2HCl(g)
-
-**Odds & ends**
-
-- Metallic character ↑ down, ↓ across → **lower-left** wins
 
 </div>
 <div class="problem" markdown="1">
