@@ -173,7 +173,7 @@
 | **(11) Atomic size** (radius) | ↙ | ↓ | ↑ | ↑ | ↓ |
 | **(12) Ionization energy** | ↗ | ↑ | ↓ | ↓ | ↑ |
 | **(13) Electron affinity** | ↗ | ↑ | ↓ | ↓ | ↑ |
-| **<img src="assets/v_zeff.png" class="eqi">** | → | ~ | ~ | ↓ | ↑ |
+| **<img src="assets/v_zeff.png" class="eqi">** | ↘ | ↓ | ↑ | ↓ | ↑ |
 | **Metallic** | ↙ | ↓ | ↑ | ↑ | ↓ |
 | **Nonmetallic** | ↗ | ↑ | ↓ | ↓ | ↑ |
 | **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ | ↑ | ↓ | ↓ | ↑ |
