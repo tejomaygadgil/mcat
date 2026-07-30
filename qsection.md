@@ -142,16 +142,14 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (9-10) Penetration, Shielding, <img src="assets/s_zeff_w.png" class="eqi">
+#### (9-10) Penetration, Shielding, <img src="assets/s_zeff_w.png" class="eqi">, Size
+
+<img src="assets/v_zeffdef.png" class="eq">
 
 - ↑ penetration (core electrons) = ↓ shielding = ↓ energy
 - **Energy** s &lt; p &lt; d &lt; f (same shell)
 - **Core** e- shield valence e-
-
-<img src="assets/v_zeffdef.png" class="eq">
-
-- Positive charge felt by e- toward nucleus
-- Core electrons = non-valence
+- **Atomic size** (cation &lt; neutral &lt; anion)
 
 </div>
 <div class="problem" markdown="1">
@@ -160,20 +158,13 @@
 
 | | **Trend** | **Top** | **Bot** | **Left** | **Right** |
 |---|---|---|---|---|---|
-| **(11) Atomic size** (radius) | ↙ (Cs; f > p) | ↓ | ↑ | ↑ | ↓ |
+| **(11) Atomic size** (radius) | ↙ (Cs)<br>(f > p) | ↓ | ↑ | ↑ | ↓ |
 | **(12) Ionization energy (IE)** | ↗ (He) | ↑ | ↓ | ↓ | ↑ |
 | **(13) Electron affinity (EA)** | ↗ (Cl) | ↑ | ↓ | ↓ | ↑ |
-| **<img src="assets/v_zeff.png" class="eqi">** | ↘ | ↓ | ↑ | ↓ | ↑ |
+| **<img src="assets/v_zeff.png" class="eqi">** (+ ch. toward nucl.) | ↘ | ↓ | ↑ | ↓ | ↑ |
 | **Metallic** | ↙ (Fr) | ↓ | ↑ | ↑ | ↓ |
 | **Nonmetallic** | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
 | **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
-
-- **Atomic size** (cation &lt; neutral &lt; anion)
-
-| **Trend** | **Bond** | **Enthalpy** | **Exception** |
-|---|---|---|---|
-| **IE** | break | endothermic | -- |
-| **EA** | form | exothermic | Endo: Be, Mg, noble, EA2 (usually) |
 
 </div>
 <div class="problem" markdown="1">
@@ -191,49 +182,35 @@
 - **Lanthanide** (58–71), **Actinide** (90–103)
 - **Diatomic** (H₂, N₂, O₂, F₂, Cl₂, Br₂ (l), I₂ (s))
 - **Oxides** (basic = metal, acidic = nonmetal)
-
-</div>
-<div class="problem" markdown="1">
-
-#### HW-only gaps — off the exam list
-
-
-**Formula from charges** — 1A 1+ · 2A 2+ · 3A 3+ · 5A 3− · 6A 2− · 7A 1−; criss-cross and reduce
-
-- Same-group swap keeps the pattern: BaS → **CaO**
-- 2A + 3F₂ → 2AF₃ ⇒ A is 3+ (**Al**) · 3Li + Z → Li₃Z ⇒ Z is 3−, so Mg gives **Mg₃Z₂**
-
-**Bond-type ID** — ionic **and** covalent together = a salt of a **polyatomic ion** (NH₄NO₃, K₂SO₄); all-nonmetal = covalent only
-
-**Family reactions**
-
-- 2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g)
-- H₂(g) + Cl₂(g) → 2HCl(g)
+- **Family reactions**
+    - 2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g)
+    - H₂(g) + Cl₂(g) → 2HCl(g)
 
 </div>
 <div class="problem" markdown="1">
 
 #### (15) Lattice Energy
 
-Energy **released** when gaseous ions form the solid crystal.
-
 <img src="assets/v_u.png" class="eq">
 
-1. Compare charges first
-2. If charges tie, smaller ions win
+- Energy **released** (exo.) forming ionic crystal (from gas)
+    - (Lattice *dissociation* energy = endothermic)
+- max U: 1. ↑ Q+/Q- (ionic charge), 2. ↓ AS (rad.)
 
-- ↑ charge → **↑ U** (dominant) · ↑ ionic radius → ↓ U
+| **Trend** | **Bond** | **Enthalpy** | **Exception** |
+|---|---|---|---|
+| **EA** | Form | Exothermic | Endo: Be, Mg, noble, EA2 (usually) |
+| **IE** | Break | Endothermic | -- |
 
 </div>
 <div class="problem" markdown="1">
 
 #### (16) Electronegativity
 
-<img src="assets/m_en.png" class="eqi"> = an atom's ability to attract the electrons shared in a bond.
-
 <img src="assets/v_en.png" class="eq">
 
-- Read <img src="assets/m_en.png" class="eqi"> off the chart — <img src="assets/m_en.png" class="eqi"> ↑ up and to the right, F highest, noble gases excluded
+- <img src="assets/m_en.png" class="eqi"> = e- attraction in cov. bond.
+- Read <img src="assets/m_en.png" class="eqi"> off the chart — F highest, noble gases excluded
 
 </div>
 <div class="problem" markdown="1">

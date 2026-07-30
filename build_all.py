@@ -184,10 +184,10 @@ if __name__ == "__main__":
 
     print("2. building instruction sheet (must be 2 pages) ...")
     build("qsection.md", "chem_x19a_mt3_instruction_sheet.pdf",
-          ncols=4, want_pages=2, start_pt=10.0, min_pt=7.6)
+          ncols=4, want_pages=2, start_pt=8.8, min_pt=7.6)
 
-    print("3. building info sheet (must be 1 page) ...")
-    build("info_sheet.md", "chem_x19a_mt3_info_sheet.pdf",
-          ncols=2, want_pages=1, start_pt=9.4, min_pt=8.6)
+    # print("3. building info sheet (must be 1 page) ...")
+    # build("info_sheet.md", "chem_x19a_mt3_info_sheet.pdf",
+    #       ncols=2, want_pages=1, start_pt=9.4, min_pt=8.6)
 
     print("\ndone.")

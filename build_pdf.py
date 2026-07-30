@@ -130,15 +130,15 @@ hr { border: none; margin: 3pt 0; }
 .ch7 em { font-size: 7.3pt; }
 .ch7 table { font-size: 7.3pt; line-height: 0.98; margin: 0.5pt 0 2pt; }
 .ch7 th, .ch7 td { padding: 0.3pt 2pt; }
-.page { font-size: 9.4pt; line-height: 1.06; }
-.page h2 { font-size: 11.47pt; margin: 0 0 1.5pt; }
-.page h4 { font-size: 9.78pt; margin: 1.6pt 0 1.2pt; font-weight: 700;
+.page { font-size: 8.8pt; line-height: 1.06; }
+.page h2 { font-size: 10.74pt; margin: 0 0 1.5pt; }
+.page h4 { font-size: 9.15pt; margin: 1.6pt 0 1.2pt; font-weight: 700;
            background: #111; color: #fff; padding: 0.5pt 4pt;
            border-radius: 2px; break-after: avoid; }
-.page:first-child { font-size: 9.4pt; }
-.page:first-child h2 { font-size: 11.47pt; }
+.page:first-child { font-size: 8.8pt; }
+.page:first-child h2 { font-size: 10.74pt; }
 .page:first-child h3 { font-size: 9.4pt; }
-.page:first-child h4 { font-size: 9.78pt; }
+.page:first-child h4 { font-size: 9.15pt; }
 .page ol, .page ul { padding-left: 9pt; margin: 0.3pt 0 0.7pt; }
 .page li { margin: 0; }
 .page p { margin: 0.3pt 0; }
