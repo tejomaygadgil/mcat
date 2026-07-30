@@ -55,7 +55,7 @@
 | **Maxwell** | Light is electromagnetic radiation |
 | **Planck** | Energy emitted only in fixed amounts (quanta) (black-body radiation) |
 | **Einstein** | Different light has different amounts of fixed energy (photons) (photoelectric effect) |
-| **Bohr** | Electrons are quantum (line spectra); Rydberg eq. |
+| **Bohr** | Electron quanta (H atom line spectra); Rydberg |
 | **De Broglie** | Electrons are particle and wave (5) |
 | **Schrodinger** | Wave equation (energy and spatial prob. of e-)<br>(n, l, m_l, m_s) |
 | **Heisenberg** | Position and velocity not both knowable |
@@ -78,8 +78,8 @@
 
 <div class="lut lut-w1" markdown="1">
 
-- 1 nm = 1e-9 m
-- 1 e- = 9.11e-31 kg
+- 1 mm = 1e-3 m, 1 nm = 1e-9 m
+- e- (9.11e-31 kg), p+ (1.6726e-27 kg), n (1.6749e−27 kg)
 
 | <img src="assets/v_h.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> (**m/s**) | **km/s** |
 |---|---|---|
@@ -173,9 +173,9 @@
 
 | **Family** | **Name** | **Reactivity** | **e-** | **Charge** |
 |---|---|---|---|---|
-| **1A** | alkali metals | most reactive (downward) | lose 1 | 1+ |
+| **1A** | alkali metals | (downward) | lose 1 | 1+ |
 | **2A** | alkaline earth | less than 1A | lose 2 | 2+ |
-| **7A** | halogens | reactive (upward) | gain 1 | 1− |
+| **7A** | halogens | (upward) | gain 1 | 1− |
 | **8A** | noble gases | **inert** | — | 0 |
 
 - **Diagonal rule** (Li~Mg, Be~Al, B~Si)
@@ -314,5 +314,34 @@
 - Bonds unchanged on both sides cancel — skip them
 - Negative <img src="assets/m_dH.png" class="eqi"> = exothermic
 - For "heat released by *g* of X," convert g → mol and scale
+
+</div>
+<div class="problem" markdown="1">
+
+#### Average Bond Energies (kJ/mol)
+
+| **Bond** | **kJ/mol** | **Bond** | **kJ/mol** | **Bond** | **kJ/mol** |
+|---|---|---|---|---|---|
+| H-H | 436 | N-N | 163 | Br-F | 237 |
+| H-C | 414 | N=N | 418 | Br-Cl | 218 |
+| H-N | 389 | N≡N | 946 | Br-Br | 193 |
+| H-O | 464 | N-O | 222 | I-Cl | 208 |
+| H-S | 368 | N=O | 590 | I-Br | 175 |
+| H-F | 565 | N-F | 272 | I-I | 151 |
+| H-Cl | 431 | N-Cl | 200 | Si-H | 323 |
+| H-Br | 364 | N-Br | 243 | Si-Si | 226 |
+| H-I | 297 | N-I | 159 | Si-C | 301 |
+| C-C | 347 | O-O | 142 | S-O | 265 |
+| C=C | 611 | O=O | 498 | Si=O | 368 |
+| C≡C | 837 | O-F | 190 | S=O | 523 |
+| C-N | 305 | O-Cl | 203 | Si-Cl | 464 |
+| C=N | 615 | O-I | 234 | S=S | 418 |
+| C≡N | 891 | F-F | 159 | S-F | 327 |
+| C-O | 360 | Cl-F | 253 | S-Cl | 253 |
+| C=O | 736* | Cl-Cl | 243 | S-Br | 218 |
+| C≡O | 1072 | | | S-S | 266 |
+| C-Cl | 339 | | | | |
+
+- *799 in CO₂
 
 </div>
