@@ -142,23 +142,16 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (9) Penetration, Shielding
+#### (9-10) Penetration, Shielding, <img src="assets/s_zeff_w.png" class="eqi">
+
 - ↑ penetration (core electrons) = ↓ shielding = ↓ energy
 - **Energy** s &lt; p &lt; d &lt; f (same shell)
 - **Core** e- shield valence e-
 
-</div>
-<div class="problem" markdown="1">
-
-#### (10) <img src="assets/s_zeff_w.png" class="eqi"> & Core Electrons
-
 <img src="assets/v_zeffdef.png" class="eq">
 
-1. Core e- = total e- − valence e- (= the **previous noble gas**)
-2. <img src="assets/s_zeffeq.png" class="eqi">
-
-- Same period → same core, so the **rightmost** element wins
-- Poor valence shielding is why <img src="assets/s_zeff.png" class="eqi"> rises across a period
+- Positive charge felt by e- toward nucleus
+- Core electrons = non-valence
 
 </div>
 <div class="problem" markdown="1">
@@ -167,20 +160,20 @@
 
 | | **Trend** | **Top** | **Bot** | **Left** | **Right** |
 |---|---|---|---|---|---|
-| **(11) Atomic size** (radius) | ↙ (f > p) | ↓ | ↑ | ↑ | ↓ |
-| **(12) Ionization energy (IE)** | ↗ | ↑ | ↓ | ↓ | ↑ |
-| **(13) Electron affinity (EA)** | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **(11) Atomic size** (radius) | ↙ (Cs; f > p) | ↓ | ↑ | ↑ | ↓ |
+| **(12) Ionization energy (IE)** | ↗ (He) | ↑ | ↓ | ↓ | ↑ |
+| **(13) Electron affinity (EA)** | ↗ (Cl) | ↑ | ↓ | ↓ | ↑ |
 | **<img src="assets/v_zeff.png" class="eqi">** | ↘ | ↓ | ↑ | ↓ | ↑ |
-| **Metallic** | ↙ | ↓ | ↑ | ↑ | ↓ |
-| **Nonmetallic** | ↗ | ↑ | ↓ | ↓ | ↑ |
-| **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ | ↑ | ↓ | ↓ | ↑ |
+| **Metallic** | ↙ (Fr) | ↓ | ↑ | ↑ | ↓ |
+| **Nonmetallic** | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
+| **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
 
 - **Atomic size** (cation &lt; neutral &lt; anion)
 
 | **Trend** | **Bond** | **Enthalpy** | **Exception** |
 |---|---|---|---|
-| **IE** | broken | endothermic | Be, Mg, Noble: extra high (full s / octet) |
-| **EA** | formed | exothermic | Be, Mg, Noble: unfavorable (~0) |
+| **IE** | break | endothermic | -- |
+| **EA** | form | exothermic | Endo: Be, Mg, noble, EA2 (usually) |
 
 </div>
 <div class="problem" markdown="1">
@@ -194,16 +187,16 @@
 | **7A** | halogens | reactive nonmetals (upward) | gain 1 | 1− |
 | **8A** | noble gases | **inert** | — | 0 |
 
+- **Diagonal rule** (Li~Mg, Be~Al, B~Si)
 - **Lanthanide** (58–71), **Actinide** (90–103)
-- **Diagonal rule** (e.g. Li~Mg, **Be~Al**, B~Si)
 - **Diatomic** (H₂, N₂, O₂, F₂, Cl₂, Br₂ (l), I₂ (s))
+- **Oxides** (basic = metal, acidic = nonmetal)
 
 </div>
 <div class="problem" markdown="1">
 
 #### HW-only gaps — off the exam list
 
-**Oxides** — metal oxide = **basic** (K₂O, MgO, Fe₂O₃, Cr₂O₃) · nonmetal oxide = **acidic** (P₄O₁₀, SO₂, CO₂, Cl₂O₇) · Al₂O₃ and BeO = **amphoteric**
 
 **Formula from charges** — 1A 1+ · 2A 2+ · 3A 3+ · 5A 3− · 6A 2− · 7A 1−; criss-cross and reduce
 
