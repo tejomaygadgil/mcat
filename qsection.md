@@ -105,7 +105,7 @@
 | <img src="assets/q_ml.png" class="eqi"> | **Orbital** (orientations) |  (-l, ..., l) |
 | <img src="assets/q_ms.png" class="eqi"> |  **Spin** (2 per orbital) | <img src="assets/q_msval.png" class="eqi"> |
 
-| Sublevel | <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_ml.png" class="eqi"> | **# orbitals** | **# e⁻** |
+| Sublevel | <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_ml.png" class="eqi"> | **# orbitals** | **# e-** |
 |---|---|---|---|---|
 | **s** | 0 | 0 | 1 | 2 |
 | **p** | 1 | ±1 | 3 | 6 |
@@ -135,7 +135,7 @@
 #### (8) Ion Configuration
 
 1. Start from the neutral atom
-2. **Anion:** add e⁻ into the outer p until it reaches a noble-gas configuration
+2. **Anion:** add e- into the outer p until it reaches a noble-gas configuration
 3. **Cation:** remove from the **highest <img src="assets/m_n.png" class="eqi"> first**
 
 - Transition metals lose **4s before 3d**
@@ -146,12 +146,12 @@
 
 #### (9) Quantum Numbers, Penetration & Shielding
 
-- Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e⁻
+- Shell <img src="assets/m_n.png" class="eqi"> holds <img src="assets/q_n2.png" class="eqi"> orbitals, <img src="assets/q_2n2.png" class="eqi"> e-
 - **energy: s &lt; p &lt; d &lt; f** (within shell, same <img src="assets/m_n.png" class="eqi">)
-- **Pauli exclusion** — no two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins
+- **Pauli exclusion** — no two e- carry the same four quantum numbers → 2 per orbital, opposite spins
 - **Penetration** — orbital reaching into the core region
 - ↑ shielding ⇄ ↑ reduced <img src="assets/s_zeff.png" class="eqi"> ⇄ ↓ penetration ⇄ **↑ energy** (reverse also holds)
-- **Shielding** — only **core** (inner) e⁻ shield effectively; valence e⁻ shield each other poorly
+- **Shielding** — only **core** (inner) e- shield effectively; valence e- shield each other poorly
 
 </div>
 <div class="problem" markdown="1">
@@ -160,7 +160,7 @@
 
 <img src="assets/v_zeffdef.png" class="eq">
 
-1. Core e⁻ = total e⁻ − valence e⁻ (= the **previous noble gas**)
+1. Core e- = total e- − valence e- (= the **previous noble gas**)
 2. <img src="assets/s_zeffeq.png" class="eqi">
 
 - Same period → same core, so the **rightmost** element wins
@@ -189,13 +189,13 @@
 
 - **↑ = upper-right** (He ↑ of all) · **↓ = lower-left** (opposite of radius)
 - <img src="assets/m_ie2.png" class="eqi"> > <img src="assets/m_ie1.png" class="eqi"> always
-- **Big jump** appears once the first **core** e⁻ is removed
+- **Big jump** appears once the first **core** e- is removed
 
 **Electron affinity**
 
-- **Most eager for an e⁻ = halogens, upper right** — this course writes it both as "most negative <img src="assets/m_ea.png" class="eqi">" and "largest positive <img src="assets/m_ea.png" class="eqi">"; either phrasing means the same element
+- **Most eager for an e- = halogens, upper right** — this course writes it both as "most negative <img src="assets/m_ea.png" class="eqi">" and "largest positive <img src="assets/m_ea.png" class="eqi">"; either phrasing means the same element
 - Noble gases and full/half-full subshells ≈ 0 or unfavorable
-- **<img src="assets/m_ea.png" class="eqi">(X) and <img src="assets/m_ie.png" class="eqi"> of X⁻ are the same magnitude** — F + e⁻ releases exactly what F⁻ → F costs
+- **<img src="assets/m_ea.png" class="eqi">(X) and <img src="assets/m_ie.png" class="eqi"> of X⁻ are the same magnitude** — F + e- releases exactly what F⁻ → F costs
 
 </div>
 <div class="problem" markdown="1">
@@ -239,7 +239,7 @@
 - Lanthanides = 4f row (**Ce**) · actinides = 5f (U)
 - Diatomic: H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂
 - Metallic character ↑ down, ↓ across → **lower-left** wins
-- Isoelectronic = matches a noble gas e⁻ count (K⁺, Cl⁻, Ca²⁺ = Ar)
+- Isoelectronic = matches a noble gas e- count (K⁺, Cl⁻, Ca²⁺ = Ar)
 
 </div>
 <div class="problem" markdown="1">
@@ -307,11 +307,11 @@ Energy **released** when gaseous ions form the solid crystal.
 
 #### (19) Lewis Structures ×4
 
-1. Total valence e⁻ — **+**1 per negative charge, **−**1 per positive
+1. Total valence e- — **+**1 per negative charge, **−**1 per positive
 2. Central atom = least electronegative, never H
 3. Single bonds out to every atom
 4. Fill outer octets with lone pairs (H takes 2)
-5. Leftover e⁻ onto the central atom
+5. Leftover e- onto the central atom
 6. Central below 8 → pull an outer lone pair into a double/triple bond, **unless** Al/B/Be
 7. Check formal charges — see (18)
 
@@ -321,8 +321,8 @@ Energy **released** when gaseous ions form the solid crystal.
 
 | | |
 |---|---|
-| **(a) Normal octet** | 8 valence e⁻ per atom (H wants 2) — H₂O, CH₄, NH₃, CO₂, CH₂Cl₂, CH₃CH₂Cl |
-| **(b) Incomplete octet** | **Al, B, Be only** — content below 8, do not add double bonds to fix. BF₃/BCl₃/AlI₃ leave 6 e⁻ on the center; BeCl₂ leaves 4 |
+| **(a) Normal octet** | 8 valence e- per atom (H wants 2) — H₂O, CH₄, NH₃, CO₂, CH₂Cl₂, CH₃CH₂Cl |
+| **(b) Incomplete octet** | **Al, B, Be only** — content below 8, do not add double bonds to fix. BF₃/BCl₃/AlI₃ leave 6 e- on the center; BeCl₂ leaves 4 |
 | **(c) Expanded octet** | Central atom **period 3 or below** (S, P, Cl, Xe, As, I) uses empty d orbitals for >8 — AsCl₅, XeI₂, SO₄²⁻ |
 | **(d) Organic** | **–OH** alcohol · **C=O** aldehyde/ketone · **–COOH** carboxylic acid · **–NH₂** amine |
 

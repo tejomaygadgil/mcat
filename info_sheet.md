@@ -43,9 +43,9 @@
 | Planck | Energy emitted only in fixed amounts (quanta) |
 | Einstein | Light arrives in packets (photons) of fixed energy |
 | Heisenberg | Position and velocity not both knowable |
-| Bohr | e⁻ occupy fixed energy levels; explains line spectra |
+| Bohr | e- occupy fixed energy levels; explains line spectra |
 | de Broglie | Matter has wave properties, <img src="assets/v_debroglie.png" class="eqi"> |
-| Pauli | No two e⁻ share all four quantum numbers |
+| Pauli | No two e- share all four quantum numbers |
 | Hund | Orbitals fill singly, spins parallel, before pairing |
 
 </div>
@@ -54,7 +54,7 @@
 
 | Subshell | s | p | d | f |
 |---|---|---|---|---|
-| Max e⁻ | 2 | 6 | 10 | 14 |
+| Max e- | 2 | 6 | 10 | 14 |
 | Orbitals | 1 | 3 | 5 | 7 |
 
 <div class="nohdr" markdown="1">
@@ -62,10 +62,10 @@
 | | |
 |---|---|
 | Ground state | Follows Aufbau exactly, no gaps |
-| Excited state | An e⁻ promoted higher, leaving a gap below |
-| Paramagnetic | At least one unpaired e⁻ |
-| Diamagnetic | All e⁻ paired |
-| Valence e⁻ | The e⁻ in the highest n |
+| Excited state | An e- promoted higher, leaving a gap below |
+| Paramagnetic | At least one unpaired e- |
+| Diamagnetic | All e- paired |
+| Valence e- | The e- in the highest n |
 
 </div>
 
@@ -84,8 +84,8 @@
 | | |
 |---|---|
 | Penetration | An orbital reaching into the core region is less shielded → lower energy. Within a shell **s &lt; p &lt; d &lt; f** |
-| Pauli exclusion | No two e⁻ carry the same four quantum numbers → 2 per orbital, opposite spins |
-| Shielding | Only **core** (inner) e⁻ shield effectively; valence e⁻ shield each other poorly |
+| Pauli exclusion | No two e- carry the same four quantum numbers → 2 per orbital, opposite spins |
+| Shielding | Only **core** (inner) e- shield effectively; valence e- shield each other poorly |
 | <img src="assets/v_zeff.png" class="eqi"> | <img src="assets/v_zeffdef.png" class="eqi"> |
 
 </div>
@@ -194,7 +194,7 @@ EN = an atom's ability to attract the electrons shared in a bond.
 
 | | |
 |---|---|
-| Normal octet | 8 valence e⁻ around each atom (H wants 2) |
+| Normal octet | 8 valence e- around each atom (H wants 2) |
 | Incomplete octet | **Al, B, Be** are content below 8 |
 | Expanded octet | Period 3 and below (S, P, Cl, Xe, As, I) use empty d orbitals to exceed 8 |
 | Organic groups | –OH alcohol · C=O aldehyde/ketone · –COOH carboxylic acid · –NH₂ amine |
