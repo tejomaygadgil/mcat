@@ -57,7 +57,7 @@
 | **Einstein** | Different light has different amounts of fixed energy (photons) (photoelectric effect) |
 | **Bohr** | Electrons are quantum (line spectra); Rydberg eq. |
 | **De Broglie** | Electrons are particle and wave (5) |
-| **Schrodinger** | Wave equation (n, l, m_l, m_s) |
+| **Schrodinger** | Wave equation (energy and spatial prob. of e-)<br>(n, l, m_l, m_s) |
 | **Heisenberg** | Position and velocity not both knowable |
 
 </div>
@@ -125,21 +125,21 @@
 
 1. Add every superscript to get <img src="assets/m_Z.png" class="eqi">
 
-- **Paramagnetic** (at least 1 unpaired valence e-, else diamagnetic)
+- **Paramagnetic** (at least 1 unpaired val. e-, else dia.)
 - **Ground state** (follows Aufbau, else excited)
 - **Valence electrons** (highest / outer shell, else core)
 
 </div>
 <div class="problem" markdown="1">
 
-#### (8) Ion Configuration
+#### (8) Electron Configuration (Anion, Cation)
 
 1. Start from the neutral atom
-2. **Anion:** add e- into the outer p until it reaches a noble-gas configuration
-3. **Cation:** remove from the **highest <img src="assets/m_n.png" class="eqi"> first**
+2. **Anion** Count val. e- needed until noble gas
+3. **Cation** Remove val. e- until noble gas
 
-- Transition metals lose **4s before 3d**
-- Exam ions are main-group, not transition metals
+- Tx metal: remove s before d
+- Isoelectric: same configuration (e.g. Na+, Al3+, F-, N3-, and Ne)
 
 </div>
 <div class="problem" markdown="1">
@@ -202,18 +202,15 @@
 
 #### (14) Families & Diagonal Rule
 
-<div class="nohdr" markdown="1">
+| **Family** | **Name** | **Reactivity** | **e-** | **Charge** |
+|---|---|---|---|---|
+| **1A** | alkali metals | most reactive metals (downward) | lose 1 | 1+ |
+| **2A** | alkaline earth | reactive, less than 1A | lose 2 | 2+ |
+| **7A** | halogens | reactive nonmetals (upward) | gain 1 | 1− |
+| **8A** | noble gases | **inert** | — | 0 |
 
-| | | |
-|---|---|---|
-| **1A** | alkali metals | most reactive metals; **↑ down** |
-| **2A** | alkaline earth | reactive, less than 1A |
-| **7A** | halogens | reactive nonmetals; **↓ down** |
-| **8A** | noble gases | **inert** — full octet |
-
-</div>
-
-- **Diagonal rule** — an element resembles its down-right neighbor: Li~Mg · **Be~Al** · B~Si
+- **Lanthanide** (58–71) · **Actinide** (90–103)
+- **Diagonal rule** (e.g. Li~Mg, **Be~Al**, B~Si)
 
 </div>
 <div class="problem" markdown="1">
@@ -338,7 +335,6 @@ Energy **released** when gaseous ions form the solid crystal.
 #### (20) Photoelectric Effect (<img src="assets/w_hnu.png" class="eqi"> - binding / work)
 
 <img src="assets/e3_photo.png" class="eq">
-<img src="assets/e3_photo_u.png" class="eq">
 
 | **Variable** | **Value** |
 |---|---|
@@ -349,11 +345,10 @@ Energy **released** when gaseous ions form the solid crystal.
 
 | **Have** | **Want** | **Use** |
 |---|---|---|
-| <img src="assets/s5_nuthr.png" class="eqi"> or <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi"> | <img src="assets/x_phithr.png" class="eqi"> |
+| <img src="assets/m_lam.png" class="eqi">, <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | <img src="assets/e3_photo_u.png" class="eq"> |
 | <img src="assets/m_phi.png" class="eqi"> | <img src="assets/s5_lamthr.png" class="eqi"> (max ej. <img src="assets/m_lam.png" class="eqi">) | <img src="assets/x_lamthr.png" class="eqi"> |
-| <img src="assets/m_phi.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi"> per mol | <img src="assets/m_phi.png" class="eqi"> × <img src="assets/s_na.png" class="eqi"> (/1e3 for kJ/mol) |
+| <img src="assets/s5_nuthr.png" class="eqi"> or <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_phi.png" class="eqi">, <img src="assets/m_phi.png" class="eqi"> / mol | <img src="assets/x_phithr.png" class="eqi">,<br>n.b. <img src="assets/m_phi.png" class="eqi"> × <img src="assets/s_na.png" class="eqi"> (/1e3 for kJ/mol) |
 | <img src="assets/m_phi.png" class="eqi">, <img src="assets/m_lam.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | 1. <img src="assets/x_keeq.png" class="eqi"><br>2. <img src="assets/x_ueq.png" class="eqi"> |
-| <img src="assets/m_lam.png" class="eqi">, <img src="assets/s5_lamthr.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> | 2nd eq above (skips <img src="assets/m_phi.png" class="eqi"> **and** <img src="assets/m_ke.png" class="eqi">) |
 
 </div>
 <div class="problem" markdown="1">
