@@ -56,7 +56,7 @@
 | **Planck** | Energy emitted only in fixed amounts (quanta) (black-body radiation) |
 | **Einstein** | Different light has different amounts of fixed energy (photons) (photoelectric effect) |
 | **Bohr** | Electrons are also quantum (line spectra); Rydberg equation |
-| **De Broglie** | Electrons are particle and wave |
+| **De Broglie** | Electrons are particle and wave (5) |
 | **Schrodinger** | Wave equation (n, l, m_l, m_s) |
 | **Heisenberg** | Position and velocity not both knowable |
 
@@ -74,12 +74,12 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (5) <img src="assets/w_deb.png" class="eqi"> (Wavelength = Planck / (mass × velocity))
+#### (5) <img src="assets/w_deb.png" class="eqi"> (De Broglie)
 
 <div class="lut lut-w1" markdown="1">
 
 - 1 nm = 1e-9 m
-- 1 e- = 9.1e-28 g
+- 1 e- = 9.11e-31 kg
 
 | <img src="assets/v_h.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> (**m/s**) | **km/s** |
 |---|---|---|
@@ -101,8 +101,13 @@
 | <img src="assets/q_ml.png" class="eqi"> | **Orbital** (orientations) |  (-l, ..., l) |
 | <img src="assets/q_ms.png" class="eqi"> |  **Spin** (2 per orbital) | <img src="assets/q_msval.png" class="eqi"> |
 
-* **s** (0;  0, 1/2),  **p** (1; ±1, 3/6),
-* **d** (2; ±2, 5/10), **f** (3; ±3, 7/14)
+| | <img src="assets/q_l.png" class="eqi"> | <img src="assets/q_ml.png" class="eqi"> | **# orbitals** | **# e⁻** |
+|---|---|---|---|---|
+| **s** | 0 | 0 | 1 | 2 |
+| **p** | 1 | ±1 | 3 | 6 |
+| **d** | 2 | ±2 | 5 | 10 |
+| **f** | 3 | ±3 | 7 | 14 |
+
 * 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
 1. Respect **s2 p6 d10 f14**
 
