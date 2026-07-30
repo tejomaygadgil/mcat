@@ -313,7 +313,7 @@
 
 <img src="assets/e3_dhfsum.png" class="eq">
 
-- n.b. **opposite order**: bonds go broken − formed, <img src="assets/s_dhf.png" class="eqi"> goes products − reactants
+- n.b. **the sign**: BE table values are positive → 1st form **subtracts**; in the 2nd form each <img src="assets/m_dH.png" class="eqi">(formed) is already **negative** (energy released) → **add**
 
 1. List bonds broken (reactants) and formed (products), using the balanced coefficients
 2. <img src="assets/m_sig.png" class="eqi"> BE(broken), always positive
