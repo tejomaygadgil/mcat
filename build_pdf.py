@@ -42,7 +42,7 @@ EQ_WIDTH_OVERRIDES = {
     "w_cln": 40, "w_ephot": 104, "w_deb": 76,
     "s5_R": 8, "s5_hc": 18, "s5_hR": 32, "s5_hcR": 48, "s20_2hcme": 48,
     "e3_bhcycle": 250,
-    "e3_lewis": 226,
+    "e3_lewis": 262,
 }
 
 def eq_style(png_path):
