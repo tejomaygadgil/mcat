@@ -55,7 +55,7 @@
 | **Maxwell** | Light is electromagnetic radiation |
 | **Planck** | Energy emitted only in fixed amounts (quanta) (black-body radiation) |
 | **Einstein** | Different light has different amounts of fixed energy (photons) (photoelectric effect) |
-| **Bohr** | Electrons are also quantum (line spectra); Rydberg equation |
+| **Bohr** | Electrons are quantum (line spectra); Rydberg eq. |
 | **De Broglie** | Electrons are particle and wave (5) |
 | **Schrodinger** | Wave equation (n, l, m_l, m_s) |
 | **Heisenberg** | Position and velocity not both knowable |
@@ -108,48 +108,28 @@
 | **d** | 2 | ±2 | 5 | 10 |
 | **f** | 3 | ±3 | 7 | 14 |
 
-* 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
-1. Respect **s2 p6 d10 f14**
+* 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
 
-| Trend | → across period | ↓ down group |
-|---|---|---|
-| <img src="assets/v_zeff.png" class="eqi"> | increases | ~constant |
-| Atomic radius | decreases | increases |
-| Ionization energy | increases | decreases |
-| Electron affinity | more favorable | less favorable |
-
-- **Cr = [Ar]4s¹3d⁵** · **Cu = [Ar]4s¹3d¹⁰** (half/full d wins) · same trick one row down: **Mo, Ag** (and Au)
-- Impossible if any subshell is over-filled (3s³, 2p⁸)
-- Faster than writing Aufbau: read it off the table — s-block (gp 1–2) → <img src="assets/m_ns.png" class="eqi">, p-block (13–18) → <img src="assets/m_np.png" class="eqi">, d-block → <img src="assets/m_n1d.png" class="eqi">; the period number is <img src="assets/m_n.png" class="eqi">
-- Can be a transition metal; ground state only
+- **Cr [Ar]4s¹3d⁵**;
+- **Cu [Ar]4s¹3d¹⁰**;
 
 </div>
 <div class="problem" markdown="1">
 
-#### (7) Reading an Electron Configuration
+#### (7) Reading EC
 
-**Which element?**
+1. Add every superscript to get <img src="assets/m_Z.png" class="eqi">
 
+**Para / diamagnetic**
 
-1. Noble-gas core → its own <img src="assets/m_Z.png" class="eqi">: [He]2 [Ne]10 [Ar]18 [Kr]36 [Xe]54
-2. Add every superscript to it = total e⁻ = <img src="assets/m_Z.png" class="eqi"> (neutral atom)
-3. Look up <img src="assets/m_Z.png" class="eqi"> on the periodic table
-
-- Cross-check: outermost subshell → period = <img src="assets/m_n.png" class="eqi">, block → group
-
-**Paramagnetic vs diamagnetic**
-
-1. Draw boxes for the outer subshell — **s 1 · p 3 · d 5 · f 7**
+1. Draw boxes for the outer shell
 2. Fill singly, parallel spins, before pairing (Hund)
-3. Count unpaired e⁻
+3. If any unpaired e⁻ then paramagnetic, else diamagnetic
 
-- Any unpaired → **paramagnetic** · all paired → **diamagnetic**
-- Full subshells (s², p⁶, d¹⁰) are always paired
+**Excited / ground state**
 
-**Excited vs ground state**
-
-- **Ground** = strict Aufbau order, no gaps
-- **Excited** = an e⁻ sits higher than Aufbau requires, leaving a **gap below it**; same total e⁻ count
+- Ground = Follows Aufbau
+- Excited = an e⁻ sits higher than Aufbau
 
 **Valence electrons**
 
@@ -196,27 +176,29 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (11) Rank Atomic Size
+#### (11)–(13) Trends
+
+| Trend | → across period | ↓ down group |
+|---|---|---|
+| <img src="assets/v_zeff.png" class="eqi"> | increases | ~constant |
+| Atomic radius | decreases | increases |
+| Ionization energy | increases | decreases |
+| Electron affinity | more favorable | less favorable |
+
+**Atomic size**
 
 - Down a group **bigger** (new shell) · across a period **smaller** (<img src="assets/s_zeff.png" class="eqi"> pulls in)
 - **↑ = lower-left** · **↓ = upper-right**
 - Group position beats period position when both apply
 - cation &lt; neutral &lt; anion
 
-</div>
-<div class="problem" markdown="1">
+**Ionization energy**
 
-#### (12) Rank Ionization Energy
-
-- Across a period **↑** · down a group **↓** (opposite of radius)
-- **↑ = upper-right** (He ↑ of all) · **↓ = lower-left**
+- **↑ = upper-right** (He ↑ of all) · **↓ = lower-left** (opposite of radius)
 - <img src="assets/m_ie2.png" class="eqi"> > <img src="assets/m_ie1.png" class="eqi"> always
 - **Big jump** appears once the first **core** e⁻ is removed
 
-</div>
-<div class="problem" markdown="1">
-
-#### (13) Rank Electron Affinity
+**Electron affinity**
 
 - **Most eager for an e⁻ = halogens, upper right** — this course writes it both as "most negative <img src="assets/m_ea.png" class="eqi">" and "largest positive <img src="assets/m_ea.png" class="eqi">"; either phrasing means the same element
 - Noble gases and full/half-full subshells ≈ 0 or unfavorable
