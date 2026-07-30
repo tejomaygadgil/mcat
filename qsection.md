@@ -4,15 +4,15 @@
 
 <div class="emtable" markdown="1">
 
-| Ranges | **γ** | **X** | **UV** | **vis** | **IR** | **μw** | **radio** |
+| Ranges | **γ** | **X** | **UV** | **vis** | **IR** | **micro** | **radio** |
 |---|---|---|---|---|---|---|---|
-| **Frequency (<img src="assets/m_nu.png" class="eqi">)** | **↑** | | | | | | **↓** |
 | **Energy (<img src="assets/m_E.png" class="eqi">)** | **↑** | | | | | | **↓** |
-| **Wavelength (<img src="assets/m_lam.png" class="eqi">)** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–1e9 | &gt;1e9 |
-
+| **Frequency (<img src="assets/m_nu.png" class="eqi">)** | **↑** | | | | | | **↓** |
+| **Wavelength (<img src="assets/m_lam.png" class="eqi">)** | **↓** | | | | | | **↑** |
+| **Wavelength (<img src="assets/m_lam.png" class="eqi">)** | &lt;0.01 | 0.01–10 | 10–400 | 400–700 | 700–1e6 | 1e6–9 | &gt;1e9 |
 </div>
 
-- **vis** (violet · blue · green · yellow · orange · red)
+- violet · indigo · blue · green · yellow · orange · red
 
 </div>
 <div class="problem" markdown="1">
@@ -21,10 +21,10 @@
 
 <div class="lut" markdown="1">
 
-| **<img src="assets/m_lam.png" class="eqi"> ↓ / <img src="assets/m_nu.png" class="eqi"> →** | **Hz** | **kHz** | **MHz** | **GHz** |
+| <img src="assets/v_c.png" class="eqi"> | <img src="assets/m_nu.png" class="eqi"> (**Hz**) | **kHz** | **MHz** | **GHz** |
 |---|---|---|---|---|
-| **m** | 3.00e8<br>(m/s) | 3.00e5<br>(m·kHz) | 3.00e2<br>(m·MHz) | 3.00e-1<br>(m·GHz) |
-| **nm** | 3.00e17<br>(nm·Hz) | 3.00e14<br>(nm·kHz) | 3.00e11<br>(nm·MHz) | 3.00e8<br>(nm·GHz) |
+| <img src="assets/m_lam.png" class="eqi"> (**m**) | 2.9979e8<br>(m/s) | 2.9979e5<br>(m·kHz) | 2.9979e2<br>(m·MHz) | 2.9979e-1<br>(m·GHz) |
+| **nm** | 2.9979e17<br>(nm·Hz) | 2.9979e14<br>(nm·kHz) | 2.9979e11<br>(nm·MHz) | 2.9979e8<br>(nm·GHz) |
 
 </div>
 
@@ -34,12 +34,11 @@
 #### (3) <img src="assets/w_ephot.png" class="eqi"> (Energy = Planck × frequency)
 
 <div class="lut" markdown="1">
-
-| **<img src="assets/m_E.png" class="eqi"> ↓ / <img src="assets/m_lam.png" class="eqi">, <img src="assets/m_nu.png" class="eqi"> →** | **<img src="assets/m_lam.png" class="eqi"> (m)** | **<img src="assets/m_lam.png" class="eqi"> (nm)** | **<img src="assets/m_nu.png" class="eqi"> (Hz)** |
+| <img src="assets/s5_hc.png" class="eqi">, <img src="assets/v_h.png" class="eqi"> | **<img src="assets/m_lam.png" class="eqi"> (m)** | **<img src="assets/m_lam.png" class="eqi"> (nm)** | **<img src="assets/m_nu.png" class="eqi"> (Hz)** |
 |---|---|---|---|
-| **J / photon** | 1.9864e-25 / <img src="assets/m_lam.png" class="eqi"><br>(J·m) | 1.9864e-16 / <img src="assets/m_lam.png" class="eqi"><br>(J·nm) | 6.626e-34 × <img src="assets/m_nu.png" class="eqi"><br>(J·s) |
-| **J / mol** | 1.1962e-1 / <img src="assets/m_lam.png" class="eqi"><br>(J·m/mol) | 1.1962e8 / <img src="assets/m_lam.png" class="eqi"><br>(J·nm/mol) | 3.9902e-10 × <img src="assets/m_nu.png" class="eqi"><br>(J·s/mol) |
-| **kJ / mol** | 1.1962e-4 / <img src="assets/m_lam.png" class="eqi"><br>(kJ·m/mol) | 1.1962e5 / <img src="assets/m_lam.png" class="eqi"><br>(kJ·nm/mol) | 3.9902e-13 × <img src="assets/m_nu.png" class="eqi"><br>(kJ·s/mol) |
+| <img src="assets/m_E.png" class="eqi"> (**J / photon**) | 1.9864e-25<br>(J·m) | 1.9864e-16<br>(J·nm) | 6.626e-34<br>(J·s) |
+| **J / mol** | 1.1962e-1<br>(J·m/mol) | 1.1962e8<br>(J·nm/mol) | 3.9902e-10<br>(J·s/mol) |
+| **kJ / mol** | 1.1962e-4<br>(kJ·m/mol) | 1.1962e5<br>(kJ·nm/mol) | 3.9902e-13<br>(kJ·s/mol) |
 
 </div>
 
@@ -53,10 +52,13 @@
 
 | | |
 |---|---|
-| **Planck** | Energy emitted only in fixed amounts (quanta) |
-| **Einstein** | Light arrives in packets (photons) of fixed energy |
+| **Maxwell** | Light is electromagnetic radiation |
+| **Planck** | Energy emitted only in fixed amounts (quanta) (black-body radiation) |
+| **Einstein** | Different light has different amounts of fixed energy (photons) (photoelectric effect) |
+| **Bohr** | Electrons are also quantum (line spectra); Rydberg equation |
+| **De Broglie** | Electrons are particle and wave |
+| **Schrodinger** | Wave equation (n, l, m_l, m_s) |
 | **Heisenberg** | Position and velocity not both knowable |
-| **Bohr** | e⁻ occupy fixed energy levels; explains line spectra |
 
 </div>
 
@@ -78,15 +80,15 @@
 
 <div class="lut lut-w1" markdown="1">
 
-| **<img src="assets/m_lam.png" class="eqi"> (m) given <img src="assets/x_hmu.png" class="eqi">;<br><img src="assets/m_m.png" class="eqi"> ↓ / <img src="assets/m_uv.png" class="eqi"> →** | **m/s** | **km/s** |
+| <img src="assets/v_h.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> (**m/s**) | **km/s** |
 |---|---|---|
-| **kg** | 6.626e-34 | 6.626e-37 |
-| **g** | 6.626e-31 | 6.626e-34 |
-| **amu** | 3.9892e-7 | 3.9892e-10 |
+| <img src="assets/m_m.png" class="eqi"> (**kg**) | 6.626e-34<br>(kg·m²/s) | 6.626e-37<br>(kg·m·km/s) |
+| **g** | 6.626e-31<br>(g·m²/s) | 6.626e-34<br>(g·m·km/s) |
+| **amu** | 3.9892e-7<br>(amu·m²/s) | 3.9892e-10<br>(amu·m·km/s) |
 
 </div>
 
-- Answer is in m — **×1e9 for nm** (1 nm = 1e-9 m)
+- 1 nm = 1e-9 m
 
 </div>
 <div class="problem" markdown="1">
@@ -100,11 +102,10 @@
 | <img src="assets/q_ml.png" class="eqi"> | **Orbital** (orientations) |  (-l, ..., l) |
 | <img src="assets/q_ms.png" class="eqi"> |  **Spin** (2 per orbital) | <img src="assets/q_msval.png" class="eqi"> |
 
-* **s** (0; 0, 1), **p** (1; ±1, 3), **d** (2; ±2, 5), **f** (3; ±3, 7)
-
-1. 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
-2. Respect **s2 p6 d10 f14**
-3. Apply exceptions
+* **s** (0;  0, 1/2),  **p** (1; ±1, 3/6),
+* **d** (2; ±2, 5/10), **f** (3; ±3, 7/14)
+* 1s 2s 2p 3s 3p **4s 3d** 4p 5s 4d 5p 6s 4f 5d
+1. Respect **s2 p6 d10 f14**
 
 | Trend | → across period | ↓ down group |
 |---|---|---|
@@ -124,6 +125,7 @@
 #### (7) Reading an Electron Configuration
 
 **Which element?**
+
 
 1. Noble-gas core → its own <img src="assets/m_Z.png" class="eqi">: [He]2 [Ne]10 [Ar]18 [Kr]36 [Xe]54
 2. Add every superscript to it = total e⁻ = <img src="assets/m_Z.png" class="eqi"> (neutral atom)
