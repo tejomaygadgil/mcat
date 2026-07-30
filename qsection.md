@@ -74,11 +74,12 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (5) de Broglie
-
-<img src="assets/v_debroglie.png" class="eq">
+#### (5) <img src="assets/w_deb.png" class="eqi"> (Wavelength = Planck / (mass × velocity))
 
 <div class="lut lut-w1" markdown="1">
+
+- 1 nm = 1e-9 m
+- 1 e- = 9.1e-28 g
 
 | <img src="assets/v_h.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> (**m/s**) | **km/s** |
 |---|---|---|
@@ -87,8 +88,6 @@
 | **amu** | 3.9892e-7<br>(J·s·amu/kg) | 3.9892e-10<br>(kJ·s·amu/kg) |
 
 </div>
-
-- 1 nm = 1e-9 m
 
 </div>
 <div class="problem" markdown="1">
