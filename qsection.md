@@ -173,9 +173,9 @@
 
 | **Family** | **Name** | **Reactivity** | **e-** | **Charge** |
 |---|---|---|---|---|
-| **1A** | alkali metals | most reactive metals (downward) | lose 1 | 1+ |
-| **2A** | alkaline earth | reactive, less than 1A | lose 2 | 2+ |
-| **7A** | halogens | reactive nonmetals (upward) | gain 1 | 1− |
+| **1A** | alkali metals | most reactive (downward) | lose 1 | 1+ |
+| **2A** | alkaline earth | less than 1A | lose 2 | 2+ |
+| **7A** | halogens | reactive (upward) | gain 1 | 1− |
 | **8A** | noble gases | **inert** | — | 0 |
 
 - **Diagonal rule** (Li~Mg, Be~Al, B~Si)
@@ -205,12 +205,13 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (16) Electronegativity
+#### (16-17) Electronegativity, Bond Polarity
 
 <img src="assets/v_en.png" class="eq">
 
 - <img src="assets/m_en.png" class="eqi"> = e- attraction in cov. bond.
-- Read <img src="assets/m_en.png" class="eqi"> off the chart — F highest, noble gases excluded
+- ↑ EN = ↑ bond = ↑ polar = shorter (not always)
+- triple > double > single (ranking)
 
 | <img src="assets/m_den.png" class="eqi"> | **Label** |
 |---|---|
@@ -222,58 +223,30 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (17) Bond Polarity
-
-1. Take the absolute difference (<img src="assets/m_den.png" class="eqi">)
-2. Classify with the table in (16)
-
-- **"Most polar" → <img src="assets/m_den.png" class="eqi"> alone** (largest difference wins)
-- **"Strongest / shortest bond" → bond order FIRST:** triple > double > single. <img src="assets/m_den.png" class="eqi"> only breaks ties between equal orders — a C≡N beats a high-<img src="assets/m_den.png" class="eqi"> Si=O
-- Larger <img src="assets/m_den.png" class="eqi"> → stronger, shorter bond, but the guide flags this as *not always true*
-
-</div>
-<div class="problem" markdown="1">
-
 #### (18) Formal Charge & Resonance
 
 <img src="assets/v_fc.png" class="eq">
 
-1. <img src="assets/m_fc.png" class="eqi"> on every atom
-2. Check <img src="assets/m_sfc.png" class="eqi"> = the overall charge
-3. Pick the structure with <img src="assets/m_fc.png" class="eqi">s **nearest 0**
-4. Put any −1 on the **more electronegative** atom
+1. Overall 0 charge is better
+2. Else −1 on the **more electronegative** atom
 
-- Equivalent resonance forms → real bonds are the **average** (e.g. 1½)
+- Equivalent resonance → real bonds are **average** (e.g. 1½)
 
 </div>
 <div class="problem" markdown="1">
 
-#### (19) Lewis Structures ×4
+#### (19) Lewis Structures (Kelter)
 
-1. Total valence e- — **+**1 per negative charge, **−**1 per positive
-2. Central atom = least electronegative, never H
-3. Single bonds out to every atom
-4. Fill outer octets with lone pairs (H takes 2)
-5. Leftover e- onto the central atom
-6. Central below 8 → pull an outer lone pair into a double/triple bond, **unless** Al/B/Be
-7. Check formal charges — see (18)
-
-**Four structures — one of each type:**
-
-<div class="nohdr" markdown="1">
-
-| | |
-|---|---|
-| **(a) Normal octet** | 8 valence e- per atom (H wants 2) — H₂O, CH₄, NH₃, CO₂, CH₂Cl₂, CH₃CH₂Cl |
-| **(b) Incomplete octet** | **Al, B, Be only** — content below 8, do not add double bonds to fix. BF₃/BCl₃/AlI₃ leave 6 e- on the center; BeCl₂ leaves 4 |
-| **(c) Expanded octet** | Central atom **period 3 or below** (S, P, Cl, Xe, As, I) uses empty d orbitals for >8 — AsCl₅, XeI₂, SO₄²⁻ |
-| **(d) Organic** | **–OH** alcohol · **C=O** aldehyde/ketone · **–COOH** carboxylic acid · **–NH₂** amine |
-
-</div>
-
-- Every C makes 4 bonds; a –COOH carbon carries one **=O** and one **–O–H**; every O gets 2 lone pairs
-- Ions go in brackets with the charge outside
-- If the all-single-bond form leaves the center with a nonzero <img src="assets/m_fc.png" class="eqi">, add double bonds to zero it (e.g. two S=O in SO₄²⁻)
+1. Sum valence e- (including +/- for ions)
+2. Sum "wants" (octet)
+    - H (2), He (2), - Be (4), Al (6), B (6)
+    - 3p or below (>8)
+3. Sum bonds = (2. - 1.) / 2 (round down)
+4. Central atom = min EN (never H)
+5. Remaining e- = 1. outside, central,
+    - Consider double/trip. bond for central octet / nonzero FC
+    - Ions go in brackets with the charge outside
+6. FC: overall 0, or 1- on max EN element
 
 </div>
 <div class="problem" markdown="1">

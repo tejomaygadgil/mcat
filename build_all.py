@@ -103,7 +103,7 @@ def pages_of(pdf):
 
 
 def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2,
-          pin_first=None):
+          pins=None):
     """Largest font (in `step` increments) that ACTUALLY renders in want_pages.
 
     Ink height scales close to linearly with font size, so rather than
@@ -123,12 +123,15 @@ def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2,
         last_rendered = pt
         set_font(pt)
         heights = measure(blocks)
-        if pin_first:
-            # column 1 is fixed to the first pin_first blocks; balance the rest
-            max_h, rest = repack.partition(heights[pin_first:], ncols - 1)
-            groups = [(0, pin_first)] + [(a + pin_first, b + pin_first)
-                                         for a, b in rest]
-            max_h = max(max_h, sum(heights[:pin_first]))
+        if pins:
+            # leading columns are fixed at the given block boundaries;
+            # balance the remaining blocks over the columns left
+            cuts = [0] + list(pins)
+            groups = [(cuts[i], cuts[i + 1]) for i in range(len(cuts) - 1)]
+            max_h, rest = repack.partition(heights[cuts[-1]:],
+                                           ncols - len(groups))
+            groups += [(a + cuts[-1], b + cuts[-1]) for a, b in rest]
+            max_h = max([max_h] + [sum(heights[a:b]) for a, b in groups])
         else:
             max_h, groups = repack.partition(heights, ncols)
         open(tmp, "w", encoding="utf-8").write(paginate(blocks, groups))
@@ -192,7 +195,7 @@ if __name__ == "__main__":
 
     print("2. building instruction sheet (must be 2 pages) ...")
     build("qsection.md", "chem_x19a_mt3_instruction_sheet.pdf",
-          ncols=4, want_pages=2, start_pt=8.8, min_pt=7.6, pin_first=6)
+          ncols=4, want_pages=2, start_pt=8.8, min_pt=7.6, pins=[6, 13])
 
     # print("3. building info sheet (must be 1 page) ...")
     # build("info_sheet.md", "chem_x19a_mt3_info_sheet.pdf",
