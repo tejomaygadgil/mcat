@@ -112,9 +112,11 @@
 | **d** | 2 | ±2 | 5 | 10 |
 | **f** | 3 | ±3 | 7 | 14 |
 
-- **Cr [Ar]4s¹3d⁵** · **Mo [Kr]5s¹4d⁵**
-- **Cu [Ar]4s¹3d¹⁰** · **Ag [Kr]5s¹4d¹⁰** · **Au [Xe]6s¹4f¹⁴5d¹⁰**
-- **Pd [Kr]4d¹⁰** (no 5s at all)
+| **Element** | **EC** | **Element** | **EC** |
+|---|---|---|---|
+| **Cr** | [Ar]4s¹3d⁵ | **Ag** | [Kr]5s¹4d¹⁰ |
+| **Mo** | [Kr]5s¹4d⁵ | **Au** | [Xe]6s¹4f¹⁴5d¹⁰ |
+| **Cu** | [Ar]4s¹3d¹⁰ | **Pd** | [Kr]4d¹⁰ (no 5s) |
 
 </div>
 <div class="problem" markdown="1">
