@@ -82,9 +82,9 @@
 
 | <img src="assets/v_h.png" class="eqi"> | <img src="assets/m_uv.png" class="eqi"> (**m/s**) | **km/s** |
 |---|---|---|
-| <img src="assets/m_m.png" class="eqi"> (**kg**) | 6.626e-34<br>(kg·m²/s) | 6.626e-37<br>(kg·m·km/s) |
-| **g** | 6.626e-31<br>(g·m²/s) | 6.626e-34<br>(g·m·km/s) |
-| **amu** | 3.9892e-7<br>(amu·m²/s) | 3.9892e-10<br>(amu·m·km/s) |
+| <img src="assets/m_m.png" class="eqi"> (**kg**) | 6.626e-34<br>(J·s) | 6.626e-37<br>(kJ·s) |
+| **g** | 6.626e-31<br>(mJ·s) | 6.626e-34<br>(J·s) |
+| **amu** | 3.9892e-7<br>(J·s·amu/kg) | 3.9892e-10<br>(kJ·s·amu/kg) |
 
 </div>
 
