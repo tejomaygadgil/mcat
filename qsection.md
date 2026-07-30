@@ -232,7 +232,11 @@
 1. Overall 0 charge is better
 2. Else −1 on the **more electronegative** atom
 
-- Equivalent resonance → real bonds are **average** (e.g. NO₂-: two equivalent N-O at 1½)
+- **Resonance** (e.g. NO₂-: two equivalent N-O at 1½)
+- **Hybrid** = ONE averaged structure, all bonds identical — "1 single + 1 double" describes a *form*, not the real ion
+- **Bond order** = total bonds / positions (NO₂- 3/2 = 1½ · NO₃-, CO₃²- 4/3 = 1⅓)
+- Hybrid bond length/strength sits **between** single and double
+- Between forms only e- move (lone pairs ⇄ double bonds), never atoms; same total e-
 
 </div>
 <div class="problem" markdown="1">
