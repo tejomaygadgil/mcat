@@ -131,6 +131,7 @@ MATHVARS = {
     "x_keeq":    r"KE = h(c/\lambda) - \Phi",
     "x_ueq":     r"u = \sqrt{2\,KE/m_e}",
     "x_dpeq":    r"\Delta p = m\cdot\Delta u",
+    "s21_h4pi":  r"h/(4\pi)",
     "x_dxeq":    r"\Delta x \geq h/(4\pi\cdot\Delta p)",
     "x_hmu":     r"h/(m\cdot u)",
     "m_m":       r"m",

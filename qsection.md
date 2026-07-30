@@ -166,6 +166,8 @@
 | **Nonmetallic** | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
 | **Electronegativity** (<img src="assets/m_en.png" class="eqi">) | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
 
+* EA equation: X + e- = X-
+
 </div>
 <div class="problem" markdown="1">
 
@@ -279,6 +281,10 @@
 1. <img src="assets/x_dpeq.png" class="eqi"> (kg, m/s)
 2. <img src="assets/x_dxeq.png" class="eqi">
 
+| **Variable** | **Value** |
+|---|---|
+| <img src="assets/s21_h4pi.png" class="eqi"> | 5.2728e-35 J·s |
+
 - Result is the **minimum** uncertainty
 - Rearrange the same way to solve for <img src="assets/m_du.png" class="eqi">
 - Keep everything in kg, m, s
@@ -338,10 +344,8 @@
 | C=N | 615 | O-I | 234 | S=S | 418 |
 | C≡N | 891 | F-F | 159 | S-F | 327 |
 | C-O | 360 | Cl-F | 253 | S-Cl | 253 |
-| C=O | 736* | Cl-Cl | 243 | S-Br | 218 |
+| C=O | 736 (799 in CO₂) | Cl-Cl | 243 | S-Br | 218 |
 | C≡O | 1072 | | | S-S | 266 |
 | C-Cl | 339 | | | | |
-
-- *799 in CO₂
 
 </div>
