@@ -232,7 +232,7 @@
 1. Overall 0 charge is better
 2. Else −1 on the **more electronegative** atom
 
-- Equivalent resonance → real bonds are **average** (e.g. 1½)
+- Equivalent resonance → real bonds are **average** (e.g. NO₂-: two equivalent N-O at 1½)
 
 </div>
 <div class="problem" markdown="1">
