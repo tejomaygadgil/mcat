@@ -235,3 +235,298 @@ fig.savefig(out_path, dpi=DPI, transparent=True,
             bbox_inches="tight", pad_inches=0.04)
 plt.close(fig)
 print("wrote", out_path)
+
+# Lewis-structure gallery for page 2 -- correct completed structures for the
+# molecules asked in the practice exam, ch.9 slides, and ch.9 homework quiz.
+import math
+fig = plt.figure(figsize=(9.2, 23.5))
+W = 10.0
+H = W * 23.5 / 9.2
+ax = fig.add_axes([0, 0, 1, 1])
+ax.set_xlim(0, W); ax.set_ylim(0, H); ax.axis("off")
+AFS, LFS = 17, 15    # atom / caption font (final pt ~= fontsize * 0.378)
+R = 0.26             # bond clearance around atom label
+B = 0.85             # bond length
+
+def atom(x, y, s, fs=None):
+    ax.text(x, y, s, ha="center", va="center", fontsize=fs or AFS,
+            color="#111111")
+
+def bond(x1, y1, x2, y2, order=1):
+    dx, dy = x2 - x1, y2 - y1
+    L = math.hypot(dx, dy); ux, uy = dx / L, dy / L
+    px, py = -uy, ux
+    a1, b1 = x1 + ux * R, y1 + uy * R
+    a2, b2 = x2 - ux * R, y2 - uy * R
+    for o in {1: [0], 2: [-0.055, 0.055], 3: [-0.1, 0, 0.1]}[order]:
+        ax.plot([a1 + px * o, a2 + px * o], [b1 + py * o, b2 + py * o],
+                color="#111111", lw=1.3, solid_capstyle="round")
+
+def lp(x, y, ang):
+    a = math.radians(ang)
+    cx, cy = x + math.cos(a) * R * 1.35, y + math.sin(a) * R * 1.35
+    px, py = -math.sin(a), math.cos(a)
+    for o in (-0.075, 0.075):
+        ax.plot([cx + px * o], [cy + py * o], marker="o", ms=2.6,
+                color="#111111")
+
+def tlp(x, y, d):          # terminal atom w/ single bond: 3 lone pairs
+    for a in (d, d + 75, d - 75): lp(x, y, a)
+
+def dlp(x, y, d):          # terminal atom w/ double bond: 2 lone pairs
+    for a in (d + 50, d - 50): lp(x, y, a)
+
+def cap(x, y, s):
+    ax.text(x, y, s, ha="center", va="center", fontsize=LFS,
+            fontweight="bold", color="#111111")
+
+def brackets(xl, xr, yb, yt, q):
+    for xs, sgn in ((xl, 1), (xr, -1)):
+        ax.plot([xs + sgn * 0.1, xs, xs, xs + sgn * 0.1],
+                [yb, yb, yt, yt], color="#111111", lw=1.3)
+    ax.text(xr + 0.12, yt + 0.05, q, ha="left", va="center",
+            fontsize=LFS, color="#111111")
+
+# --- row 1: CO2, CO, NH3, H2CO ---
+y = H - 1.0
+x = 1.1
+atom(x, y, "C"); atom(x - B, y, "O"); atom(x + B, y, "O")
+bond(x, y, x - B, y, 2); bond(x, y, x + B, y, 2)
+dlp(x - B, y, 180); dlp(x + B, y, 0)
+cap(x, y - 1.15, "CO$_2$")
+x = 3.6
+atom(x, y, "C"); atom(x + B, y, "O")
+bond(x, y, x + B, y, 3); lp(x, y, 180); lp(x + B, y, 0)
+cap(x + 0.4, y - 1.15, "CO")
+x = 6.0
+atom(x, y, "N"); atom(x - B, y, "H"); atom(x + B, y, "H"); atom(x, y - B, "H")
+bond(x, y, x - B, y); bond(x, y, x + B, y); bond(x, y, x, y - B)
+lp(x, y, 90)
+cap(x, y - 1.6, "NH$_3$")
+x = 8.5
+atom(x, y, "C"); atom(x, y + 0.8 * B, "O")
+atom(x - 0.7 * B, y - 0.6 * B, "H"); atom(x + 0.7 * B, y - 0.6 * B, "H")
+bond(x, y, x, y + 0.8 * B, 2)
+bond(x, y, x - 0.7 * B, y - 0.6 * B); bond(x, y, x + 0.7 * B, y - 0.6 * B)
+dlp(x, y + 0.8 * B, 90)
+cap(x, y - 1.35, "H$_2$CO")
+
+# --- row 2: NF3, CH2Cl2, NH4+, ClO- ---
+y = H - 3.9
+x = 1.1
+atom(x, y, "N"); atom(x - B, y, "F"); atom(x + B, y, "F"); atom(x, y - B, "F")
+bond(x, y, x - B, y); bond(x, y, x + B, y); bond(x, y, x, y - B)
+lp(x, y, 90); tlp(x - B, y, 180); tlp(x + B, y, 0); tlp(x, y - B, 270)
+cap(x, y - 1.9, "NF$_3$")
+x = 3.6
+atom(x, y, "C"); atom(x, y + B, "H"); atom(x - B, y, "H")
+atom(x + B, y, "Cl"); atom(x, y - B, "Cl")
+bond(x, y, x, y + B); bond(x, y, x - B, y)
+bond(x, y, x + B, y); bond(x, y, x, y - B)
+tlp(x + B, y, 0); tlp(x, y - B, 270)
+cap(x, y - 1.9, "CH$_2$Cl$_2$")
+x = 6.3
+atom(x, y, "N"); atom(x, y + 0.8 * B, "H"); atom(x, y - 0.8 * B, "H")
+atom(x - 0.8 * B, y, "H"); atom(x + 0.8 * B, y, "H")
+bond(x, y, x, y + 0.8 * B); bond(x, y, x, y - 0.8 * B)
+bond(x, y, x - 0.8 * B, y); bond(x, y, x + 0.8 * B, y)
+brackets(x - 1.15, x + 1.15, y - 1.0, y + 1.0, "+")
+cap(x, y - 1.9, "NH$_4$$^+$")
+x = 8.6
+atom(x, y, "Cl"); atom(x + B, y, "O")
+bond(x, y, x + B, y)
+lp(x, y, 90); lp(x, y, 180); lp(x, y, 270)
+lp(x + B, y, 90); lp(x + B, y, 0); lp(x + B, y, 270)
+brackets(x - 0.6, x + B + 0.6, y - 0.55, y + 0.55, "−")
+cap(x + 0.4, y - 1.9, "ClO$^-$")
+
+# --- row 3: NO2- resonance pair, CO3 2- ---
+y = H - 7.2
+for k, (o1, o2) in enumerate(((2, 1), (1, 2))):
+    x = 1.3 + k * 2.95
+    ox1, oy1 = x - 0.75 * B, y - 0.62 * B
+    ox2, oy2 = x + 0.75 * B, y - 0.62 * B
+    atom(x, y, "N"); atom(ox1, oy1, "O"); atom(ox2, oy2, "O")
+    bond(x, y, ox1, oy1, o1); bond(x, y, ox2, oy2, o2)
+    lp(x, y, 90)
+    (dlp if o1 == 2 else tlp)(ox1, oy1, 220)
+    (dlp if o2 == 2 else tlp)(ox2, oy2, 320)
+    brackets(x - 1.35, x + 1.35, y - 1.15, y + 0.5, "−")
+ax.text(2.78, y - 0.3, "↔", ha="center", va="center", fontsize=19,
+        color="#111111")
+cap(2.8, y - 1.85, "NO$_2$$^-$ (2 equivalent forms)")
+x = 7.3
+atom(x, y, "C"); atom(x, y + 0.85 * B, "O")
+ox1, oy1 = x - 0.8 * B, y - 0.6 * B
+ox2, oy2 = x + 0.8 * B, y - 0.6 * B
+atom(ox1, oy1, "O"); atom(ox2, oy2, "O")
+bond(x, y, x, y + 0.85 * B, 2); bond(x, y, ox1, oy1); bond(x, y, ox2, oy2)
+dlp(x, y + 0.85 * B, 90); tlp(ox1, oy1, 215); tlp(ox2, oy2, 325)
+brackets(x - 1.65, x + 1.65, y - 1.2, y + 1.1, "2−")
+cap(x, y - 1.85, "CO$_3$$^{2-}$ (×3 forms)")
+
+# --- row 4: HNO3, BeCl2, KCl ---
+y = H - 10.4
+x = 1.4
+atom(x, y, "N"); atom(x, y + 0.85 * B, "O")
+atom(x - B, y, "O"); atom(x + B, y, "O"); atom(x + 1.8 * B, y, "H")
+bond(x, y, x, y + 0.85 * B, 2); bond(x, y, x - B, y); bond(x, y, x + B, y)
+bond(x + B, y, x + 1.8 * B, y)
+dlp(x, y + 0.85 * B, 90); tlp(x - B, y, 180)
+lp(x + B, y, 90); lp(x + B, y, 270)
+cap(x + 0.3, y - 1.35, "HNO$_3$")
+x = 5.0
+atom(x, y, "Be"); atom(x - B, y, "Cl"); atom(x + B, y, "Cl")
+bond(x, y, x - B, y); bond(x, y, x + B, y)
+tlp(x - B, y, 180); tlp(x + B, y, 0)
+cap(x, y - 1.35, "BeCl$_2$ (4 e- on Be)")
+x = 8.6
+atom(x - 1.5 * B, y, "K$^+$"); atom(x, y, "Cl")
+lp(x, y, 0); lp(x, y, 90); lp(x, y, 180); lp(x, y, 270)
+brackets(x - 0.62, x + 0.62, y - 0.55, y + 0.55, "−")
+cap(x - 0.6, y - 1.35, "KCl (ionic)")
+
+# --- row 5: BF3, PCl5, SF6 ---
+y = H - 13.4
+x = 1.4
+atom(x, y, "B"); atom(x, y + B, "F")
+ox1, oy1 = x - 0.85 * B, y - 0.6 * B
+ox2, oy2 = x + 0.85 * B, y - 0.6 * B
+atom(ox1, oy1, "F"); atom(ox2, oy2, "F")
+bond(x, y, x, y + B); bond(x, y, ox1, oy1); bond(x, y, ox2, oy2)
+tlp(x, y + B, 90); tlp(ox1, oy1, 215); tlp(ox2, oy2, 325)
+cap(x, y - 1.9, "BF$_3$ (6 e- on B)")
+x = 5.0
+atom(x, y, "P")
+for adeg in (90, 162, 234, 306, 18):
+    a = math.radians(adeg)
+    fx, fy = x + math.cos(a) * B, y + math.sin(a) * B
+    atom(fx, fy, "Cl", fs=15); bond(x, y, fx, fy); tlp(fx, fy, adeg)
+cap(x, y - 1.9, "PCl$_5$ (10 e-)")
+x = 8.5
+atom(x, y, "S")
+for adeg in (0, 60, 120, 180, 240, 300):
+    a = math.radians(adeg)
+    fx, fy = x + math.cos(a) * B, y + math.sin(a) * B
+    atom(fx, fy, "F", fs=15); bond(x, y, fx, fy); tlp(fx, fy, adeg)
+cap(x, y - 1.9, "SF$_6$ (12 e-)")
+
+# --- row 6: CH3CHO, CH3CH2COOH ---
+y = H - 16.6
+x = 1.0
+atom(x, y, "C"); atom(x, y + 0.8 * B, "H"); atom(x - 0.8 * B, y, "H")
+atom(x, y - 0.8 * B, "H")
+bond(x, y, x, y + 0.8 * B); bond(x, y, x - 0.8 * B, y)
+bond(x, y, x, y - 0.8 * B)
+atom(x + B, y, "C"); bond(x, y, x + B, y)
+atom(x + B, y + 0.85 * B, "O"); bond(x + B, y, x + B, y + 0.85 * B, 2)
+dlp(x + B, y + 0.85 * B, 90)
+atom(x + 1.75 * B, y - 0.45 * B, "H"); bond(x + B, y, x + 1.75 * B, y - 0.45 * B)
+cap(x + 0.5, y - 1.6, "CH$_3$CHO (aldehyde)")
+x = 5.3
+for i in range(3):
+    cx = x + i * B
+    atom(cx, y, "C")
+    if i: bond(cx - B, y, cx, y)
+atom(x, y + 0.8 * B, "H"); bond(x, y, x, y + 0.8 * B)
+atom(x - 0.8 * B, y, "H"); bond(x, y, x - 0.8 * B, y)
+atom(x, y - 0.8 * B, "H"); bond(x, y, x, y - 0.8 * B)
+atom(x + B, y + 0.8 * B, "H"); bond(x + B, y, x + B, y + 0.8 * B)
+atom(x + B, y - 0.8 * B, "H"); bond(x + B, y, x + B, y - 0.8 * B)
+atom(x + 2 * B, y + 0.85 * B, "O"); bond(x + 2 * B, y, x + 2 * B, y + 0.85 * B, 2)
+dlp(x + 2 * B, y + 0.85 * B, 90)
+atom(x + 3 * B, y, "O"); bond(x + 2 * B, y, x + 3 * B, y)
+lp(x + 3 * B, y, 90); lp(x + 3 * B, y, 270)
+atom(x + 3.8 * B, y, "H"); bond(x + 3 * B, y, x + 3.8 * B, y)
+cap(x + 1.3, y - 1.6, "CH$_3$CH$_2$COOH (carboxylic acid)")
+
+# --- rows 8-9: functional-group templates (slides "Lewis Structures in
+# Organic Chemistry - 2") ---
+y = H - 19.2
+x = 0.9
+atom(x, y, "R"); atom(x + 0.8 * B, y, "O"); atom(x + 1.6 * B, y, "H")
+bond(x, y, x + 0.8 * B, y); bond(x + 0.8 * B, y, x + 1.6 * B, y)
+lp(x + 0.8 * B, y, 90); lp(x + 0.8 * B, y, 270)
+cap(x + 0.65, y - 1.0, "Alcohol")
+x = 3.1
+atom(x, y, "R"); atom(x + 0.8 * B, y, "O"); atom(x + 1.6 * B, y, "R")
+bond(x, y, x + 0.8 * B, y); bond(x + 0.8 * B, y, x + 1.6 * B, y)
+lp(x + 0.8 * B, y, 90); lp(x + 0.8 * B, y, 270)
+cap(x + 0.65, y - 1.0, "Ether")
+x = 5.3
+atom(x, y, "R"); atom(x + 0.8 * B, y, "O"); atom(x + 1.6 * B, y, "O")
+atom(x + 2.4 * B, y, "R")
+bond(x, y, x + 0.8 * B, y); bond(x + 0.8 * B, y, x + 1.6 * B, y)
+bond(x + 1.6 * B, y, x + 2.4 * B, y)
+for ox in (0.8, 1.6):
+    lp(x + ox * B, y, 90); lp(x + ox * B, y, 270)
+cap(x + 1.0, y - 1.0, "Peroxide")
+x = 8.3
+atom(x, y, "R"); atom(x + 0.8 * B, y, "N"); bond(x, y, x + 0.8 * B, y)
+rx, ry = x + 1.5 * B, y + 0.55 * B
+atom(rx, ry, "R"); bond(x + 0.8 * B, y, rx, ry)
+rx2, ry2 = x + 1.5 * B, y - 0.55 * B
+atom(rx2, ry2, "R"); bond(x + 0.8 * B, y, rx2, ry2)
+lp(x + 0.8 * B, y, 90)
+cap(x + 0.65, y - 1.0, "Amine")
+
+y = H - 21.6
+x = 0.8
+atom(x, y, "R"); atom(x + B, y, "C"); atom(x + B, y + 0.85 * B, "O")
+atom(x + 1.8 * B, y - 0.4 * B, "H")
+bond(x, y, x + B, y); bond(x + B, y, x + B, y + 0.85 * B, 2)
+bond(x + B, y, x + 1.8 * B, y - 0.4 * B)
+dlp(x + B, y + 0.85 * B, 90)
+cap(x + 0.85, y - 1.15, "Aldehyde")
+x = 2.9
+atom(x, y, "R"); atom(x + B, y, "C"); atom(x + B, y + 0.85 * B, "O")
+atom(x + 2 * B, y, "R")
+bond(x, y, x + B, y); bond(x + B, y, x + B, y + 0.85 * B, 2)
+bond(x + B, y, x + 2 * B, y)
+dlp(x + B, y + 0.85 * B, 90)
+cap(x + 0.85, y - 1.15, "Ketone")
+x = 5.0
+atom(x, y, "R"); atom(x + B, y, "C"); atom(x + B, y + 0.85 * B, "O")
+atom(x + 2 * B, y, "O"); atom(x + 2.8 * B, y, "H")
+bond(x, y, x + B, y); bond(x + B, y, x + B, y + 0.85 * B, 2)
+bond(x + B, y, x + 2 * B, y); bond(x + 2 * B, y, x + 2.8 * B, y)
+dlp(x + B, y + 0.85 * B, 90)
+lp(x + 2 * B, y, 90); lp(x + 2 * B, y, 270)
+cap(x + 1.3, y - 1.15, "Carboxylic acid")
+x = 7.9
+atom(x, y, "R"); atom(x + B, y, "C"); atom(x + B, y + 0.85 * B, "O")
+atom(x + 2 * B, y, "N")
+bond(x, y, x + B, y); bond(x + B, y, x + B, y + 0.85 * B, 2)
+bond(x + B, y, x + 2 * B, y)
+dlp(x + B, y + 0.85 * B, 90)
+rx, ry = x + 2.7 * B, y + 0.5 * B
+atom(rx, ry, "R"); bond(x + 2 * B, y, rx, ry)
+rx2, ry2 = x + 2.7 * B, y - 0.5 * B
+atom(rx2, ry2, "R"); bond(x + 2 * B, y, rx2, ry2)
+lp(x + 2 * B, y, 90)
+cap(x + 1.5, y - 1.15, "Amide")
+
+y = H - 24.0
+x = 1.5
+c1x, c1y = x - 0.55 * B, y - 0.4 * B
+c2x, c2y = x + 0.55 * B, y - 0.4 * B
+atom(x, y + 0.55 * B, "O"); atom(c1x, c1y, "C"); atom(c2x, c2y, "C")
+bond(x, y + 0.55 * B, c1x, c1y); bond(x, y + 0.55 * B, c2x, c2y)
+bond(c1x, c1y, c2x, c2y)
+lp(x, y + 0.55 * B, 130); lp(x, y + 0.55 * B, 50)
+cap(x, y - 1.35, "Epoxide")
+x = 4.6
+atom(x, y, "R"); atom(x + 0.85 * B, y, "N"); atom(x + 1.75 * B, y, "N")
+atom(x + 2.75 * B, y, "N")
+bond(x, y, x + 0.85 * B, y); bond(x + 0.85 * B, y, x + 1.75 * B, y)
+bond(x + 1.75 * B, y, x + 2.75 * B, y, 3)
+lp(x + 0.85 * B, y, 90); lp(x + 0.85 * B, y, 270); lp(x + 2.75 * B, y, 0)
+atom(x + 0.85 * B, y + 0.75, "−", fs=13)
+atom(x + 1.75 * B, y + 0.75, "+", fs=13)
+cap(x + 1.2, y - 1.35, "Azide (R–N$_3$)")
+
+out_path = os.path.join(OUT_DIR, "e3_lewis.png")
+fig.savefig(out_path, dpi=DPI, transparent=True,
+            bbox_inches="tight", pad_inches=0.04)
+plt.close(fig)
+print("wrote", out_path)

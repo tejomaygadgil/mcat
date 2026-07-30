@@ -352,3 +352,10 @@
 | C-Cl | 339 | | | | |
 
 </div>
+<div class="problem" markdown="1">
+
+#### Lewis Gallery
+
+<img src="assets/e3_lewis.png" class="eq">
+
+</div>
