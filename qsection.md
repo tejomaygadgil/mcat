@@ -168,23 +168,21 @@
 
 #### (11)–(13) Trends
 
-| Trend | → across period | ↓ down group |
-|---|---|---|
-| <img src="assets/v_zeff.png" class="eqi"> | increases | ~constant |
-| Atomic radius | decreases | increases |
-| Ionization energy | increases | decreases |
-| Electron affinity | more favorable | less favorable |
+| **Trend** | **Top** | **Bot** | **Left** | **Right** |
+|---|---|---|---|---|
+| **(11) Atomic size** (radius) (↙) | ↓ | ↑ | ↑ | ↓ |
+| **(12) Ionization energy** (↗) | ↑ | ↓ | ↓ | ↑ |
+| **(13) Electron affinity** (↗) | ↑ | ↓ | ↓ | ↑ |
 
 **Atomic size**
 
 - Down a group **bigger** (new shell) · across a period **smaller** (<img src="assets/s_zeff.png" class="eqi"> pulls in)
-- **↑ = lower-left** · **↓ = upper-right**
 - Group position beats period position when both apply
 - cation &lt; neutral &lt; anion
 
 **Ionization energy**
 
-- **↑ = upper-right** (He ↑ of all) · **↓ = lower-left** (opposite of radius)
+- He ↑ of all · opposite of radius
 - <img src="assets/m_ie2.png" class="eqi"> > <img src="assets/m_ie1.png" class="eqi"> always
 - **Big jump** appears once the first **core** e- is removed
 
