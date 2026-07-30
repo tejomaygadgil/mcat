@@ -41,6 +41,7 @@ EQ_WIDTH_OVERRIDES = {
     "w_hnu": 18,
     "w_cln": 40, "w_ephot": 104, "w_deb": 76,
     "s5_R": 8, "s5_hc": 18, "s5_hR": 32, "s5_hcR": 48, "s20_2hcme": 48,
+    "e3_bhcycle": 250,
 }
 
 def eq_style(png_path):
@@ -130,15 +131,15 @@ hr { border: none; margin: 3pt 0; }
 .ch7 em { font-size: 7.3pt; }
 .ch7 table { font-size: 7.3pt; line-height: 0.98; margin: 0.5pt 0 2pt; }
 .ch7 th, .ch7 td { padding: 0.3pt 2pt; }
-.page { font-size: 8.8pt; line-height: 1.06; }
-.page h2 { font-size: 10.74pt; margin: 0 0 1.5pt; }
-.page h4 { font-size: 9.15pt; margin: 1.6pt 0 1.2pt; font-weight: 700;
+.page { font-size: 8.6pt; line-height: 1.06; }
+.page h2 { font-size: 10.49pt; margin: 0 0 1.5pt; }
+.page h4 { font-size: 8.94pt; margin: 1.6pt 0 1.2pt; font-weight: 700;
            background: #111; color: #fff; padding: 0.5pt 4pt;
            border-radius: 2px; break-after: avoid; }
-.page:first-child { font-size: 8.8pt; }
-.page:first-child h2 { font-size: 10.74pt; }
+.page:first-child { font-size: 8.6pt; }
+.page:first-child h2 { font-size: 10.49pt; }
 .page:first-child h3 { font-size: 9.4pt; }
-.page:first-child h4 { font-size: 9.15pt; }
+.page:first-child h4 { font-size: 8.94pt; }
 .page ol, .page ul { padding-left: 9pt; margin: 0.3pt 0 0.7pt; }
 .page li { margin: 0; }
 .page p { margin: 0.3pt 0; }

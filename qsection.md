@@ -207,13 +207,13 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (16-17) Electronegativity, Bond Polarity
+#### (16-17) Electronegativity, Bonds
 
 <img src="assets/v_en.png" class="eq">
 
 - <img src="assets/m_en.png" class="eqi"> = e- attraction in cov. bond.
-- ↑ EN = ↑ bond = ↑ polar = shorter (not always)
-- triple > double > single (ranking)
+- ↑ <img src="assets/m_den.png" class="eqi"> EN = ↑ polar = ↑ bond (not always)
+- Stronger = shorter (triple > double > single)
 
 | <img src="assets/m_den.png" class="eqi"> | **Label** |
 |---|---|
@@ -291,6 +291,8 @@
 #### (22) Born–Haber Cycle
 
 <img src="assets/e3_bornhaber.png" class="eq">
+
+<img src="assets/e3_bhcycle.png" class="eq">
 
 1. List every step with its sign: sublimation (+), <img src="assets/m_ie.png" class="eqi"> (+), bond dissociation (+), <img src="assets/m_ea.png" class="eqi"> (usually −), <img src="assets/m_Ul.png" class="eqi"> (−)
 2. **Halve** the bond dissociation if you need only one atom

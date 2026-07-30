@@ -201,3 +201,36 @@ for name, latex in BOHR_TABLE.items():
                 bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
     print("wrote", out_path)
+
+# Born-Haber cycle diagram for (22) -- LiF example with per-step enthalpies.
+# Final font pt on the sheet = fontsize * 0.378 (EQ_SCALE), so 20 -> ~7.6pt.
+fig = plt.figure(figsize=(9.2, 4.9))
+ax = fig.add_axes([0, 0, 1, 1])
+ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis("off")
+BOX = dict(boxstyle="round,pad=0.35", fc="white", ec="#111111", lw=1.4)
+ARR = dict(arrowstyle="-|>", color="#7a1f2b", lw=2.0)
+ax.text(2.1, 8.9, r"$\mathrm{Li^+(g) + F^-(g)}$", ha="center", va="center",
+        fontsize=20, bbox=BOX)
+ax.text(2.1, 5.0, r"$\mathrm{Li(g) + F(g)}$", ha="center", va="center",
+        fontsize=20, bbox=BOX)
+ax.text(2.1, 1.1, r"$\mathrm{Li(s) + \frac{1}{2}F_2(g)}$", ha="center",
+        va="center", fontsize=20, bbox=BOX)
+ax.text(8.7, 1.1, r"$\mathrm{LiF(s)}$", ha="center", va="center",
+        fontsize=20, bbox=BOX)
+for x in (1.5, 2.7):
+    ax.annotate("", xy=(x, 4.3), xytext=(x, 1.8), arrowprops=ARR)
+    ax.annotate("", xy=(x, 8.2), xytext=(x, 5.7), arrowprops=ARR)
+ax.annotate("", xy=(8.7, 1.9), xytext=(3.8, 8.6), arrowprops=ARR)
+ax.annotate("", xy=(7.7, 1.1), xytext=(3.6, 1.1), arrowprops=ARR)
+ax.text(1.35, 3.05, "subl.\n+155.2", ha="right", va="center", fontsize=17)
+ax.text(2.85, 3.05, "diss.\n+75.3", ha="left", va="center", fontsize=17)
+ax.text(1.35, 6.95, "IE\n+520", ha="right", va="center", fontsize=17)
+ax.text(2.85, 6.95, "−EA\n−328", ha="left", va="center", fontsize=17)
+ax.text(6.9, 5.9, "−U\n−1017", ha="left", va="center", fontsize=17)
+ax.text(5.65, 0.45, r"$\Delta H\degree_f = -594.1$ kJ", ha="center",
+        va="center", fontsize=17)
+out_path = os.path.join(OUT_DIR, "e3_bhcycle.png")
+fig.savefig(out_path, dpi=DPI, transparent=True,
+            bbox_inches="tight", pad_inches=0.04)
+plt.close(fig)
+print("wrote", out_path)
