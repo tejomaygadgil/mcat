@@ -243,16 +243,19 @@
 
 #### (19) Lewis Structures (Kelter)
 
-1. Sum valence e- (including +/- for ions)
-2. Sum "wants" (octet)
-    - H (2), He (2), - Be (4), Al (6), B (6)
-    - 3p or below (>8)
+1. Sum valence e- (**= group #**; including +/- for ions)
+2. Sum "wants" (table below; period 3+ central may go >8)
 3. Sum bonds = (2. - 1.) / 2 (round down)
 4. Central atom = min EN (never H)
 5. Remaining e- = 1. outside, central,
     - Consider double/trip. bond for central octet / nonzero FC
     - Ions go in brackets with the charge outside
 6. FC: overall 0, or 1- on max EN element
+
+| | **H** | **Be** | **B, Al** | **C, Si** | **N, P** | **O, S** | **F–I** | **Noble** |
+|---|---|---|---|---|---|---|---|---|
+| **Val. e-** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| **Wants** | 2 | 4 | 6 | 8 | 8 | 8 | 8 | 8 (He 2) |
 
 </div>
 <div class="problem" markdown="1">
