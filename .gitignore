@@ -1,0 +1,16 @@
+# Course source material — textbook chapters, practice exams, homework sets.
+# Unanchored on purpose: this catches prep/ at any depth, in every guide.
+prep/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# uv / venv
+.venv/
+venv/
+
+# OS
+.DS_Store
