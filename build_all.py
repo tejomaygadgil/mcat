@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-Build both CHEMx19A Exam III sheets from source.
+Build the CHEMx19A Exam III sheet from source.
 
     python3 build_all.py
 
 Produces:
-    chem_x19a_mt3_instruction_sheet.pdf   2 pages, 23 numbered question boxes
-    chem_x19a_mt3_info_sheet.pdf          1 page, chapter reference
+    mt3.pdf   2 pages, 23 numbered question boxes
 
 Pipeline: render LaTeX -> measure each box at true column width ->
 solve the optimal column split -> emit page/column breaks -> render PDF.
@@ -20,9 +19,6 @@ import markdown
 import numpy as np
 from pdf2image import convert_from_bytes, convert_from_path
 from weasyprint import HTML
-
-import extract
-import repack
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ROOT)
@@ -60,6 +56,48 @@ def set_font(pt):
 
 def _tick(msg):
     print(f"\r{msg}", end="", flush=True)
+
+
+def top_blocks(text):
+    """Split text into top-level <div>...</div> blocks, honouring nesting."""
+    text = re.sub(r"\n?<!--\s*colbreak\s*-->\n?", "\n", text)   # drop stale breaks
+    blocks, depth, start = [], 0, None
+    for m in re.finditer(r"<div\b[^>]*>|</div>", text):
+        if not m.group(0).startswith("</"):
+            if depth == 0:
+                start = m.start()
+            depth += 1
+        else:
+            depth -= 1
+            if depth == 0:
+                blocks.append(text[start:m.end()])
+    return blocks
+
+
+def partition(hs, k):
+    """Split hs into k contiguous groups minimising the tallest group (DP)."""
+    n = len(hs)
+    INF = float("inf")
+    pre = [0]
+    for h in hs:
+        pre.append(pre[-1] + h)
+    dp = [[INF] * (k + 1) for _ in range(n + 1)]
+    cut = [[0] * (k + 1) for _ in range(n + 1)]
+    dp[0][0] = 0
+    for i in range(1, n + 1):
+        for j in range(1, k + 1):
+            for m in range(j - 1, i):
+                v = max(dp[m][j - 1], pre[i] - pre[m])
+                if v < dp[i][j]:
+                    dp[i][j] = v
+                    cut[i][j] = m
+    g = []
+    i, j = n, k
+    while j > 0:
+        m = cut[i][j]
+        g.append((m, i))
+        i, j = m, j - 1
+    return dp[n][k], g[::-1]
 
 
 def measure(blocks):
@@ -113,7 +151,7 @@ def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2,
     nudge in the needed direction until the rendered page count matches --
     typically 2-3 renders total instead of a full scan of the font ladder.
     """
-    blocks = extract.top_blocks(open(src_md, encoding="utf-8").read())
+    blocks = top_blocks(open(src_md, encoding="utf-8").read())
     tmp = f".{os.path.basename(out_pdf)}.md"
     tried = []
     last_rendered = None
@@ -128,12 +166,11 @@ def build(src_md, out_pdf, ncols, want_pages, start_pt, min_pt, step=0.2,
             # balance the remaining blocks over the columns left
             cuts = [0] + list(pins)
             groups = [(cuts[i], cuts[i + 1]) for i in range(len(cuts) - 1)]
-            max_h, rest = repack.partition(heights[cuts[-1]:],
-                                           ncols - len(groups))
+            max_h, rest = partition(heights[cuts[-1]:], ncols - len(groups))
             groups += [(a + cuts[-1], b + cuts[-1]) for a, b in rest]
             max_h = max([max_h] + [sum(heights[a:b]) for a, b in groups])
         else:
-            max_h, groups = repack.partition(heights, ncols)
+            max_h, groups = partition(heights, ncols)
         open(tmp, "w", encoding="utf-8").write(paginate(blocks, groups))
         _tick(f"    rendering PDF at {pt}pt ...")
         subprocess.run([sys.executable, "build_pdf.py", tmp, out_pdf], check=True,
@@ -193,12 +230,8 @@ if __name__ == "__main__":
                    stdout=subprocess.DEVNULL)
     print(f"   {len(os.listdir('assets'))} images in assets/")
 
-    print("2. building instruction sheet (must be 2 pages) ...")
-    build("qsection.md", "chem_x19a_mt3_instruction_sheet.pdf",
+    print("2. building mt3.pdf (must be 2 pages) ...")
+    build("qsection.md", "mt3.pdf",
           ncols=4, want_pages=2, start_pt=8.8, min_pt=7.6, pins=[6, 13, 18])
-
-    # print("3. building info sheet (must be 1 page) ...")
-    # build("info_sheet.md", "chem_x19a_mt3_info_sheet.pdf",
-    #       ncols=2, want_pages=1, start_pt=9.4, min_pt=8.6)
 
     print("\ndone.")

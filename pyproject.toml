@@ -1,7 +1,7 @@
 [project]
 name = "chem-x19a-mt3"
 version = "0.1.0"
-description = "CHEMx19A Exam III instruction & info sheets, built from markdown to PDF"
+description = "CHEMx19A Exam III exam sheet, built from markdown to PDF"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [

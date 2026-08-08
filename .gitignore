@@ -13,3 +13,6 @@ venv/
 
 # OS
 .DS_Store
+
+# Course source material, not repo content
+/prep/
