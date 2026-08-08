@@ -22,7 +22,17 @@ pango/cairo/gdk-pixbuf, which `weasyprint` loads at runtime.
     uv run python build.py
 
 `uv` installs the pinned dependencies from `uv.lock` into `.venv/` on first
-run. On macOS the script re-execs itself once with
+run.
+
+**`.python-version` is load-bearing — don't delete it.** `uv.lock` resolves
+*per interpreter*, so a bare `requires-python = ">=3.9"` let one checkout
+build on Python 3.9 + WeasyPrint 66 and another on 3.12 + WeasyPrint 69.
+Those lay text out slightly differently, which moved the font search from
+8.6pt to 8.4pt — a different PDF from identical source. Pinning the
+interpreter collapses `uv.lock` to a single resolution; two clean builds
+now agree byte for byte.
+
+On macOS the script re-execs itself once with
 `DYLD_FALLBACK_LIBRARY_PATH` pointed at the Homebrew lib directory, because
 dyld only reads that variable at process launch and WeasyPrint can't
 otherwise find the GTK libraries.

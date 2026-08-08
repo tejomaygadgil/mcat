@@ -40,6 +40,11 @@ Each guide documents its own build in its README. The pattern so far:
     cd chem1/mt3
     uv run python build.py
 
+Pin the interpreter in every guide (`uv python pin 3.12`, committed as
+`.python-version`). `uv.lock` resolves per interpreter, so without a pin the
+same source builds differently on different machines — that cost this repo a
+silently different PDF once already.
+
 ## Course material
 
 `prep/` is gitignored everywhere in this repo, at every depth. That is
