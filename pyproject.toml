@@ -9,8 +9,6 @@ dependencies = [
     "weasyprint>=60",
     "Pillow>=10",
     "matplotlib>=3.7",
-    "numpy>=1.24",
-    "pdf2image>=1.16",
 ]
 
 [tool.uv]

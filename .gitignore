@@ -8,7 +8,7 @@ __pycache__/
 .venv/
 venv/
 
-# Build output — regenerated every run by build_all.py
+# Build output — regenerated every run by build.py
 /assets/
 
 # OS
