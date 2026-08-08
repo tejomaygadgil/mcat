@@ -36,7 +36,7 @@ import matplotlib.pyplot as plt
 plt.rcParams["mathtext.fontset"] = "cm"
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-SRC, OUT, ASSETS = "qsection.md", "mt3.pdf", "assets"
+SRC, OUT, ASSETS = "sheet.md", "mt3.pdf", "assets"
 WANT_PAGES = 2
 PINS = [6, 13, 18]                       # column boundaries, in blocks
 PT_START, PT_MIN, PT_STEP = 8.8, 7.6, 0.2

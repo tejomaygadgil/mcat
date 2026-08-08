@@ -2,6 +2,10 @@
 # Unanchored on purpose: this catches prep/ at any depth, in every guide.
 prep/
 
+# Generated images. Every guide rebuilds its assets/ from scratch each run,
+# so nothing in one is worth committing. Unanchored, same reasoning as above.
+assets/
+
 # Python
 __pycache__/
 *.py[cod]

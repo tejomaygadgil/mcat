@@ -1,9 +1,9 @@
 # CHEMx19A — Exam III sheet
 
 `mt3.pdf` — 2 pages, 20 numbered boxes, one per study-guide question, built
-from `qsection.md`.
+from `sheet.md`.
 
-    qsection.md   sheet source — the only file you edit
+    sheet.md      sheet source — the only file you edit
     build.py      figures, layout solver, PDF render
     assets/       generated images (wiped and rebuilt every run)
     prep/         course source material (untracked)
@@ -44,7 +44,7 @@ pushes the sheet over — that assertion is the point, don't remove it.
 
 ## Editing
 
-Edit content only in `qsection.md`. One `<div class="problem">` per box,
+Edit content only in `sheet.md`. One `<div class="problem">` per box,
 titled `#### (n) Description` where `n` is the study-guide question number.
 Page and column breaks are computed, never hand-placed — don't add
 `<!--pagebreak-->` or `<!--colbreak-->` yourself.

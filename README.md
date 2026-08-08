@@ -13,6 +13,7 @@ One directory per class, one per assessment inside it:
 
     <class>/<assessment>/
 
+    chem1/mt2/        CHEMx19A (UC Berkeley Extension) Exam II
     chem1/mt3/        CHEMx19A (UC Berkeley Extension) Exam III
 
 Class slugs are short and stable — `chem1`, `chem2`, `orgo1`, `bio1`,
@@ -27,9 +28,10 @@ abandoned guide from taking the others with it.
 
 ## Index
 
-| Class | Assessment | Output | Source |
+| Class | Assessment | Output | Layout |
 |---|---|---|---|
-| [chem1](chem1) — CHEMx19A, UCBX | [Exam III](chem1/mt3) | [`mt3.pdf`](chem1/mt3/mt3.pdf) — 2 pages, 20 boxes | markdown → WeasyPrint |
+| [chem1](chem1) — CHEMx19A, UCBX | [Exam II](chem1/mt2) | [`mt2.pdf`](chem1/mt2/mt2.pdf) — 2 pages; solutions, gases, thermo | breaks hand-placed |
+| [chem1](chem1) — CHEMx19A, UCBX | [Exam III](chem1/mt3) | [`mt3.pdf`](chem1/mt3/mt3.pdf) — 2 pages, 20 boxes | breaks + font size solved |
 
 Decks live in [`anki/`](anki).
 
