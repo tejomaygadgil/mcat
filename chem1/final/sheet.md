@@ -1,5 +1,22 @@
 <div class="problem" markdown="1">
 
+#### Lewis Structures (Kelter) — step 0 for (1–8)
+
+1. Sum valence e⁻ (**= group #**; add 1 per −, remove 1 per + for ions)
+2. Sum "wants" (table; period 3+ central may exceed 8)
+3. Bonds = (wants − valence) ÷ 2 (round down)
+4. Central atom = lowest EN (**never H**); ions go in brackets, charge outside
+5. Remaining e⁻ = valence − 2×bonds: outer atoms first, then central; double/triple bond if central lacks octet or nonzero FC
+6. FC = valence − (lone e⁻ + # bonds): want overall 0, else − on most EN atom
+
+| | **H** | **Be** | **B, Al** | **C, Si** | **N, P** | **O, S** | **F–I** | **Noble** |
+|---|---|---|---|---|---|---|---|---|
+| **Val e⁻** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| **Wants** | 2 | 4 | 6 | 8 | 8 | 8 | 8 | 8 |
+
+</div>
+<div class="problem" markdown="1">
+
 #### (1–2) Molecular Geometry (VSEPR)
 
 - Lewis structure → count central atom's e⁻ groups = bonded atoms + lone pairs (double/triple bond or radical e⁻ = **1** group)

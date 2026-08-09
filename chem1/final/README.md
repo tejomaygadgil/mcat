@@ -1,6 +1,6 @@
 # CHEMx19A — Final Exam sheet
 
-`final.pdf` — 2 pages, 23 boxes covering all 29 exam questions, built from
+`final.pdf` — 2 pages, 24 boxes covering all 29 exam questions, built from
 `sheet.md`.
 
     sheet.md      sheet source — the only file you edit
@@ -41,7 +41,7 @@ the tallest column — boxes stay in question order), then searches the font
 ladder. It asserts the page count (2) and **fails loudly** if a change pushes
 the sheet over — that assertion is the point, don't remove it.
 
-Current build: 7.4pt, columns ~86/99/98/76% full. Columns 2–3 are the
+Current build: 7.2pt, columns ~99/95/95/74% full. Columns 1–3 are the
 binding constraint; new content is cheapest in the last boxes (26)–(29).
 
 ## Editing
@@ -79,7 +79,9 @@ bleeds past a column edge (col 1 ends x=300.2pt, col 2 starts 313.1pt):
 The final-exam summary lists 29 questions worth 300 pts: 24 MC (Q1–24 @ 8.5)
 and 5 word problems (Q25–28 @ 19, Q29 @ 20). The MC split is Ch10 → Q1–8,
 Ch11 → Q9–17, Ch12 → Q18–24, in the order the summary lists the topics.
-Paired topics share a box, so the sheet has 23 boxes.
+Paired topics share a box, and an unnumbered "Lewis Structures (Kelter)"
+support box (ported from mt3) leads the sheet — questions 1–8 all start from
+a Lewis structure — so the sheet has 24 boxes.
 
 Deliberately **excluded** (on the practice exam / HW but not among the
 summary's 29 questions): unit-cell density/radius calculations,
