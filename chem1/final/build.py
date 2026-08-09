@@ -113,6 +113,18 @@ def render_figures():
     for name, latex in EQ_BLOCK.items():
         _mathtext(name, latex, "#111111", 0.04)
 
+    # Heat-of-solution derivation for (18) -- three stacked lines, one image.
+    fig = plt.figure()
+    fig.text(0.5, 0.5, "\n".join((
+        r"$\Delta H_{solution} = \Delta H_{solute} + (\Delta H_{solvent} + \Delta H_{mix})$",
+        r"$\Delta H_{solute} = -\Delta H_{lattice\ energy}$",
+        r"$(\Delta H_{hydration} = \Delta H_{solvent} + \Delta H_{mix})$")),
+        fontsize=FONTSIZE, color="#111111", ha="center", va="center",
+        linespacing=1.5)
+    fig.savefig(os.path.join(ASSETS, "e_dhderiv.png"), dpi=DPI,
+                transparent=True, bbox_inches="tight", pad_inches=0.04)
+    plt.close(fig)
+
     # MO diagrams for (25) -- the two period-2 fill orders, O2 filled in as
     # the worked example (2 unpaired pi* electrons -> paramagnetic).
     fig = plt.figure(figsize=(9.2, 4.1))
@@ -204,7 +216,7 @@ EQ_MAX_WIDTH_PT = 82
 # Per-image width caps, in points. matplotlib sizes each PNG to its content,
 # so without a cap a long equation would set its own scale on the page.
 EQ_WIDTH_PT = {
-    "e_dhsoln": 205, "e_conc": 175, "e_wv": 185, "e_henry": 170,
+    "e_dhsoln": 205, "e_dhderiv": 195, "e_conc": 175, "e_wv": 185, "e_henry": 170,
     "e_raoult": 215, "e_chi": 120, "e_coll": 150, "e_osm": 140,
     "f_mo": 184, "f_phase": 148, "f_heat": 175,
 }
