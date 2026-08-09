@@ -118,23 +118,23 @@
 
 | **Compounds** | **Disp.** | **Dip.-dip.** | **H-bond** |
 |---|---|---|---|
-| nonpolar: Br2, Cl2, F2, H2, CO2, BCl3, CF4, hydrocarb., noble gases | ✓ | ✗ | ✗ |
-| polar: HCl, HBr, SO2, CHCl3, CH3Br, CH3CHO, CH3CN, ethers (CH3OCH3) | ✓ | ✓ | ✗ |
-| S never H-bonds: H2S, CH3SCH3 | ✓ | ✓ | ✗ |
-| H on N/O/F: H2O, NH3, HF, CH3OH, CH3CH2OH, CH3NH2, CH3COOH, H2O2, HOCH2CH2OH | ✓ | ✓ | ✓ |
-
-- Traps: H-bond **with water** just needs N/O/F (CH3COOH ✓, CH3NH2 ✓; C2H6 ✗; Na+ = ion-dipole); ether O has no H → none with itself
+| Br2, Cl2, F2, H2, CO2, BCl3, CF4, hydrocarb., noble | ✓ | ✗ | ✗ |
+| HCl, HBr, SO2, CHCl3, CH3Br, CH3CHO, CH3CN, ethers (CH3OCH3), H2S, CH3SCH3 | ✓ | ✓ | ✗ |
+| H2O, NH3, HF, CH3OH, CH3CH2OH, CH3NH2, CH3COOH, H2O2, HOCH2CH2OH | ✓ | ✓ | ✓ |
 
 </div>
 <div class="problem" markdown="1">
 
 #### (11–12) Rank Vapor Pressure & Boiling Point
 
-- Strength: **ionic > H-bond > dipole-dipole > dispersion**, but size can trump: big nonpolar can beat small polar
-- ↑IMF → ↑bp, ↑mp, ↑viscosity, ↑surf. tension, ↑ΔHvap, ↑critical T, **↓VP**
-- **VP order = reverse of bp order** (lowest bp = highest VP at room T)
+- **Ionic > H-bond > dipole-dipole > dispersion** (same size)
 
-| | |
+| **IMF** | **bp** | **mp** | **Visc.** | **Surf. tens.** | **ΔHvap** | **Crit. T** | **VP** |
+|---|---|---|---|---|---|---|---|
+| ↑ | ↑ | ↑ | ↑ | ↑ | ↑ | ↑ | **↓** |
+| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ | ↓ | **↑** |
+
+| Obs. | Example |
 |---|---|
 | VP ↓ | CF4 > PF5 > BrF3 (polar last) |
 | bp ↑ | CH4 &lt; CH3Cl &lt; CH3OH &lt; RbCl (ionic) |
