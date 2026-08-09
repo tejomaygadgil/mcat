@@ -169,7 +169,7 @@
 - Lines = 2 phases coexist; **triple point** = all 3; **critical point**: above Tc no pressure can liquefy gas → **supercritical fluid**
 - ↑T at const P (→): solid → liquid → gas. ↑P at const T (↑): gas → liquid → solid. Normal bp/mp read at 1 atm
 
-| **Endo (+ΔH, +ΔS)** | **Exo (−ΔH, −ΔS)** |
+| **Endothermic: absorbs heat (+ΔH, +ΔS)** | **Exothermic: releases heat (−ΔH, −ΔS)** |
 |---|---|
 | melting s→l | freezing l→s |
 | vaporization l→g | condensation g→l |
@@ -193,7 +193,8 @@
 | **Amorphous** | no long-range order | melts over a **range** | glass, rubber, plastic, butter, wax |
 | **Ceramic** | inorganic nonmetal, fired | brittle, heat-resistant | clay/kaolinite, porcelain, Al2O3 |
 
-- Graphite sp2 sheets: conducts along sheets, slippery; diamond sp3: insulator; fcc packing = most space-efficient (12 neighbors)
+- Graphite sp2 sheets: along sheets, slippery; diamond sp3: insulator
+- FCC packing = most space-efficient (12 neighbors)
 
 </div>
 <div class="problem" markdown="1">
