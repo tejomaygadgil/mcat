@@ -3,7 +3,7 @@
 #### Lewis Structures (Kelter) — step 0 for (1–8)
 
 1. Sum valence e⁻ (**= group #**; add 1 per −, remove 1 per + for ions)
-2. Sum "wants" (table; period 3+ central may exceed 8)
+2. Sum "wants" (table; period 3+ central: see expanded octet below)
 3. Bonds = (wants − valence) ÷ 2 (round down)
 4. Central atom = lowest EN (**never H**); ions go in brackets, charge outside
 5. Remaining e⁻ = valence − 2×bonds: outer atoms first, then central; double/triple bond if central lacks octet or nonzero FC
@@ -13,6 +13,9 @@
 |---|---|---|---|---|---|---|---|---|
 | **Val e⁻** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | **Wants** | 2 | 4 | 6 | 8 | 8 | 8 | 8 | 8 |
+
+- **Expanded octet** — period 3+ central (P, S, Cl, Br, I, Xe) can hold >8, so step 3 can undercount bonds. If bonds &lt; # outer atoms: skip the math — single-bond **every** outer atom, complete outer octets, then put **all leftover e⁻ on the central** as lone pairs
+- ClF₃: 28 e⁻ − 3 bonds (6) − 9 F LP (18) = 4 left → **2 LP on Cl** → 5 groups → T-shaped. Likewise SF₄ (1 LP, seesaw); XeF₄ (2 LP, sq. planar); XeF₂, I₃⁻ (3 LP, linear); PCl₅, SF₆ (0 LP)
 
 </div>
 <div class="problem" markdown="1">
