@@ -1,6 +1,6 @@
 # CHEMx19A — Final Exam sheet
 
-`final.pdf` — 2 pages, 24 boxes covering all 29 exam questions, built from
+`final.pdf` — 2 pages, 25 boxes covering all 29 exam questions, built from
 `sheet.md`.
 
     sheet.md      sheet source — the only file you edit
@@ -41,8 +41,9 @@ the tallest column — boxes stay in question order), then searches the font
 ladder. It asserts the page count (2) and **fails loudly** if a change pushes
 the sheet over — that assertion is the point, don't remove it.
 
-Current build: 7.2pt, columns ~99/95/95/74% full. Columns 1–3 are the
-binding constraint; new content is cheapest in the last boxes (26)–(29).
+Current build: 7.2pt, columns ~90/86/93/99% full. The five WORD boxes
+(25)–(29) are a forced suffix — together they nearly fill their column, so
+that is the binding constraint; new content is cheapest in boxes (1)–(14).
 
 ## Editing
 
@@ -79,9 +80,10 @@ bleeds past a column edge (col 1 ends x=300.2pt, col 2 starts 313.1pt):
 The final-exam summary lists 29 questions worth 300 pts: 24 MC (Q1–24 @ 8.5)
 and 5 word problems (Q25–28 @ 19, Q29 @ 20). The MC split is Ch10 → Q1–8,
 Ch11 → Q9–17, Ch12 → Q18–24, in the order the summary lists the topics.
-Paired topics share a box, and an unnumbered "Lewis Structures (Kelter)"
-support box (ported from mt3) leads the sheet — questions 1–8 all start from
-a Lewis structure — so the sheet has 24 boxes.
+Paired topics share a box, plus two unnumbered support boxes ported from
+mt3: "Lewis Structures (Kelter)" leads the sheet — questions 1–8 all start
+from a Lewis structure — and "Periodic Trends" follows (3–4), feeding the
+dipole ranking, hydration, and dispersion answers. That makes 25 boxes.
 
 Deliberately **excluded** (on the practice exam / HW but not among the
 summary's 29 questions): unit-cell density/radius calculations,

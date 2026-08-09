@@ -54,6 +54,20 @@
 </div>
 <div class="problem" markdown="1">
 
+#### Periodic Trends
+
+| | **Trend** | **Top** | **Bot** | **Left** | **Right** |
+|---|---|---|---|---|---|
+| **Atomic size** (radius) | ↙ (Cs) | ↓ | ↑ | ↑ | ↓ |
+| **EN** (electronegativity) | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
+| **IE** (ionization energy) | ↗ (He) | ↑ | ↓ | ↓ | ↑ |
+| **EA** (electron affinity) | ↗ (Cl) | ↑ | ↓ | ↓ | ↑ |
+
+- Cation &lt; neutral &lt; anion · ↑ΔEN → ↑ bond dipole (3–4) · smaller ion, higher charge → ↑ΔHhydr (18) · bigger → ↑ dispersion (9–12)
+
+</div>
+<div class="problem" markdown="1">
+
 #### (5–6) Hybridization of an Atom in a Structure
 
 - Count e⁻ groups **on that atom** (bonded atoms + lone pairs) → table (1): 2 sp, 3 sp², 4 sp³, 5 sp³d, 6 sp³d²
@@ -234,8 +248,7 @@
 
 - 1.5% (w/v), 250 mL → 1.5 × 250/100 = **3.75 g** (n.b. the summary's "31.25 g" contradicts its own formula — trust g = % × mL / 100)
 - mL from % w/v: 16.6 g ÷ 0.0450 g/mL = 369 mL
-- **% m/m** = g solute / (g solute + g solvent) × 100 · g water = g soln × (1 − %/100): 300 g of 9.71% KBr → 271 g water
-- **% v/v** = vol component / total vol × 100
+- **% m/m** = g solute / (g solute + g solvent) × 100 · g water = g soln × (1 − %/100): 300 g of 9.71% KBr → 271 g water · **% v/v** = vol / total vol × 100
 
 </div>
 <div class="problem" markdown="1">
@@ -314,7 +327,6 @@
 
 - 75.0 g citric acid (192.12) + 420 g H₂O, P° 71.93 mmHg: 0.390 & 23.31 mol → χ = 0.9835 → **70.7 mmHg**
 - 200 g sucrose (342.3) + 350 g H₂O, P° 17.5: 0.584 & 19.42 mol → χ = 0.9708 → **17.0 mmHg**
-- Both volatile: P(total) = χA·P°A + χB·P°B
 
 </div>
 <div class="problem" markdown="1">
@@ -343,6 +355,6 @@
 3. **MM = g solute ÷ mol**
 
 - 15.2 **mg** in 150.0 mL, π 8.44 torr, 25 °C: M = (8.44/760)/(0.08206×298) = 4.54e−4 → 6.81e−5 mol → 0.0152/6.81e−5 = **223 g/mol**
-- π → freezing pt: M from π → per 1 L: g solute = M×MM; g soln = 1000 × density; kg solvent = (g soln − g solute)/1000 → molality → ΔTf = i·Kf·m
+- π → fp: M from π → per 1 L: kg solvent = (1000·d − M·MM)/1000 → molality → ΔTf = i·Kf·m
 
 </div>

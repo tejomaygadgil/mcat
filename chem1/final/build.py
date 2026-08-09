@@ -206,7 +206,7 @@ EQ_MAX_WIDTH_PT = 82
 EQ_WIDTH_PT = {
     "e_dhsoln": 205, "e_conc": 175, "e_wv": 185, "e_henry": 170,
     "e_raoult": 215, "e_chi": 120, "e_coll": 150, "e_osm": 140,
-    "f_mo": 214, "f_phase": 168, "f_heat": 195,
+    "f_mo": 184, "f_phase": 158, "f_heat": 175,
 }
 
 CSS = """
