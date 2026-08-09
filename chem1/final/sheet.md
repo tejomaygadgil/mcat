@@ -2,20 +2,20 @@
 
 #### Lewis Structures (Kelter) — step 0 for (1–8)
 
-1. Sum valence e⁻ (**= group #**; add 1 per −, remove 1 per + for ions)
+1. Sum valence e- (**= group #**; add 1 per −, remove 1 per + for ions)
 2. Sum "wants" (table; period 3+ central: see expanded octet below)
 3. Bonds = (wants − valence) ÷ 2 (round down)
 4. Central atom = lowest EN (**never H**); ions go in brackets, charge outside
-5. Remaining e⁻ = valence − 2×bonds: outer atoms first, then central; double/triple bond if central lacks octet or nonzero FC
-6. FC = valence − (lone e⁻ + # bonds): want overall 0, else − on most EN atom
+5. Remaining e- = valence − 2×bonds: outer atoms first, then central; double/triple bond if central lacks octet or nonzero FC
+6. FC = valence − (lone e- + # bonds): want overall 0, else − on most EN atom
 
 | | **H** | **Be** | **B, Al** | **C, Si** | **N, P** | **O, S** | **F–I** | **Noble** |
 |---|---|---|---|---|---|---|---|---|
-| **Val e⁻** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| **Val e-** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | **Wants** | 2 | 4 | 6 | 8 | 8 | 8 | 8 | 8 |
 
-- **Expanded octet** — period 3+ central (P, S, Cl, Br, I, Xe) can hold >8, so step 3 can undercount bonds. If bonds &lt; # outer atoms: skip the math — single-bond **every** outer atom, complete outer octets, then put **all leftover e⁻ on the central** as lone pairs
-- ClF₃: 28 e⁻ − 3 bonds (6) − 9 F LP (18) = 4 left → **2 LP on Cl** → 5 groups → T-shaped. Likewise SF₄ (1 LP, seesaw); XeF₄ (2 LP, sq. planar); XeF₂, I₃⁻ (3 LP, linear); PCl₅, SF₆ (0 LP)
+- **Expanded octet** — period 3+ central (P, S, Cl, Br, I, Xe) can hold >8, so step 3 can undercount bonds. If bonds &lt; # outer atoms: skip the math — single-bond **every** outer atom, complete outer octets, then put **all leftover e- on the central** as lone pairs
+- ClF3: 28 e- − 3 bonds (6) − 9 F LP (18) = 4 left → **2 LP on Cl** → 5 groups → T-shaped. Likewise SF4 (1 LP, seesaw); XeF4 (2 LP, sq. planar); XeF2, I3- (3 LP, linear); PCl5, SF6 (0 LP)
 
 </div>
 <div class="problem" markdown="1">
@@ -36,49 +36,61 @@
 
 #### (1–2) Molecular Geometry (VSEPR)
 
-- **Central atom** BG + LP (double/triple bond or radical e⁻ = 1 group)
+- **Central atom** BG + LP (double/triple bond or radical e- = 1 group); lone pairs squeeze angles (SCl2 a little &lt; 109.5°); compounds → (3–4) table
 
-| **e⁻** | **Hyb** | **BG** | **LP** | **Mol. geo** | **e⁻ geo** | **Angle** | **Nonpol** |
+| **e-** | **Hyb** | **BG** | **LP** | **Mol. geo** | **e- geo** | **Angle** | **Nonpol** |
 |---|---|---|---|---|---|---|---|
 | 2 | sp | 2 | 0 | linear | linear | 180° | ✓ |
-| 3 | sp² | 3 | 0 | tri. planar | tri. planar | 120° | ✓ |
-| 3 | sp² | 2 | 1 | bent | tri. planar | &lt;120° | ✗ |
-| 4 | sp³ | 4 | 0 | tetra. | tetra. | 109.5° | ✓ |
-| 4 | sp³ | 3 | 1 | tri. pyr. | tetra. | &lt;109.5° | ✗ |
-| 4 | sp³ | 2 | 2 | bent | tetra. | &lt;109.5° | ✗ |
-| 5 | sp³d | 5 | 0 | tri. bipyr. | tri. bipyr. | 90/120° | ✓ |
-| 5 | sp³d | 4 | 1 | seesaw | tri. bipyr. | 90/120° | ✗ |
-| 5 | sp³d | 3 | 2 | T-shaped | tri. bipyr. | 90, 180° | ✗ |
-| 5 | sp³d | 2 | 3 | linear | tri. bipyr. | 180° | ✓ |
-| 6 | sp³d² | 6 | 0 | octa. | octa. | 90° | ✓ |
-| 6 | sp³d² | 5 | 1 | sq. pyr. | octa. | 90° | ✗ |
-| 6 | sp³d² | 4 | 2 | sq. planar | octa. | 90° | ✓ |
+| 3 | sp2 | 3 | 0 | tri. planar | tri. planar | 120° | ✓ |
+| 3 | sp2 | 2 | 1 | bent | tri. planar | &lt;120° | ✗ |
+| 4 | sp3 | 4 | 0 | tetra. | tetra. | 109.5° | ✓ |
+| 4 | sp3 | 3 | 1 | tri. pyr. | tetra. | &lt;109.5° | ✗ |
+| 4 | sp3 | 2 | 2 | bent | tetra. | &lt;109.5° | ✗ |
+| 5 | sp3d | 5 | 0 | tri. bipyr. | tri. bipyr. | 90/120° | ✓ |
+| 5 | sp3d | 4 | 1 | seesaw | tri. bipyr. | 90/120° | ✗ |
+| 5 | sp3d | 3 | 2 | T-shaped | tri. bipyr. | 90, 180° | ✗ |
+| 5 | sp3d | 2 | 3 | linear | tri. bipyr. | 180° | ✓ |
+| 6 | sp3d2 | 6 | 0 | octa. | octa. | 90° | ✓ |
+| 6 | sp3d2 | 5 | 1 | sq. pyr. | octa. | 90° | ✗ |
+| 6 | sp3d2 | 4 | 2 | sq. planar | octa. | 90° | ✓ |
 
-- Lone pairs squeeze angles (SCl₂ a little &lt; 109.5°). SO₃, BF₃ tri. planar; PCl₃, PH₃, NH₃ tri. pyr.; CS₂, CO₂, N₂, I₃⁻ linear; SiH₄, CH₄, PO₄³⁻ tetra.; SCl₂, H₂S, H₂O, O₃, ClNO, NH₂⁻ bent; ClF₃ T-shaped; XeF₄ sq. planar
 
 </div>
 <div class="problem" markdown="1">
 
 #### (3–4) Polarity & Dipole Moment
 
-- **Dipole** = separation of + / − charge; net dipole moment (μ ≠ 0) = **polar** molecule
-- Polar = polar bonds (ΔEN) whose vectors **don't cancel**. Nonpol column above assumes identical outer atoms — **mixed outer atoms → polar** (CH₃Cl, CH₂Cl₂, CHCl₃)
-- Nonpolar: same-element diatomic (Br₂), all hydrocarbons, ✓-row shapes: XeF₂, XeF₄, CCl₄, PBr₅, PCl₅, BeCl₂, CO₂, BF₃, BH₃, SO₃
-- Polar: different-element diatomic (CO, IBr, HCl) + lone-pair shapes: BrF₅ (sq. pyr.), NH₃, OF₂, H₂O, SO₂ (bent), NCl₃, NF₃
-- ↑ΔEN = ↑μ: CH₃**F** > CH₃Cl > CH₃Br > CH₃I; NH₃ > PH₃ > AsH₃ (EN falls down group)
-- Polar dissolves polar: NH₃ in H₂O ✓, H₂S in NH₃ ✓, CCl₄/SiO₂/O₂/CO₂ in polar ✗
+- **Dipole** = separation of + / − charge; μ ≠ 0 = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs or **mixed outer atoms**)
+
+| **Compounds** | **BG** | **LP** | **Shape** | **Nonpol** |
+|---|---|---|---|---|
+| diatomic: H2, Br2 same ✓; CO, IBr, HCl diff. ✗ | 1 | — | linear | ✓/✗ |
+| BeCl2, CO2, CS2 | 2 | 0 | linear | ✓ |
+| BF3, BH3, SO3 | 3 | 0 | tri. planar | ✓ |
+| SO2, O3, ClNO | 2 | 1 | bent | ✗ |
+| CH4, CCl4, CF4, SiH4, PO43-, hydrocarb. | 4 | 0 | tetra. | ✓ |
+| CH3Cl/F/Br/I, CH2Cl2, CHCl3 (mixed) | 4 | 0 | tetra. | ✗ |
+| NH3, PH3, AsH3, PCl3, NCl3, NF3 | 3 | 1 | tri. pyr. | ✗ |
+| H2O, OF2, H2S, SCl2, NH2- | 2 | 2 | bent | ✗ |
+| PCl5, PBr5 | 5 | 0 | tri. bipyr. | ✓ |
+| ClF3 | 3 | 2 | T-shaped | ✗ |
+| XeF2, I3- | 2 | 3 | linear | ✓ |
+| BrF5 | 5 | 1 | sq. pyr. | ✗ |
+| XeF4 | 4 | 2 | sq. planar | ✓ |
+
+- ↑ΔEN = ↑μ: CH3**F** > CH3Cl > CH3Br > CH3I; NH3 > PH3 > AsH3 (EN falls down group)
+- Polar dissolves polar: NH3 in H2O ✓, H2S in NH3 ✓, CCl4/SiO2/O2/CO2 in polar ✗
 
 </div>
 <div class="problem" markdown="1">
 
 #### (5–6) Hybridization of an Atom in a Structure
 
-- Count e⁻ groups **on that atom** (bonded atoms + lone pairs) → table (1): 2 sp, 3 sp², 4 sp³, 5 sp³d, 6 sp³d²
-- sp² geometry is trigonal planar (**not** square planar)
-- C, 4 single bonds → **sp³**; C with 1 double bond (C=O, C=C, benzene ring) → **sp²**; C with triple or 2 doubles → **sp**
-- O in –O–H or ether (2 atoms + 2 LP) → **sp³**; carbonyl =O → **sp²**
-- N with 3 atoms + 1 LP (amine) → **sp³**
-- Each atom separately: CH₃–CHO → left C sp³, carbonyl C sp²
+- Count e- groups **on that atom** (bonded atoms + lone pairs) → table (1): 2 sp, 3 sp2 (tri. planar, **not** sq. planar), 4 sp3, 5 sp3d, 6 sp3d2
+- C, 4 single bonds → **sp3**; C with 1 double bond (C=O, C=C, benzene ring) → **sp2**; C with triple or 2 doubles → **sp**
+- O in –O–H or ether (2 atoms + 2 LP) → **sp3**; carbonyl =O → **sp2**
+- N with 3 atoms + 1 LP (amine) → **sp3**
+- Each atom separately: CH3–CHO → left C sp3, carbonyl C sp2
 
 </div>
 <div class="problem" markdown="1">
@@ -87,11 +99,11 @@
 
 - **single = 1σ; double = 1σ + 1π; triple = 1σ + 2π**
 - Count **every** bond, incl. each C–H! σ = # of atom-atom connections; π = extras on doubles/triples
-- CH₃–CH=CH–COOH: 11 σ, 2 π; benzene C₆H₆: 12 σ (6 C–C + 6 C–H) + 3 π
-- **σ**: end-to-end overlap, e⁻ density **on** internuclear axis, rotation free, stronger
-- **π**: **side-by-side p–p** overlap, density above & below axis → **restricted rotation** (energy needed to break the p–p interaction) → cis/trans in C=C (1,2-dichloro**ethene**), none around C–C single (1,2-dichloro**ethane**)
+- CH3–CH=CH–COOH: 11 σ, 2 π; benzene C6H6: 12 σ (6 C–C + 6 C–H) + 3 π
+- **σ**: end-to-end overlap, e- density **on** internuclear axis, rotation free, stronger
+- **π**: **side-by-side p–p** overlap, density above & below axis → **restricted rotation** → cis/trans in C=C (1,2-dichloro**ethene**), none around C–C single (1,2-dichloro**ethane**)
 - Two 1s (or head-on p+p along bond axis) → σ and σ\*; sideways p+p (perpendicular axis) → π and π\*
-- Benzene delocalized π MOs: e⁻ **free to move around the ring**; all C–C equal
+- Benzene delocalized π MOs: e- **free to move around the ring**; all C–C equal
 
 </div>
 <div class="problem" markdown="1">
@@ -103,12 +115,12 @@
 | **Dispersion** (London, van der Waals, induced dipole) | **ALL** molecules; ↑ w/ size & molar mass; straight-chain > branched |
 | **Dipole-dipole** | polar molecules |
 | **H-bond** | H bonded **directly to N, O, F** |
-| **Ion-dipole** | ion + polar solvent (NaCl in H₂O) |
+| **Ion-dipole** | ion + polar solvent (NaCl in H2O) |
 
-- Dispersion only (nonpolar): Br₂, Cl₂, F₂, H₂, CO₂, BCl₃, CF₄, hydrocarbons, noble gases
-- Disp + dip-dip: HCl, HBr, SO₂, CHCl₃, CH₃Br, ethers (CH₃OCH₃), CH₃CHO, CH₃CN
-- \+ H-bond: H₂O, NH₃, HF, CH₃OH, CH₃CH₂OH, CH₃NH₂, CH₃COOH, H₂O₂, HOCH₂CH₂OH
-- Traps: H-bond **with water** just needs N/O/F (CH₃COOH ✓, CH₃NH₂ ✓; C₂H₆ ✗; Na⁺ = ion-dipole); S never H-bonds (H₂S, CH₃SCH₃); ether O has no H → none with itself; polar **bonds** ≠ polar molecule (CO₂)
+- Dispersion only (nonpolar): Br2, Cl2, F2, H2, CO2, BCl3, CF4, hydrocarbons, noble gases
+- Disp + dip-dip: HCl, HBr, SO2, CHCl3, CH3Br, ethers (CH3OCH3), CH3CHO, CH3CN
+- \+ H-bond: H2O, NH3, HF, CH3OH, CH3CH2OH, CH3NH2, CH3COOH, H2O2, HOCH2CH2OH
+- Traps: H-bond **with water** just needs N/O/F (CH3COOH ✓, CH3NH2 ✓; C2H6 ✗; Na+ = ion-dipole); S never H-bonds (H2S, CH3SCH3); ether O has no H → none with itself
 
 </div>
 <div class="problem" markdown="1">
@@ -118,15 +130,14 @@
 - Strength: **ionic > H-bond > dipole-dipole > dispersion**, but size can trump: big nonpolar can beat small polar
 - ↑IMF → ↑bp, ↑mp, ↑viscosity, ↑surf. tension, ↑ΔHvap, ↑critical T, **↓ vapor pressure**
 - **VP order = reverse of bp order** (lowest bp = highest VP at room T)
-- Weak IMF ⇒ low ΔHvap, high VP, low bp
 
 | | |
 |---|---|
-| VP ↓ | CF₄ > PF₅ > BrF₃ (polar last) |
-| bp ↑ | CH₄ &lt; CH₃Cl &lt; CH₃OH &lt; RbCl (ionic) |
-| bp (disp. size) | I₂ > Br₂ > Cl₂ > F₂; CH₃CHO > CH₃OCH₃ > Rn |
+| VP ↓ | CF4 > PF5 > BrF3 (polar last) |
+| bp ↑ | CH4 &lt; CH3Cl &lt; CH3OH &lt; RbCl (ionic) |
+| bp (disp. size) | I2 > Br2 > Cl2 > F2; CH3CHO > CH3OCH3 > Rn |
 | bp (H-bond) | HF > HI > HBr > HCl |
-| bp (# of OH) | HOCH₂CH₂OH > ClCH₂CH₂OH > CH₃CH₂OH > CH₃CH₂Cl |
+| bp (# of OH) | HOCH2CH2OH > ClCH2CH2OH > CH3CH2OH > CH3CH2Cl |
 
 </div>
 <div class="problem" markdown="1">
@@ -143,7 +154,7 @@
 
 </div>
 
-- Concave meniscus (H₂O): adhesion > cohesion; convex (Hg): cohesion > adhesion. Highest viscosity = most H-bonding (HOCH₂CH₂OH)
+- Concave meniscus (H2O): adhesion > cohesion; convex (Hg): cohesion > adhesion. Highest viscosity = most H-bonding (HOCH2CH2OH)
 
 </div>
 <div class="problem" markdown="1">
@@ -154,7 +165,7 @@
 
 - Lines = 2 phases coexist; **triple point** = all 3; **critical point**: above Tc no pressure can liquefy gas → **supercritical fluid**
 - ↑T at const P (→): solid → liquid → gas. ↑P at const T (↑): gas → liquid → solid. Normal bp/mp read at 1 atm
-- **H₂O**: fusion line leans **left** (ice less dense) → ↑P melts ice. **CO₂**: triple pt at 5.1 atm → at 1 atm solid **sublimes** s→g (dry ice)
+- **H2O**: fusion line leans **left** (ice less dense) → ↑P melts ice. **CO2**: triple pt at 5.1 atm → at 1 atm solid **sublimes** s→g (dry ice)
 
 </div>
 <div class="problem" markdown="1">
@@ -163,15 +174,15 @@
 
 | **Type** | **Held by** | **Properties** | **Examples** |
 |---|---|---|---|
-| **Ionic** | ± attraction | hard, brittle, high mp, poor cond. | NaCl, AgCl, CaF₂, MgO, CaCO₃ |
-| **Molecular** | IMFs | soft, low mp, poor cond. | ice H₂O, CO₂, I₂, sucrose |
-| **Metallic** (atomic) | e⁻ sea | low–high mp, **good cond.** | Au, Cu, Fe, Na |
-| **Network covalent** (atomic) | covalent bonds | v. hard, v. high mp, poor cond. | diamond, quartz SiO₂, graphite, SiC |
+| **Ionic** | ± attraction | hard, brittle, high mp, poor cond. | NaCl, AgCl, CaF2, MgO, CaCO3 |
+| **Molecular** | IMFs | soft, low mp, poor cond. | ice H2O, CO2, I2, sucrose |
+| **Metallic** (atomic) | e- sea | low–high mp, **good cond.** | Au, Cu, Fe, Na |
+| **Network cov.** (atomic) | covalent bonds | v. hard, v. high mp, poor cond. | diamond, quartz SiO2, graphite, SiC |
 | **Nonbonding** (atomic) | dispersion | v. low mp | noble gases: Ar(s) |
 | **Amorphous** | no long-range order | melts over a **range** | glass, rubber, plastic, butter, wax |
-| **Ceramic** | inorganic nonmetal; powder + H₂O + heat | brittle, heat-resistant | clay/kaolinite, porcelain, Al₂O₃ |
+| **Ceramic** | inorganic nonmetal, fired | brittle, heat-resistant | clay/kaolinite, porcelain, Al2O3 |
 
-- Graphite sp² sheets: conducts along sheets, slippery; diamond sp³: insulator; fcc packing = most space-efficient (12 neighbors)
+- Graphite sp2 sheets: conducts along sheets, slippery; diamond sp3: insulator; fcc packing = most space-efficient (12 neighbors)
 
 </div>
 <div class="problem" markdown="1">
@@ -179,13 +190,13 @@
 #### (17) Band Theory & Doping
 
 - Bands = MOs delocalized over the whole crystal: **valence band = bonding MOs**, **conduction band = antibonding MOs**, **band gap** between
-- **Conductor** (metal): bands continuous/overlap; **Semiconductor** (metalloids Si, Ge): small gap, e⁻ promotable; **Insulator: LARGE gap**
+- **Conductor** (metal): bands continuous/overlap; **Semiconductor** (metalloids Si, Ge): small gap, e- promotable; **Insulator: LARGE gap**
 - **Doping** = add impurity to ↑ conductivity:
 
 | | **Dopant** | **Carrier** |
 |---|---|---|
-| **n-type** | Group **V/5A** (P, As) | extra e⁻ in **conduction** band (− charges) |
-| **p-type** | Group **III/3A** (B, Al, Ga, In) | **holes** in **valence** band (e⁻ hop between holes) |
+| **n-type** | Group **V/5A** (P, As) | extra e- in **conduction** band (− charges) |
+| **p-type** | Group **III/3A** (B, Al, Ga, In) | **holes** in **valence** band (e- hop between holes) |
 | p–n junction | — | **diode**: current flows one way |
 
 </div>
@@ -197,7 +208,7 @@
 
 - **ΔHsolution**: heat absorbed/released on dissolving = ΔH(solvent-solvent) + ΔH(solute-solute) + ΔH(solvent-solute)
 - **ΔHhydration**: heat **released** when 1 mol **gaseous ions** dissolves in water (forms ion-dipole; always exo). ΔHsolute = −ΔHlattice
-- **Highest ΔHhydr**: smallest ion + highest charge: Al³⁺ > Mg²⁺ > Na⁺ > K⁺; F⁻ > Cl⁻
+- **Highest ΔHhydr**: smallest ion + highest charge: Al3+ > Mg2+ > Na+ > K+; F- > Cl-
 - ΔHsoln **exo (−)**: ΔHhydration > ΔHsolute; **endo (+)**: solute > hydration; **≈ 0**: comparable
 
 </div>
@@ -215,7 +226,7 @@
 
 </div>
 
-- Solution forms if solute-solvent attraction **comparable** to solute-solute + solvent-solvent; polar/ionic ↔ polar (H₂O, ethanol, NH₃); nonpolar ↔ nonpolar (hexane, CCl₄, benzene)
+- Solution forms if solute-solvent attraction **comparable** to solute-solute + solvent-solvent; polar/ionic ↔ polar (H2O, ethanol, NH3); nonpolar ↔ nonpolar (hexane, CCl4, benzene)
 - Most soluble in ethanol = most H-bonds (ethylene glycol); in hexane = longest chain (1-pentanol); all **nitrates** soluble
 
 </div>
@@ -228,7 +239,7 @@
 | **↑ Pressure** | ↑ solubility (Henry) | no effect |
 | **↑ Temperature** | **↓** solubility | ↑ solubility |
 
-- Dissolve the most gas: **low T + high P** (cold soda holds CO₂)
+- Dissolve the most gas: **low T + high P** (cold soda holds CO2)
 - Liquid **boils** when its vapor pressure **= external (atm) pressure**; gas **bubbles out** of solution when its partial (vapor) pressure **> atm pressure**
 
 </div>
@@ -238,7 +249,7 @@
 
 <img src="assets/e_conc.png" class="eq">
 
-- mol = M × V(**L**); V(L) = mol ÷ M; mL ÷ 1000 = L; g ↔ mol via molar mass; dilution: M₁V₁ = M₂V₂
+- mol = M × V(**L**); V(L) = mol ÷ M; mL ÷ 1000 = L; g ↔ mol via molar mass; dilution: M1V1 = M2V2
 - 0.250 L of 0.500 M → 0.125 mol; need 0.300 mol of 0.450 M → 0.667 L = 667 mL
 - Molality m uses **kg of solvent**, not solution — for ΔTf/ΔTb. Only molarity changes with T (volume swells); m, mass %, χ don't
 
@@ -270,8 +281,7 @@
 
 #### (24) Osmosis
 
-- **Osmosis**: flow of **solvent** (water) across a semipermeable membrane from **low solute conc. → high solute conc.** (dilute → concentrated)
-- **Semipermeable membrane**: passes solvent, **blocks solute** (ions) — it does *not* stop water
+- **Osmosis**: **solvent** (water) flows across a semipermeable membrane (passes solvent, **blocks solute** ions — it does *not* stop water) from **low solute conc. → high solute conc.** (dilute → concentrated)
 - **Hyperosmotic** = more solute: water flows **into** it (cell in it shrinks/crenates)
 - **Hyposmotic** = less solute: water flows **out** into the stronger side (cell in it swells/bursts)
 - **Isosmotic** = equal: no net flow (isotonic saline = 0.9% w/v NaCl); π = pressure needed to **stop** osmotic flow
@@ -283,21 +293,21 @@
 
 <img src="assets/f_mo.png" class="eq">
 
-1. Valence e⁻ total: **add** 1 per − charge, **remove** 1 per +
+1. Valence e- total: **add** 1 per − charge, **remove** 1 per +
 2. Fill low → high, 2 per orbital, Hund across the π pair
-3. **BO = (bonding e⁻ − antibonding e⁻) / 2**
-4. Any unpaired e⁻ → **paramagnetic**; all paired → **diamagnetic**
-5. BO > 0 → stable, can form (H₂ 1 ✓; He₂ 0 ✗ can't exist); **higher BO = stronger & shorter** bond (N₂⁺ weaker/longer than N₂). σ2s + σ*2s cancel — you may count 2p only
+3. **BO = (bonding e- − antibonding e-) / 2**
+4. Any unpaired e- → **paramagnetic**; all paired → **diamagnetic**
+5. BO > 0 → stable, can form (H2 1 ✓; He2 0 ✗ can't exist); **higher BO = stronger & shorter** bond (N2+ weaker/longer than N2). σ2s + σ*2s cancel — you may count 2p only
 
-| **Sp.** | **e⁻** | **BO** | **Mag** | **Sp.** | **e⁻** | **BO** | **Mag** |
+| **Sp.** | **e-** | **BO** | **Mag** | **Sp.** | **e-** | **BO** | **Mag** |
 |---|---|---|---|---|---|---|---|
-| N₂ | 10 | 3 | dia | O₂ | 12 | 2 | **para** (2↑) |
-| N₂⁺ | 9 | 2.5 | para | O₂⁺ | 11 | 2.5 | para |
-| N₂⁻ | 11 | 2.5 | para | O₂⁻ | 13 | 1.5 | para |
-| F₂, Cl₂ | 14 | 1 | dia | Cl₂⁺ | 13 | 1.5 | para |
-| B₂ | 6 | 1 | para | Cl₂⁻ | 15 | 0.5 | para |
+| N2 | 10 | 3 | dia | O2 | 12 | 2 | **para** (2↑) |
+| N2+ | 9 | 2.5 | para | O2+ | 11 | 2.5 | para |
+| N2- | 11 | 2.5 | para | O2- | 13 | 1.5 | para |
+| F2, Cl2 | 14 | 1 | dia | Cl2+ | 13 | 1.5 | para |
+| B2 | 6 | 1 | para | Cl2- | 15 | 0.5 | para |
 
-- Heteronuclear (NO, OF⁻) → the O₂-type (right) ordering (more EN atom sits lower); period 3 (Cl₂, Na₂) → same shapes, n = 3
+- Heteronuclear (NO, OF-) → the O2-type (right) ordering (more EN atom sits lower); period 3 (Cl2, Na2) → same shapes, n = 3
 
 </div>
 <div class="problem" markdown="1">
@@ -306,12 +316,12 @@
 
 <img src="assets/f_heat.png" class="eq">
 
-1. Sketch the path; skip segments you don't cross (65 °C liq → 115 °C gas: heat liq 65→100, vaporize, heat gas 100→115)
+1. Sketch the path; skip segments you don't cross (see examples below)
 2. Sloped (one phase): **q = m(g)·Cs·ΔT** — flat (phase change, T constant): **q = n(mol)·ΔH**
 3. Sum; convert J → kJ. Cooling path (gas → solid): every q **negative** (ΔHcond = −ΔHvap, ΔHfreeze = −ΔHfus)
 
-- H₂O: C(ice) 2.09, C(liq) 4.184, C(steam) ≈ 2.0 J/g·°C; ΔHfus 6.02, ΔHvap 40.7 kJ/mol; MM 18.02
-- 36.0 g H₂O, 65 °C liq → 115 °C gas: 36×4.184×35 = 5.27 kJ; (36/18.02)×40.7 = 81.3 kJ; 36×2.01×15 = 1.09 kJ → **87.7 kJ**
+- H2O: C(ice) 2.09, C(liq) 4.184, C(steam) ≈ 2.0 J/g·°C; ΔHfus 6.02, ΔHvap 40.7 kJ/mol; MM 18.02
+- 36.0 g H2O, 65 °C liq → 115 °C gas: 36×4.184×35 = 5.27 kJ; (36/18.02)×40.7 = 81.3 kJ; 36×2.01×15 = 1.09 kJ → **87.7 kJ**
 - Cooling: 125 g benzene (78.11) gas 425 K → liq 335 K (bp 353 K, mp 279 K — never freezes): 125×1.06×72 = 9.5 kJ; (125/78.11)×33.9 = 54.3 kJ; 125×1.73×18 = 3.9 kJ → **67.7 kJ removed**
 - Endo (+): melt, vaporize, sublime; Exo (−): freeze, condense, deposit; ΔHsub = ΔHfus + ΔHvap
 
@@ -328,8 +338,8 @@
 2. χ(solvent) = mol solvent ÷ total mol — always &lt; 1
 3. P(soln) = χ(solvent) × P°; lowering ΔP = P° − P(soln) = χ(solute)·P°
 
-- 75.0 g citric acid (192.12) + 420 g H₂O, P° 71.93 mmHg: 0.390 & 23.31 mol → χ = 0.9835 → **70.7 mmHg**
-- 200 g sucrose (342.3) + 350 g H₂O, P° 17.5: 0.584 & 19.42 mol → χ = 0.9708 → **17.0 mmHg**
+- 75.0 g citric acid (192.12) + 420 g H2O, P° 71.93 mmHg: 0.390 & 23.31 mol → χ = 0.9835 → **70.7 mmHg**
+- 200 g sucrose (342.3) + 350 g H2O, P° 17.5: 0.584 & 19.42 mol → χ = 0.9708 → **17.0 mmHg**
 
 </div>
 <div class="problem" markdown="1">
@@ -338,11 +348,11 @@
 
 <img src="assets/e_coll.png" class="eq">
 
-- m = mol solute / **kg solvent**; H₂O: Kf 1.86, Kb 0.512 °C/m; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
-- **i** = particles per formula unit: nonelectrolytes (glucose, sucrose, urea) 1; NaCl, KCl, NaOH, NH₄Cl 2; CaCl₂, (NH₄)₂SO₄ 3; Al(NO₃)₃, FeCl₃ 4 (measured i slightly less — ion pairing)
+- m = mol solute / **kg solvent**; H2O: Kf 1.86, Kb 0.512 °C/m; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
+- **i** = particles per formula unit: nonelectrolytes (glucose, sucrose, urea) 1; NaCl, KCl, NaOH, NH4Cl 2; CaCl2, (NH4)2SO4 3; Al(NO3)3, FeCl3 4 (measured i slightly less — ion pairing)
 - Find i: **i = ΔTb / (Kb·m)** — 1.83 m boils 102.5 °C: 2.5/(0.512×1.83) = **2.7**
 - Molar mass from fp: ΔTf → m = ΔTf/(i·Kf) → mol = m × kg → **MM = g/mol**: 20.0 g per 500 g benzene (T°f 5.444, Kf 5.12) freezes 3.77 °C: ΔT 1.674 → 0.327 m → 0.163 mol → **≈120 g/mol**
-- Lowest fp, equal grams = most mol × i (small MM wins: NaOH > KCl, CaCl₂)
+- Lowest fp, equal grams = most mol × i (small MM wins: NaOH > KCl, CaCl2)
 
 </div>
 <div class="problem" markdown="1">
