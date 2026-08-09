@@ -102,7 +102,7 @@
 - **cis** = mirror, **trans** = rotated; **π restricts rotation** (double/triple)
 - CH3–CH=CH–COOH: 11σ, 2π; benzene C6H6: 12σ (6C–C + 6C–H) + 3π
 - Two 1s (or head-on p+p along bond axis) → σ and σ\*; sideways p+p (perpendicular axis) → π and π\*
-- Benzene delocalized π MOs: e- **free to move around the ring**; all C–C equal
+- Benzene delocalized π MOs: e- **free to move around the ring**
 
 </div>
 <div class="problem" markdown="1">
@@ -116,10 +116,14 @@
 | **H-bond** | H bonded **directly to N, O, F** |
 | **Ion-dipole** | ion + polar solvent (NaCl in H2O) |
 
-- Dispersion only (nonpolar): Br2, Cl2, F2, H2, CO2, BCl3, CF4, hydrocarbons, noble gases
-- Disp + dip-dip: HCl, HBr, SO2, CHCl3, CH3Br, ethers (CH3OCH3), CH3CHO, CH3CN
-- \+ H-bond: H2O, NH3, HF, CH3OH, CH3CH2OH, CH3NH2, CH3COOH, H2O2, HOCH2CH2OH
-- Traps: H-bond **with water** just needs N/O/F (CH3COOH ✓, CH3NH2 ✓; C2H6 ✗; Na+ = ion-dipole); S never H-bonds (H2S, CH3SCH3); ether O has no H → none with itself
+| **Compounds** | **Disp.** | **Dip.-dip.** | **H-bond** |
+|---|---|---|---|
+| nonpolar: Br2, Cl2, F2, H2, CO2, BCl3, CF4, hydrocarb., noble gases | ✓ | ✗ | ✗ |
+| polar: HCl, HBr, SO2, CHCl3, CH3Br, CH3CHO, CH3CN, ethers (CH3OCH3) | ✓ | ✓ | ✗ |
+| S never H-bonds: H2S, CH3SCH3 | ✓ | ✓ | ✗ |
+| H on N/O/F: H2O, NH3, HF, CH3OH, CH3CH2OH, CH3NH2, CH3COOH, H2O2, HOCH2CH2OH | ✓ | ✓ | ✓ |
+
+- Traps: H-bond **with water** just needs N/O/F (CH3COOH ✓, CH3NH2 ✓; C2H6 ✗; Na+ = ion-dipole); ether O has no H → none with itself
 
 </div>
 <div class="problem" markdown="1">
