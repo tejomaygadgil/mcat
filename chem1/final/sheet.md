@@ -38,7 +38,7 @@
 
 - **Central atom** BG + LP (double/triple bond or radical e- = 1 group); lone pairs squeeze angles (SCl2 a little &lt; 109.5°); compounds → (3–4) table
 
-| **BG** | **LP** | **e-** | **e- geo** | **Hyb** | **Mol. geo** | **Angle** | **Nonpol** |
+| **BG** | **LP** | **EG** | **e- geo** | **Hyb** | **Mol. geo** | **Angle** | **Nonpol** |
 |---|---|---|---|---|---|---|---|
 | 2 | 0 | 2 | linear | sp | linear | 180° | ✓ |
 | 3 | 0 | 3 | tri. planar | sp2 | tri. planar | 120° | ✓ |
@@ -60,8 +60,6 @@
 
 #### (3–4) Polarity & Dipole Moment
 
-- **Dipole** = separation of + / − charge; μ ≠ 0 = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs or **mixed outer atoms**)
-
 | **Compounds** | **BG** | **LP** | **Shape** | **Nonpol** |
 |---|---|---|---|---|
 | diatomic: H2, Br2 same ✓; CO, IBr, HCl diff. ✗ | 1 | — | linear | ✓/✗ |
@@ -78,15 +76,17 @@
 | BrF5 | 5 | 1 | sq. pyr. | ✗ |
 | XeF4 | 4 | 2 | sq. planar | ✓ |
 
-- ↑ΔEN = ↑μ: CH3**F** > CH3Cl > CH3Br > CH3I; NH3 > PH3 > AsH3 (EN falls down group)
-- Polar dissolves polar: NH3 in H2O ✓, H2S in NH3 ✓, CCl4/SiO2/O2/CO2 in polar ✗
+- **Dipole** = separation of + / − charge
+- (μ ≠ 0) = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs)
+- CH3**F** > CH3Cl > CH3Br > CH3I; NH3 > PH3 > AsH3 (EN)
+- Dissolves: NH3 in H2O ✓, H2S in NH3 ✓, CCl4/SiO2/O2/CO2 in pol. ✗
 
 </div>
 <div class="problem" markdown="1">
 
 #### (5–6) Hybridization of an Atom in a Structure
 
-- Count e- groups **on that atom** (bonded atoms + lone pairs) → table (1): 2 sp, 3 sp2 (tri. planar, **not** sq. planar), 4 sp3, 5 sp3d, 6 sp3d2
+- Lookup EG **of that atom** on (1-2): 2 -> sp, 3 -> sp2, etc.
 - C, 4 single bonds → **sp3**; C with 1 double bond (C=O, C=C, benzene ring) → **sp2**; C with triple or 2 doubles → **sp**
 - O in –O–H or ether (2 atoms + 2 LP) → **sp3**; carbonyl =O → **sp2**
 - N with 3 atoms + 1 LP (amine) → **sp3**
@@ -98,10 +98,9 @@
 #### (7–8) σ and π Bonds: Counting & Concepts
 
 - **single = 1σ; double = 1σ + 1π; triple = 1σ + 2π**
-- Count **every** bond, incl. each C–H! σ = # of atom-atom connections; π = extras on doubles/triples
-- CH3–CH=CH–COOH: 11 σ, 2 π; benzene C6H6: 12 σ (6 C–C + 6 C–H) + 3 π
-- **σ**: end-to-end overlap, e- density **on** internuclear axis, rotation free, stronger
-- **π**: **side-by-side p–p** overlap, density above & below axis → **restricted rotation** → cis/trans in C=C (1,2-dichloro**ethene**), none around C–C single (1,2-dichloro**ethane**)
+- **σ** = hybridized bond, horizontal; **π** = unhyb. p-p bond, perpendicular
+- **cis** = mirror, **trans** = rotated; **π restricts rotation** (double/triple)
+- CH3–CH=CH–COOH: 11σ, 2π; benzene C6H6: 12σ (6C–C + 6C–H) + 3π
 - Two 1s (or head-on p+p along bond axis) → σ and σ\*; sideways p+p (perpendicular axis) → π and π\*
 - Benzene delocalized π MOs: e- **free to move around the ring**; all C–C equal
 
@@ -165,6 +164,14 @@
 
 - Lines = 2 phases coexist; **triple point** = all 3; **critical point**: above Tc no pressure can liquefy gas → **supercritical fluid**
 - ↑T at const P (→): solid → liquid → gas. ↑P at const T (↑): gas → liquid → solid. Normal bp/mp read at 1 atm
+
+| **Endo (+ΔH, +ΔS)** | **Exo (−ΔH, −ΔS)** |
+|---|---|
+| melting s→l | freezing l→s |
+| vaporization l→g | condensation g→l |
+| sublimation s→g | deposition g→s |
+
+- Order: solid = greatest, gas = least (↑T = ↓ order)
 - **H2O**: fusion line leans **left** (ice less dense) → ↑P melts ice. **CO2**: triple pt at 5.1 atm → at 1 atm solid **sublimes** s→g (dry ice)
 
 </div>
@@ -289,7 +296,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (25) WORD: MO Theory — Bond Order & Magnetism
+#### (25) MO Theory — Bond Order & Magnetism
 
 <img src="assets/f_mo.png" class="eq">
 
@@ -312,7 +319,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (26) WORD: Phase-Change Heat (gas ⇄ solid)
+#### (26) Phase-Change Heat (gas ⇄ solid)
 
 <img src="assets/f_heat.png" class="eq">
 
@@ -328,7 +335,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (27) WORD: Raoult's Law (VP Lowering)
+#### (27) Raoult's Law (VP Lowering)
 
 <img src="assets/e_raoult.png" class="eq">
 
@@ -344,7 +351,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (28) WORD: Freezing ↓ / Boiling ↑ (van't Hoff)
+#### (28) Freezing ↓ / Boiling ↑ (van't Hoff)
 
 <img src="assets/e_coll.png" class="eq">
 
@@ -357,7 +364,7 @@
 </div>
 <div class="problem" markdown="1">
 
-#### (29) WORD: Osmotic Pressure → Molar Mass
+#### (29) Osmotic Pressure → Molar Mass
 
 <img src="assets/e_osm.png" class="eq">
 
