@@ -31,6 +31,13 @@
 
 - Cation &lt; neutral &lt; anion; ↑ΔEN → ↑ bond dipole (3–4); smaller ion, higher charge → ↑ΔHhydr (18); bigger → ↑ dispersion (9–12)
 
+| **Trend** | **Bond** | **Enthalpy** | **Exception** |
+|---|---|---|---|
+| **EA** (X + e- → X-) | form | **exothermic** | endo: Be, Mg, noble, EA2 (usually) |
+| **IE** | break | **endothermic** | — |
+
+- **Lattice energy** U ∝ Q1·Q2 / (r1 + r2): heat **released** (exo.) forming ionic solid from gaseous ions (*dissociation* = endo); max U = ↑ charges, ↓ radii → feeds ΔHsoln (18)
+
 </div>
 <div class="problem" markdown="1">
 
@@ -169,7 +176,7 @@
 - Lines = 2 phases coexist; **triple point** = all 3; **critical point**: above Tc no pressure can liquefy gas → **supercritical fluid**
 - ↑T at const P (→): solid → liquid → gas. ↑P at const T (↑): gas → liquid → solid. Normal bp/mp read at 1 atm
 
-| **Endothermic: absorbs heat (+ΔH, +ΔS)** | **Exothermic: releases heat (−ΔH, −ΔS)** |
+| **Endothermic (+ΔH, +ΔS)** | **Exothermic (−ΔH, −ΔS)** |
 |---|---|
 | melting s→l | freezing l→s |
 | vaporization l→g | condensation g→l |
@@ -329,7 +336,7 @@
 <img src="assets/f_heat.png" class="eq">
 
 1. Sketch the path; skip segments you don't cross (see examples below)
-2. Sloped (one phase): **q = m(g)·Cs·ΔT** — flat (phase change, T constant): **q = n(mol)·ΔH**
+2. Sloped (same): **q = m(g)·Cs·ΔT**; flat (phase change): **q = n(mol)·ΔH**
 3. Sum; convert J → kJ. Cooling path (gas → solid): every q **negative** (ΔHcond = −ΔHvap, ΔHfreeze = −ΔHfus)
 
 - H2O: C(ice) 2.09, C(liq) 4.184, C(steam) ≈ 2.0 J/g·°C; ΔHfus 6.02, ΔHvap 40.7 kJ/mol; MM 18.02
