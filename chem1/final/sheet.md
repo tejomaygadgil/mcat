@@ -19,23 +19,23 @@
 
 #### (1–2) Molecular Geometry (VSEPR)
 
-- Lewis structure → count central atom's e⁻ groups = bonded atoms + lone pairs (double/triple bond or radical e⁻ = **1** group)
+- **Central atom** BG + LP (double/triple bond or radical e⁻ = 1 group)
 
-| **e⁻** | **Hyb (e⁻ geo)** | **B** | **LP** | **Molecular geo** | **Angle** | **Pol** |
-|---|---|---|---|---|---|---|
-| 2 | sp (linear) | 2 | 0 | linear | 180° | ✗ |
-| 3 | sp² (tri. planar) | 3 | 0 | trigonal planar | 120° | ✗ |
-| 3 | sp² | 2 | 1 | bent | &lt;120° | ✓ |
-| 4 | sp³ (tetrahedral) | 4 | 0 | tetrahedral | 109.5° | ✗ |
-| 4 | sp³ | 3 | 1 | trigonal pyramidal | &lt;109.5° | ✓ |
-| 4 | sp³ | 2 | 2 | bent | &lt;109.5° | ✓ |
-| 5 | sp³d (tri. bipyr.) | 5 | 0 | trigonal bipyramidal | 90/120° | ✗ |
-| 5 | sp³d | 4 | 1 | seesaw | 90/120° | ✓ |
-| 5 | sp³d | 3 | 2 | T-shaped | 90, 180° | ✓ |
-| 5 | sp³d | 2 | 3 | linear | 180° | ✗ |
-| 6 | sp³d² (octahedral) | 6 | 0 | octahedral | 90° | ✗ |
-| 6 | sp³d² | 5 | 1 | square pyramidal | 90° | ✓ |
-| 6 | sp³d² | 4 | 2 | square planar | 90° | ✗ |
+| **e⁻** | **e⁻ geo** | **Hyb** | **BG** | **LP** | **Molecular geo** | **Angle** | **Pol** |
+|---|---|---|---|---|---|---|---|
+| 2 | linear | sp | 2 | 0 | linear | 180° | ✗ |
+| 3 | tri. planar | sp² | 3 | 0 | tri. planar | 120° | ✗ |
+| 3 | tri. planar | sp² | 2 | 1 | bent | &lt;120° | ✓ |
+| 4 | tetra. | sp³ | 4 | 0 | tetrahedral | 109.5° | ✗ |
+| 4 | tetra. | sp³ | 3 | 1 | tri. pyramidal | &lt;109.5° | ✓ |
+| 4 | tetra. | sp³ | 2 | 2 | bent | &lt;109.5° | ✓ |
+| 5 | tri. bipyr. | sp³d | 5 | 0 | tri. bipyramidal | 90/120° | ✗ |
+| 5 | tri. bipyr. | sp³d | 4 | 1 | seesaw | 90/120° | ✓ |
+| 5 | tri. bipyr. | sp³d | 3 | 2 | T-shaped | 90, 180° | ✓ |
+| 5 | tri. bipyr. | sp³d | 2 | 3 | linear | 180° | ✗ |
+| 6 | octa. | sp³d² | 6 | 0 | octahedral | 90° | ✗ |
+| 6 | octa. | sp³d² | 5 | 1 | sq. pyramidal | 90° | ✓ |
+| 6 | octa. | sp³d² | 4 | 2 | sq. planar | 90° | ✗ |
 
 - Lone pairs squeeze angles (SCl₂ a little &lt; 109.5°) · SO₃, BF₃ tri. planar · PCl₃, PH₃, NH₃ tri. pyr. · CS₂, CO₂, N₂, I₃⁻ linear · SiH₄, CH₄, PO₄³⁻ tetra. · SCl₂, H₂S, H₂O, O₃, ClNO, NH₂⁻ bent · ClF₃ T-shaped · XeF₄ sq. planar
 
