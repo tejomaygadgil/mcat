@@ -38,21 +38,21 @@
 
 - **Central atom** BG + LP (double/triple bond or radical e- = 1 group); lone pairs squeeze angles (SCl2 a little &lt; 109.5°); compounds → (3–4) table
 
-| **BG** | **LP** | **EG** | **e- geo** | **Hyb** | **Mol. geo** | **Angle** | **Nonpol** |
+| **EG** | **e- geo.** | **Hyb.** | **BG** | **LP** | **Mol. geo.** | **Angle** | **Nonpol.** |
 |---|---|---|---|---|---|---|---|
-| 2 | 0 | 2 | linear | sp | linear | 180° | ✓ |
-| 3 | 0 | 3 | tri. planar | sp2 | tri. planar | 120° | ✓ |
-| 2 | 1 | 3 | tri. planar | sp2 | bent | &lt;120° | ✗ |
-| 4 | 0 | 4 | tetra. | sp3 | tetra. | 109.5° | ✓ |
-| 3 | 1 | 4 | tetra. | sp3 | tri. pyr. | &lt;109.5° | ✗ |
-| 2 | 2 | 4 | tetra. | sp3 | bent | &lt;109.5° | ✗ |
-| 5 | 0 | 5 | tri. bipyr. | sp3d | tri. bipyr. | 90/120° | ✓ |
-| 4 | 1 | 5 | tri. bipyr. | sp3d | seesaw | 90/120° | ✗ |
-| 3 | 2 | 5 | tri. bipyr. | sp3d | T-shaped | 90, 180° | ✗ |
-| 2 | 3 | 5 | tri. bipyr. | sp3d | linear | 180° | ✓ |
-| 6 | 0 | 6 | octa. | sp3d2 | octa. | 90° | ✓ |
-| 5 | 1 | 6 | octa. | sp3d2 | sq. pyr. | 90° | ✗ |
-| 4 | 2 | 6 | octa. | sp3d2 | sq. planar | 90° | ✓ |
+| 2 | linear | sp | 2 | 0 | linear | 180° | ✓ |
+| 3 | tri. planar | sp2 | 3 | 0 | tri. planar | 120° | ✓ |
+| 3 | tri. planar | sp2 | 2 | 1 | bent | &lt;120° | ✗ |
+| 4 | tetra. | sp3 | 4 | 0 | tetra. | 109.5° | ✓ |
+| 4 | tetra. | sp3 | 3 | 1 | tri. pyr. | &lt;109.5° | ✗ |
+| 4 | tetra. | sp3 | 2 | 2 | bent | &lt;109.5° | ✗ |
+| 5 | tri. bipyr. | sp3d | 5 | 0 | tri. bipyr. | 90/120° | ✓ |
+| 5 | tri. bipyr. | sp3d | 4 | 1 | seesaw | 90/120° | ✗ |
+| 5 | tri. bipyr. | sp3d | 3 | 2 | T-shaped | 90, 180° | ✗ |
+| 5 | tri. bipyr. | sp3d | 2 | 3 | linear | 180° | ✓ |
+| 6 | octa. | sp3d2 | 6 | 0 | octa. | 90° | ✓ |
+| 6 | octa. | sp3d2 | 5 | 1 | sq. pyr. | 90° | ✗ |
+| 6 | octa. | sp3d2 | 4 | 2 | sq. planar | 90° | ✓ |
 
 
 </div>
@@ -60,7 +60,7 @@
 
 #### (3–4) Polarity & Dipole Moment
 
-| **Compounds** | **BG** | **LP** | **Shape** | **Nonpol** |
+| **Compounds** | **BG** | **LP** | **Shape** | **Nonpol.** |
 |---|---|---|---|---|
 | diatomic: H2, Br2 same ✓; CO, IBr, HCl diff. ✗ | 1 | — | linear | ✓/✗ |
 | BeCl2, CO2, CS2 | 2 | 0 | linear | ✓ |
@@ -127,7 +127,7 @@
 #### (11–12) Rank Vapor Pressure & Boiling Point
 
 - Strength: **ionic > H-bond > dipole-dipole > dispersion**, but size can trump: big nonpolar can beat small polar
-- ↑IMF → ↑bp, ↑mp, ↑viscosity, ↑surf. tension, ↑ΔHvap, ↑critical T, **↓ vapor pressure**
+- ↑IMF → ↑bp, ↑mp, ↑viscosity, ↑surf. tension, ↑ΔHvap, ↑critical T, **↓VP**
 - **VP order = reverse of bp order** (lowest bp = highest VP at room T)
 
 | | |
