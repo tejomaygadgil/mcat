@@ -38,21 +38,21 @@
 
 - **Central atom** BG + LP (double/triple bond or radical e- = 1 group); lone pairs squeeze angles (SCl2 a little &lt; 109.5°); compounds → (3–4) table
 
-| **EG** | **e- geo.** | **Hyb.** | **BG** | **LP** | **Mol. geo.** | **Angle** | **Nonpol.** |
+| **EG** | **e- geo.** | **Hyb.** | **BG** | **LP** | **Mol. geo.** | **Angle** | **Polarity** |
 |---|---|---|---|---|---|---|---|
-| 2 | linear | sp | 2 | 0 | linear | 180° | ✓ |
-| 3 | tri. planar | sp2 | 3 | 0 | tri. planar | 120° | ✓ |
-| 3 | tri. planar | sp2 | 2 | 1 | bent | &lt;120° | ✗ |
-| 4 | tetra. | sp3 | 4 | 0 | tetra. | 109.5° | ✓ |
-| 4 | tetra. | sp3 | 3 | 1 | tri. pyr. | &lt;109.5° | ✗ |
-| 4 | tetra. | sp3 | 2 | 2 | bent | &lt;109.5° | ✗ |
-| 5 | tri. bipyr. | sp3d | 5 | 0 | tri. bipyr. | 90/120° | ✓ |
-| 5 | tri. bipyr. | sp3d | 4 | 1 | seesaw | 90/120° | ✗ |
-| 5 | tri. bipyr. | sp3d | 3 | 2 | T-shaped | 90, 180° | ✗ |
-| 5 | tri. bipyr. | sp3d | 2 | 3 | linear | 180° | ✓ |
-| 6 | octa. | sp3d2 | 6 | 0 | octa. | 90° | ✓ |
-| 6 | octa. | sp3d2 | 5 | 1 | sq. pyr. | 90° | ✗ |
-| 6 | octa. | sp3d2 | 4 | 2 | sq. planar | 90° | ✓ |
+| 2 | linear | sp | 2 | 0 | linear | 180° | nonpolar |
+| 3 | tri. planar | sp2 | 3 | 0 | tri. planar | 120° | nonpolar |
+| 3 | tri. planar | sp2 | 2 | 1 | bent | &lt;120° | polar |
+| 4 | tetra. | sp3 | 4 | 0 | tetra. | 109.5° | nonpolar |
+| 4 | tetra. | sp3 | 3 | 1 | tri. pyr. | &lt;109.5° | polar |
+| 4 | tetra. | sp3 | 2 | 2 | bent | &lt;109.5° | polar |
+| 5 | tri. bipyr. | sp3d | 5 | 0 | tri. bipyr. | 90/120° | nonpolar |
+| 5 | tri. bipyr. | sp3d | 4 | 1 | seesaw | 90/120° | polar |
+| 5 | tri. bipyr. | sp3d | 3 | 2 | T-shaped | 90, 180° | polar |
+| 5 | tri. bipyr. | sp3d | 2 | 3 | linear | 180° | nonpolar |
+| 6 | octa. | sp3d2 | 6 | 0 | octa. | 90° | nonpolar |
+| 6 | octa. | sp3d2 | 5 | 1 | sq. pyr. | 90° | polar |
+| 6 | octa. | sp3d2 | 4 | 2 | sq. planar | 90° | nonpolar |
 
 
 </div>
@@ -60,21 +60,21 @@
 
 #### (3–4) Polarity & Dipole Moment
 
-| **Compounds** | **BG** | **LP** | **Shape** | **Nonpol.** |
+| **Compounds** | **BG** | **LP** | **Shape** | **Polarity** |
 |---|---|---|---|---|
-| diatomic: H2, Br2 same ✓; CO, IBr, HCl diff. ✗ | 1 | — | linear | ✓/✗ |
-| BeCl2, CO2, CS2 | 2 | 0 | linear | ✓ |
-| BF3, BH3, SO3 | 3 | 0 | tri. planar | ✓ |
-| SO2, O3, ClNO | 2 | 1 | bent | ✗ |
-| CH4, CCl4, CF4, SiH4, PO43-, hydrocarb. | 4 | 0 | tetra. | ✓ |
-| CH3Cl/F/Br/I, CH2Cl2, CHCl3 (mixed) | 4 | 0 | tetra. | ✗ |
-| NH3, PH3, AsH3, PCl3, NCl3, NF3 | 3 | 1 | tri. pyr. | ✗ |
-| H2O, OF2, H2S, SCl2, NH2- | 2 | 2 | bent | ✗ |
-| PCl5, PBr5 | 5 | 0 | tri. bipyr. | ✓ |
-| ClF3 | 3 | 2 | T-shaped | ✗ |
-| XeF2, I3- | 2 | 3 | linear | ✓ |
-| BrF5 | 5 | 1 | sq. pyr. | ✗ |
-| XeF4 | 4 | 2 | sq. planar | ✓ |
+| diatomic: H2, Br2 (same); CO, IBr, HCl (diff.) | 1 | — | linear | nonpol. / pol. |
+| BeCl2, CO2, CS2 | 2 | 0 | linear | nonpolar |
+| BF3, BH3, SO3 | 3 | 0 | tri. planar | nonpolar |
+| SO2, O3, ClNO | 2 | 1 | bent | polar |
+| CH4, CCl4, CF4, SiH4, PO43-, hydrocarb. | 4 | 0 | tetra. | nonpolar |
+| CH3Cl/F/Br/I, CH2Cl2, CHCl3 (mixed) | 4 | 0 | tetra. | polar |
+| NH3, PH3, AsH3, PCl3, NCl3, NF3 | 3 | 1 | tri. pyr. | polar |
+| H2O, OF2, H2S, SCl2, NH2- | 2 | 2 | bent | polar |
+| PCl5, PBr5 | 5 | 0 | tri. bipyr. | nonpolar |
+| ClF3 | 3 | 2 | T-shaped | polar |
+| XeF2, I3- | 2 | 3 | linear | nonpolar |
+| BrF5 | 5 | 1 | sq. pyr. | polar |
+| XeF4 | 4 | 2 | sq. planar | nonpolar |
 
 - **Dipole** = separation of + / − charge
 - (μ ≠ 0) = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs)
