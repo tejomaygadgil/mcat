@@ -81,9 +81,9 @@ The final-exam summary lists 29 questions worth 300 pts: 24 MC (Q1–24 @ 8.5)
 and 5 word problems (Q25–28 @ 19, Q29 @ 20). The MC split is Ch10 → Q1–8,
 Ch11 → Q9–17, Ch12 → Q18–24, in the order the summary lists the topics.
 Paired topics share a box, plus two unnumbered support boxes ported from
-mt3: "Lewis Structures (Kelter)" leads the sheet — questions 1–8 all start
-from a Lewis structure — and "Periodic Trends" follows (3–4), feeding the
-dipole ranking, hydration, and dispersion answers. That makes 25 boxes.
+mt3 that lead the sheet: "Lewis Structures (Kelter)" — questions 1–8 all
+start from a Lewis structure — then "Periodic Trends", feeding the dipole
+ranking, hydration, and dispersion answers. That makes 25 boxes.
 
 Deliberately **excluded** (on the practice exam / HW but not among the
 summary's 29 questions): unit-cell density/radius calculations,

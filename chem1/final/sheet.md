@@ -17,6 +17,20 @@
 </div>
 <div class="problem" markdown="1">
 
+#### Periodic Trends
+
+| | **Trend** | **Top** | **Bot** | **Left** | **Right** |
+|---|---|---|---|---|---|
+| **Atomic size** (radius) | ↙ (Cs) | ↓ | ↑ | ↑ | ↓ |
+| **EN** (electronegativity) | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
+| **IE** (ionization energy) | ↗ (He) | ↑ | ↓ | ↓ | ↑ |
+| **EA** (electron affinity) | ↗ (Cl) | ↑ | ↓ | ↓ | ↑ |
+
+- Cation &lt; neutral &lt; anion · ↑ΔEN → ↑ bond dipole (3–4) · smaller ion, higher charge → ↑ΔHhydr (18) · bigger → ↑ dispersion (9–12)
+
+</div>
+<div class="problem" markdown="1">
+
 #### (1–2) Molecular Geometry (VSEPR)
 
 - **Central atom** BG + LP (double/triple bond or radical e⁻ = 1 group)
@@ -50,20 +64,6 @@
 - Polar: different-element diatomic (CO, IBr, HCl) + lone-pair shapes: BrF₅ (sq. pyr.), NH₃, OF₂, H₂O, SO₂ (bent), NCl₃, NF₃
 - ↑ΔEN = ↑μ: CH₃**F** > CH₃Cl > CH₃Br > CH₃I · NH₃ > PH₃ > AsH₃ (EN falls down group)
 - Polar dissolves polar: NH₃ in H₂O ✓, H₂S in NH₃ ✓, CCl₄/SiO₂/O₂/CO₂ in polar ✗
-
-</div>
-<div class="problem" markdown="1">
-
-#### Periodic Trends
-
-| | **Trend** | **Top** | **Bot** | **Left** | **Right** |
-|---|---|---|---|---|---|
-| **Atomic size** (radius) | ↙ (Cs) | ↓ | ↑ | ↑ | ↓ |
-| **EN** (electronegativity) | ↗ (F) | ↑ | ↓ | ↓ | ↑ |
-| **IE** (ionization energy) | ↗ (He) | ↑ | ↓ | ↓ | ↑ |
-| **EA** (electron affinity) | ↗ (Cl) | ↑ | ↓ | ↓ | ↑ |
-
-- Cation &lt; neutral &lt; anion · ↑ΔEN → ↑ bond dipole (3–4) · smaller ion, higher charge → ↑ΔHhydr (18) · bigger → ↑ dispersion (9–12)
 
 </div>
 <div class="problem" markdown="1">
