@@ -38,21 +38,21 @@
 
 - **Central atom** BG + LP (double/triple bond or radical e⁻ = 1 group)
 
-| **e⁻** | **Hyb** | **BG** | **LP** | **Mol. geo** | **e⁻ geo** | **Angle** | **Pol** |
+| **e⁻** | **Hyb** | **BG** | **LP** | **Mol. geo** | **e⁻ geo** | **Angle** | **Nonpol** |
 |---|---|---|---|---|---|---|---|
-| 2 | sp | 2 | 0 | linear | linear | 180° | ✗ |
-| 3 | sp² | 3 | 0 | tri. planar | tri. planar | 120° | ✗ |
-| 3 | sp² | 2 | 1 | bent | tri. planar | &lt;120° | ✓ |
-| 4 | sp³ | 4 | 0 | tetra. | tetra. | 109.5° | ✗ |
-| 4 | sp³ | 3 | 1 | tri. pyr. | tetra. | &lt;109.5° | ✓ |
-| 4 | sp³ | 2 | 2 | bent | tetra. | &lt;109.5° | ✓ |
-| 5 | sp³d | 5 | 0 | tri. bipyr. | tri. bipyr. | 90/120° | ✗ |
-| 5 | sp³d | 4 | 1 | seesaw | tri. bipyr. | 90/120° | ✓ |
-| 5 | sp³d | 3 | 2 | T-shaped | tri. bipyr. | 90, 180° | ✓ |
-| 5 | sp³d | 2 | 3 | linear | tri. bipyr. | 180° | ✗ |
-| 6 | sp³d² | 6 | 0 | octa. | octa. | 90° | ✗ |
-| 6 | sp³d² | 5 | 1 | sq. pyr. | octa. | 90° | ✓ |
-| 6 | sp³d² | 4 | 2 | sq. planar | octa. | 90° | ✗ |
+| 2 | sp | 2 | 0 | linear | linear | 180° | ✓ |
+| 3 | sp² | 3 | 0 | tri. planar | tri. planar | 120° | ✓ |
+| 3 | sp² | 2 | 1 | bent | tri. planar | &lt;120° | ✗ |
+| 4 | sp³ | 4 | 0 | tetra. | tetra. | 109.5° | ✓ |
+| 4 | sp³ | 3 | 1 | tri. pyr. | tetra. | &lt;109.5° | ✗ |
+| 4 | sp³ | 2 | 2 | bent | tetra. | &lt;109.5° | ✗ |
+| 5 | sp³d | 5 | 0 | tri. bipyr. | tri. bipyr. | 90/120° | ✓ |
+| 5 | sp³d | 4 | 1 | seesaw | tri. bipyr. | 90/120° | ✗ |
+| 5 | sp³d | 3 | 2 | T-shaped | tri. bipyr. | 90, 180° | ✗ |
+| 5 | sp³d | 2 | 3 | linear | tri. bipyr. | 180° | ✓ |
+| 6 | sp³d² | 6 | 0 | octa. | octa. | 90° | ✓ |
+| 6 | sp³d² | 5 | 1 | sq. pyr. | octa. | 90° | ✗ |
+| 6 | sp³d² | 4 | 2 | sq. planar | octa. | 90° | ✓ |
 
 - Lone pairs squeeze angles (SCl₂ a little &lt; 109.5°). SO₃, BF₃ tri. planar; PCl₃, PH₃, NH₃ tri. pyr.; CS₂, CO₂, N₂, I₃⁻ linear; SiH₄, CH₄, PO₄³⁻ tetra.; SCl₂, H₂S, H₂O, O₃, ClNO, NH₂⁻ bent; ClF₃ T-shaped; XeF₄ sq. planar
 
@@ -62,8 +62,8 @@
 #### (3–4) Polarity & Dipole Moment
 
 - **Dipole** = separation of + / − charge; net dipole moment (μ ≠ 0) = **polar** molecule
-- Polar = polar bonds (ΔEN) whose vectors **don't cancel**. Pol column above assumes identical outer atoms — **mixed outer atoms → polar** (CH₃Cl, CH₂Cl₂, CHCl₃)
-- Nonpolar: same-element diatomic (Br₂), all hydrocarbons, ✗-row shapes: XeF₂, XeF₄, CCl₄, PBr₅, PCl₅, BeCl₂, CO₂, BF₃, BH₃, SO₃
+- Polar = polar bonds (ΔEN) whose vectors **don't cancel**. Nonpol column above assumes identical outer atoms — **mixed outer atoms → polar** (CH₃Cl, CH₂Cl₂, CHCl₃)
+- Nonpolar: same-element diatomic (Br₂), all hydrocarbons, ✓-row shapes: XeF₂, XeF₄, CCl₄, PBr₅, PCl₅, BeCl₂, CO₂, BF₃, BH₃, SO₃
 - Polar: different-element diatomic (CO, IBr, HCl) + lone-pair shapes: BrF₅ (sq. pyr.), NH₃, OF₂, H₂O, SO₂ (bent), NCl₃, NF₃
 - ↑ΔEN = ↑μ: CH₃**F** > CH₃Cl > CH₃Br > CH₃I; NH₃ > PH₃ > AsH₃ (EN falls down group)
 - Polar dissolves polar: NH₃ in H₂O ✓, H₂S in NH₃ ✓, CCl₄/SiO₂/O₂/CO₂ in polar ✗
