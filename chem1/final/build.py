@@ -113,12 +113,12 @@ def render_figures():
     for name, latex in EQ_BLOCK.items():
         _mathtext(name, latex, "#111111", 0.04)
 
-    # Heat-of-solution derivation for (18) -- three stacked lines, one image.
+    # Heat-of-solution derivation for (18): the three dissolving steps, then
+    # the two substitutions that collapse them into the headline equation.
     fig = plt.figure()
     fig.text(0.5, 0.5, "\n".join((
         r"$\Delta H_{solution} = \Delta H_{solute} + (\Delta H_{solvent} + \Delta H_{mix})$",
-        r"$\Delta H_{solute} = -\Delta H_{lattice\ energy}$",
-        r"$(\Delta H_{hydration} = \Delta H_{solvent} + \Delta H_{mix})$")),
+        r"$= (-\Delta H_{lattice}) + \Delta H_{hydration}$")),
         fontsize=FONTSIZE, color="#111111", ha="center", va="center",
         linespacing=1.5)
     fig.savefig(os.path.join(ASSETS, "e_dhderiv.png"), dpi=DPI,

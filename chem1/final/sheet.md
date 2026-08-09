@@ -227,8 +227,8 @@
 
 <img src="assets/e_dhderiv.png" class="eq">
 
-- **ΔHsolution**: heat absorbed/released on dissolving
-- **ΔHhydration**: heat **released** when 1 mol **gaseous ions** dissolves in water (forms ion-dipole; always exo)
+- Dissolving = break crystal (**ΔHsolute = −ΔHlattice**, costs energy) + make ion-dipole attractions (**ΔHsolvent + ΔHmix = ΔHhydration**, releases)
+- **ΔHhydration**: heat **released** when 1 mol **gaseous ions** dissolves in water (always exo)
 - **Highest ΔHhydr**: smallest ion + highest charge: Al3+ > Mg2+ > Na+ > K+; F- > Cl-
 - ΔHsoln **exo (−)**: ΔHhydration > ΔHsolute; **endo (+)**: solute > hydration; **≈ 0**: comparable
 
