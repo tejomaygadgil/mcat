@@ -21,21 +21,21 @@
 
 - **Central atom** BG + LP (double/triple bond or radical e⁻ = 1 group)
 
-| **e⁻** | **e⁻ geo** | **Hyb** | **BG** | **LP** | **Molecular geo** | **Angle** | **Pol** |
+| **e⁻** | **Hyb** | **BG** | **LP** | **e⁻ geo** | **Mol. geo** | **Angle** | **Pol** |
 |---|---|---|---|---|---|---|---|
-| 2 | linear | sp | 2 | 0 | linear | 180° | ✗ |
-| 3 | tri. planar | sp² | 3 | 0 | tri. planar | 120° | ✗ |
-| 3 | tri. planar | sp² | 2 | 1 | bent | &lt;120° | ✓ |
-| 4 | tetra. | sp³ | 4 | 0 | tetrahedral | 109.5° | ✗ |
-| 4 | tetra. | sp³ | 3 | 1 | tri. pyramidal | &lt;109.5° | ✓ |
-| 4 | tetra. | sp³ | 2 | 2 | bent | &lt;109.5° | ✓ |
-| 5 | tri. bipyr. | sp³d | 5 | 0 | tri. bipyramidal | 90/120° | ✗ |
-| 5 | tri. bipyr. | sp³d | 4 | 1 | seesaw | 90/120° | ✓ |
-| 5 | tri. bipyr. | sp³d | 3 | 2 | T-shaped | 90, 180° | ✓ |
-| 5 | tri. bipyr. | sp³d | 2 | 3 | linear | 180° | ✗ |
-| 6 | octa. | sp³d² | 6 | 0 | octahedral | 90° | ✗ |
-| 6 | octa. | sp³d² | 5 | 1 | sq. pyramidal | 90° | ✓ |
-| 6 | octa. | sp³d² | 4 | 2 | sq. planar | 90° | ✗ |
+| 2 | sp | 2 | 0 | linear | linear | 180° | ✗ |
+| 3 | sp² | 3 | 0 | tri. planar | tri. planar | 120° | ✗ |
+| 3 | sp² | 2 | 1 | tri. planar | bent | &lt;120° | ✓ |
+| 4 | sp³ | 4 | 0 | tetra. | tetra. | 109.5° | ✗ |
+| 4 | sp³ | 3 | 1 | tetra. | tri. pyr. | &lt;109.5° | ✓ |
+| 4 | sp³ | 2 | 2 | tetra. | bent | &lt;109.5° | ✓ |
+| 5 | sp³d | 5 | 0 | tri. bipyr. | tri. bipyr. | 90/120° | ✗ |
+| 5 | sp³d | 4 | 1 | tri. bipyr. | seesaw | 90/120° | ✓ |
+| 5 | sp³d | 3 | 2 | tri. bipyr. | T-shaped | 90, 180° | ✓ |
+| 5 | sp³d | 2 | 3 | tri. bipyr. | linear | 180° | ✗ |
+| 6 | sp³d² | 6 | 0 | octa. | octa. | 90° | ✗ |
+| 6 | sp³d² | 5 | 1 | octa. | sq. pyr. | 90° | ✓ |
+| 6 | sp³d² | 4 | 2 | octa. | sq. planar | 90° | ✗ |
 
 - Lone pairs squeeze angles (SCl₂ a little &lt; 109.5°) · SO₃, BF₃ tri. planar · PCl₃, PH₃, NH₃ tri. pyr. · CS₂, CO₂, N₂, I₃⁻ linear · SiH₄, CH₄, PO₄³⁻ tetra. · SCl₂, H₂S, H₂O, O₃, ClNO, NH₂⁻ bent · ClF₃ T-shaped · XeF₄ sq. planar
 
