@@ -272,7 +272,8 @@
 
 - mol = M × V(**L**); V(L) = mol ÷ M; mL ÷ 1000 = L; g ↔ mol via molar mass; dilution: M1V1 = M2V2
 - 0.250 L of 0.500 M → 0.125 mol; need 0.300 mol of 0.450 M → 0.667 L = 667 mL
-- Molality m uses **kg of solvent**, not solution — for ΔTf/ΔTb. Only molarity changes with T (volume swells); m, mass %, χ don't
+- Molality m uses **kg of solvent**, not solution — for ΔTf/ΔTb
+- **Only molarity changes with temperature** (volume swells); molality, mass %, χ don't (mass/count-based)
 
 </div>
 <div class="problem" markdown="1">
