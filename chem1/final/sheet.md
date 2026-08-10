@@ -270,8 +270,9 @@
 
 <img src="assets/e_conc.png" class="eq">
 
-- mol = M × V(**L**); V(L) = mol ÷ M; mL ÷ 1000 = L; g ↔ mol via molar mass; dilution: M1V1 = M2V2
-- 0.250 L of 0.500 M → 0.125 mol; need 0.300 mol of 0.450 M → 0.667 L = 667 mL
+- mL ÷ 1000 = L; g ↔ mol via molar mass; dilution: M1V1 = M2V2
+- mol = M × V(L): 0.500 M × 0.250 L = **0.125 mol**
+- V = mol ÷ M: 0.300 mol ÷ 0.450 M = 0.667 L = **667 mL**
 - Molality m uses **kg of solvent**, not solution — for ΔTf/ΔTb
 - **Only molarity changes with temperature** (volume swells); molality, mass %, χ don't (mass/count-based)
 
@@ -282,9 +283,11 @@
 
 <img src="assets/e_wv.png" class="eq">
 
-- 1.5% (w/v), 250 mL → 1.5 × 250/100 = **3.75 g** (n.b. the summary's "31.25 g" contradicts its own formula — trust g = % × mL / 100)
-- mL from % w/v: 16.6 g ÷ 0.0450 g/mL = 369 mL
-- **% m/m** = g solute / (g solute + g solvent) × 100; g water = g soln × (1 − %/100): 300 g of 9.71% KBr → 271 g water; **% v/v** = vol / total vol × 100
+- g = % × mL ÷ 100: for 250 mL of 1.5% → 1.5 × 250 ÷ 100 = **3.75 g** (the summary's "31.25 g" contradicts its own formula)
+- mL = g ÷ (% ÷ 100): 16.6 g ÷ 0.0450 g/mL = **369 mL**
+- **% m/m** = g solute ÷ (g solute + g solvent) × 100 — denominator = **whole solution**
+- g water = g solution × (1 − % ÷ 100): 300 g of 9.71% KBr → 300 × 0.9029 = **271 g water**
+- **% v/v** = vol component ÷ total vol × 100
 
 </div>
 <div class="problem" markdown="1">
@@ -294,9 +297,13 @@
 <img src="assets/e_henry.png" class="eq">
 
 - kH = Henry's constant = "solubility constant of a gas" (M/atm); C = molar solubility
-- **1 atm** = 760 mmHg = 760 torr = 14.7 psi = 101.3 kPa = 1.01325e5 Pa (mmHg → atm: **÷ 760**)
-- kH = C/P: 1.3 M at 0.022 atm → **59 M/atm**
-- 4.7e−4 M at 522 mmHg → kH = 4.7e−4 ÷ (522/760) = **6.8e−4 M/atm**
+- **kH = C ÷ P** (divide! measured below 1 atm ⇒ kH is **bigger** than C)
+- **1 atm** = 760 mmHg = 760 torr = 14.7 psi = 101.3 kPa (mmHg → atm: **÷ 760**)
+
+Given C = 4.7e−4 mol/L at 522 mmHg:
+
+1. P = 522 ÷ 760 = 0.687 atm
+2. kH = 4.7e−4 ÷ 0.687 = **6.8e−4 mol/L·atm**
 
 </div>
 <div class="problem" markdown="1">
@@ -304,8 +311,8 @@
 #### (24) Osmosis
 
 - **Osmosis**: **solvent** (water) flows across a semipermeable membrane (passes solvent, **blocks solute** ions — it does *not* stop water) from **low solute conc. → high solute conc.** (dilute → concentrated)
-- **Hyperosmotic** = more solute: water flows **into** it (cell in it shrinks/crenates)
-- **Hyposmotic** = less solute: water flows **out** into the stronger side (cell in it swells/bursts)
+- **Hyperosmotic** = more solute: water flows **into** it (cell shrinks)
+- **Hyposmotic** = less solute: water flows **out** into the stronger side (cell swells)
 - **Isosmotic** = equal: no net flow (isotonic saline = 0.9% w/v NaCl); π = pressure needed to **stop** osmotic flow
 
 </div>
@@ -343,8 +350,15 @@
 3. Sum; convert J → kJ. Cooling path (gas → solid): every q **negative** (ΔHcond = −ΔHvap, ΔHfreeze = −ΔHfus)
 
 - H2O: C(ice) 2.09, C(liq) 4.184, C(steam) ≈ 2.0 J/g·°C; ΔHfus 6.02, ΔHvap 40.7 kJ/mol; MM 18.02
-- 36.0 g H2O, 65 °C liq → 115 °C gas: 36×4.184×35 = 5.27 kJ; (36/18.02)×40.7 = 81.3 kJ; 36×2.01×15 = 1.09 kJ → **87.7 kJ**
-- Cooling: 125 g benzene (78.11) gas 425 K → liq 335 K (bp 353 K, mp 279 K — never freezes): 125×1.06×72 = 9.5 kJ; (125/78.11)×33.9 = 54.3 kJ; 125×1.73×18 = 3.9 kJ → **67.7 kJ removed**
+
+36.0 g H2O, liquid 65 °C → gas 115 °C:
+
+1. heat liquid 65→100: q = 36.0 g × 4.184 × 35° = 5.27 kJ
+2. boil (mol!): q = (36.0 ÷ 18.02) × 40.7 = 81.3 kJ
+3. heat gas 100→115: q = 36.0 g × 2.01 × 15° = 1.09 kJ
+4. total = **87.7 kJ**
+
+- Cooling runs the same steps backward: 125 g benzene (MM 78.11), gas 425 K → liquid 335 K (bp 353, mp 279 — no freeze segment): 9.5 kJ + 54.3 kJ + 3.9 kJ = **67.7 kJ removed**
 - Endo (+): melt, vaporize, sublime; Exo (−): freeze, condense, deposit; ΔHsub = ΔHfus + ΔHvap
 
 </div>
@@ -361,7 +375,6 @@
 3. P(soln) = χ(solvent) × P°; lowering ΔP = P° − P(soln) = χ(solute)·P°
 
 - 75.0 g citric acid (192.12) + 420 g H2O, P° 71.93 mmHg: 0.390 & 23.31 mol → χ = 0.9835 → **70.7 mmHg**
-- 200 g sucrose (342.3) + 350 g H2O, P° 17.5: 0.584 & 19.42 mol → χ = 0.9708 → **17.0 mmHg**
 
 </div>
 <div class="problem" markdown="1">
@@ -372,8 +385,15 @@
 
 - m = mol solute / **kg solvent**; H2O: Kf 1.86, Kb 0.512 °C/m; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
 - **i** = particles per formula unit: nonelectrolytes (glucose, sucrose, urea) 1; NaCl, KCl, NaOH, NH4Cl 2; CaCl2, (NH4)2SO4 3; Al(NO3)3, FeCl3 4 (measured i slightly less — ion pairing)
-- Find i: **i = ΔTb / (Kb·m)** — 1.83 m boils 102.5 °C: 2.5/(0.512×1.83) = **2.7**
-- Molar mass from fp: ΔTf → m = ΔTf/(i·Kf) → mol = m × kg → **MM = g/mol**: 20.0 g per 500 g benzene (T°f 5.444, Kf 5.12) freezes 3.77 °C: ΔT 1.674 → 0.327 m → 0.163 mol → **≈120 g/mol**
+- Find i: **i = ΔTb ÷ (Kb × m)**: 1.83 m boils at 102.5 °C → i = 2.5 ÷ (0.512 × 1.83) = **2.7**
+
+Molar mass from fp — 20.0 g unknown per 500 g benzene (T°f 5.444, Kf 5.12) freezes at 3.77 °C:
+
+1. ΔTf = 5.444 − 3.77 = 1.674 °C
+2. m = ΔTf ÷ (i × Kf) = 1.674 ÷ 5.12 = 0.327 mol/kg
+3. mol = m × kg solvent = 0.327 × 0.500 = 0.163 mol
+4. MM = g ÷ mol = 20.0 ÷ 0.163 = **≈120 g/mol**
+
 - Lowest fp, equal grams = most mol × i (small MM wins: NaOH > KCl, CaCl2)
 
 </div>
@@ -385,11 +405,10 @@
 
 - R = **0.08206** L·atm/mol·K; T in **K** (+273.15); π in **atm** (torr ÷ 760); i = 1 nonelectrolyte
 
-1. M = π / (iRT)
-2. mol = M × V(**L**)
-3. **MM = g solute ÷ mol**
+Given 15.2 **mg** in 150.0 mL, π = 8.44 torr, 25 °C:
 
-- 15.2 **mg** in 150.0 mL, π 8.44 torr, 25 °C: M = (8.44/760)/(0.08206×298) = 4.54e−4 → 6.81e−5 mol → 0.0152/6.81e−5 = **223 g/mol**
-- π → fp: M from π → per 1 L: kg solvent = (1000·d − M·MM)/1000 → molality → ΔTf = i·Kf·m
+1. M = π ÷ (iRT) = (8.44 ÷ 760) ÷ (0.08206 × 298) = 4.54e−4 M
+2. mol = M × V(L) = 4.54e−4 × 0.1500 = 6.81e−5 mol
+3. MM = g ÷ mol = 0.0152 ÷ 6.81e−5 = **223 g/mol**
 
 </div>
