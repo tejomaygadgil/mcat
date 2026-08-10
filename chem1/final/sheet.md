@@ -87,6 +87,8 @@
 - (μ ≠ 0) = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs)
 - CH3**F** > CH3Cl > CH3Br > CH3I; NH3 > PH3 > AsH3 (EN)
 - Dissolves: NH3 in H2O ✓, H2S in NH3 ✓, CCl4/SiO2/O2/CO2 in pol. ✗
+- Solvent polarity: H2O > ethanol > acetone > CH2Cl2 > diethyl ether > toluene > hexane
+- Alkanes CnH2n+2, all **nonpolar** — C count: meth 1, eth 2, prop 3, but 4, pent 5, hex 6, hept 7, oct 8, non 9, dec 10
 
 </div>
 <div class="problem" markdown="1">
