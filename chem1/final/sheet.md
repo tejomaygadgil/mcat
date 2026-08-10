@@ -332,11 +332,15 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 | low | σ2s | σ2s |
 | **Used by** | B2, C2, N2, N2+, N2- | O2, O2+, O2-, F2, Ne2; **NO, NO+, NO-** (heteronuclear: use the more EN atom's pattern); Cl2, Cl2+, Cl2- (period 3: n = 3) |
 
+* 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d 7p
+
 1. Valence e- total: **add** 1 per − charge, **remove** 1 per +
-2. Fill low → high (Aufbau); max 2 per orbital, opposite spins (Pauli); equal-energy orbitals (the π pairs) each get 1 e- before any gets 2 (Hund)
+2. Fill round-robin sublevel before double occupation (Hund)
 3. **BO = (bonding e- − antibonding e-) / 2**
 4. Any unpaired e- → **paramagnetic**; all paired → **diamagnetic**
-5. BO > 0 → stable, can form (H2 1 ✓; He2 0 ✗ can't exist); **higher BO = stronger & shorter** bond (N2+ weaker/longer than N2). σ2s + σ*2s cancel, so counting 2p alone gives the same BO
+5. BO > 0 → stable, can form; **higher BO = stronger & shorter** bond (N2 > N2+). Counting 2p alone gives same BO (σ2s + σ*2s cancel)
+6. **Heteronuclear** (NO, CO, OF-): sum both atoms' valence e- (adjust for charge), fill the **O2 pattern** as usual. NO 11 e- → BO 2.5, para; NO+ 10 → BO 3, dia; NO- 12 → BO 2, para
+7. Two-sided diagram: the **more EN atom's orbitals sit lower** (more stable); bonding MOs resemble the more EN atom, antibonding the less EN
 
 | **Sp.** | **e-** | **BO** | **Mag** | **Sp.** | **e-** | **BO** | **Mag** |
 |---|---|---|---|---|---|---|---|
