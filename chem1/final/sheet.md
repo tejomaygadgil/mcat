@@ -333,7 +333,7 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 | **Used by** | B2, C2, N2, N2+, N2- | O2, O2+, O2-, F2, Ne2; **NO, NO+, NO-** (heteronuclear: use the more EN atom's pattern); Cl2, Cl2+, Cl2- (period 3: n = 3) |
 
 1. Valence e- total: **add** 1 per − charge, **remove** 1 per +
-2. Fill low → high, 2 per orbital, Hund across the π pair
+2. Fill low → high (Aufbau); max 2 per orbital, opposite spins (Pauli); equal-energy orbitals (the π pairs) each get 1 e- before any gets 2 (Hund)
 3. **BO = (bonding e- − antibonding e-) / 2**
 4. Any unpaired e- → **paramagnetic**; all paired → **diamagnetic**
 5. BO > 0 → stable, can form (H2 1 ✓; He2 0 ✗ can't exist); **higher BO = stronger & shorter** bond (N2+ weaker/longer than N2). σ2s + σ*2s cancel, so counting 2p alone gives the same BO
