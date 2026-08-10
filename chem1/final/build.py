@@ -73,39 +73,6 @@ def _mathtext(name, latex, color, pad):
     plt.close(fig)
 
 
-def _mo_panel(ax, x0, sigma_low):
-    """One MO energy-ladder panel; returns {level: (x, y)} centers.
-
-    sigma_low=True is the O2/F2/Ne2 ordering (sigma2p below pi2p),
-    False the B2/C2/N2 ordering (s-p mixing pushes sigma2p above pi2p).
-    """
-    W = 1.5      # single-level width
-    G = 0.35     # gap in the doubled pi levels
-    ys = {"s2s": 0.6, "s2s*": 1.9}
-    if sigma_low:
-        ys.update({"s2p": 3.4, "pi2p": 4.6, "pi2p*": 6.1, "s2p*": 7.4})
-    else:
-        ys.update({"pi2p": 3.4, "s2p": 4.6, "pi2p*": 6.1, "s2p*": 7.4})
-    lab = {"s2s": r"$\sigma_{2s}$", "s2s*": r"$\sigma^*_{2s}$",
-           "s2p": r"$\sigma_{2p}$", "pi2p": r"$\pi_{2p}$",
-           "pi2p*": r"$\pi^*_{2p}$", "s2p*": r"$\sigma^*_{2p}$"}
-    pos = {}
-    for lvl, y in ys.items():
-        double = lvl.startswith("pi")
-        if double:
-            for k, dx in enumerate((-(W + G) / 2, (W + G) / 2)):
-                ax.plot([x0 + dx - W / 2, x0 + dx + W / 2], [y, y],
-                        color="#111111", lw=1.8)
-            pos[lvl] = [(x0 - (W + G) / 2, y), (x0 + (W + G) / 2, y)]
-            lx = x0 - (W + G) / 2 - W / 2 - 0.25
-        else:
-            ax.plot([x0 - W / 2, x0 + W / 2], [y, y], color="#111111", lw=1.8)
-            pos[lvl] = [(x0, y)]
-            lx = x0 - W / 2 - 0.25
-        ax.text(lx, y, lab[lvl], ha="right", va="center", fontsize=17)
-    return pos
-
-
 def render_figures():
     """Rebuild assets/ from scratch: equations, then the three diagrams."""
     shutil.rmtree(ASSETS, ignore_errors=True)
@@ -123,27 +90,6 @@ def render_figures():
         linespacing=1.5)
     fig.savefig(os.path.join(ASSETS, "e_dhderiv.png"), dpi=DPI,
                 transparent=True, bbox_inches="tight", pad_inches=0.04)
-    plt.close(fig)
-
-    # MO diagrams for (25) -- the two period-2 fill orders, O2 filled in as
-    # the worked example (2 unpaired pi* electrons -> paramagnetic).
-    fig = plt.figure(figsize=(9.2, 4.1))
-    ax = fig.add_axes([0, 0, 1, 1])
-    ax.set_xlim(0, 13.4); ax.set_ylim(-0.1, 9.4); ax.axis("off")
-    ax.text(2.9, 8.6, "B$_2$  C$_2$  N$_2$", ha="center", va="center",
-            fontsize=18, fontweight="bold")
-    ax.text(9.9, 8.6, "O$_2$ filled  (F$_2$, Ne$_2$, NO, OF$^-$, Cl$_2$...)",
-            ha="center", va="center", fontsize=18, fontweight="bold")
-    _mo_panel(ax, 2.9, sigma_low=False)
-    pos = _mo_panel(ax, 9.9, sigma_low=True)
-    fills = {"s2s": ["↑↓"], "s2s*": ["↑↓"], "s2p": ["↑↓"],
-             "pi2p": ["↑↓", "↑↓"], "pi2p*": ["↑", "↑"]}
-    for lvl, arrows in fills.items():
-        for (x, y), a in zip(pos[lvl], arrows):
-            ax.text(x, y + 0.08, a, ha="center", va="bottom", fontsize=15,
-                    color="#7a1f2b")
-    fig.savefig(os.path.join(ASSETS, "f_mo.png"), dpi=DPI, transparent=True,
-                bbox_inches="tight", pad_inches=0.04)
     plt.close(fig)
 
     # Phase diagram for (14) -- generic curves, water's back-leaning fusion
@@ -218,7 +164,7 @@ EQ_MAX_WIDTH_PT = 82
 EQ_WIDTH_PT = {
     "e_dhsoln": 205, "e_dhderiv": 195, "e_conc": 175, "e_wv": 185, "e_henry": 170,
     "e_raoult": 215, "e_chi": 120, "e_coll": 150, "e_osm": 140,
-    "f_mo": 184, "f_phase": 148, "f_heat": 175,
+    "f_phase": 148, "f_heat": 175,
 }
 
 CSS = """

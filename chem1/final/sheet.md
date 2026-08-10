@@ -322,7 +322,15 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 
 #### (25) MO Theory — Bond Order & Magnetism
 
-<img src="assets/f_mo.png" class="eq">
+| | **B2, C2, N2 pattern** | **O2, F2, Ne2 pattern** |
+|---|---|---|
+| high | σ\*2p | σ\*2p |
+| ↑ | π\*2p, π\*2p | π\*2p, π\*2p |
+| ↑ | **σ2p** | **π2p, π2p** |
+| ↑ | **π2p, π2p** | **σ2p** |
+| ↑ | σ\*2s | σ\*2s |
+| low | σ2s | σ2s |
+| **Used by** | B2, C2, N2, N2+, N2- | O2, O2+, O2-, F2, Ne2; **NO, NO+, NO-** (heteronuclear: use the more EN atom's pattern); Cl2, Cl2+, Cl2- (period 3: n = 3) |
 
 1. Valence e- total: **add** 1 per − charge, **remove** 1 per +
 2. Fill low → high, 2 per orbital, Hund across the π pair
@@ -338,7 +346,6 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 | F2, Cl2 | 14 | 1 | dia | Cl2+ | 13 | 1.5 | para |
 | B2 | 6 | 1 | para | Cl2- | 15 | 0.5 | para |
 
-- Heteronuclear (NO, OF-) → the O2-type (right) ordering (more EN atom sits lower); period 3 (Cl2, Na2) → same shapes, n = 3
 
 </div>
 <div class="problem" markdown="1">
