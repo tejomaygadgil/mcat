@@ -385,18 +385,15 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 
 <img src="assets/e_coll.png" class="eq">
 
-- m = mol solute / **kg solvent**; H2O: Kf 1.86, Kb 0.512 °C/m; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
-- **i** = particles per formula unit: nonelectrolytes (glucose, sucrose, urea) 1; NaCl, KCl, NaOH, NH4Cl 2; CaCl2, (NH4)2SO4 3; Al(NO3)3, FeCl3 4 (measured i slightly less — ion pairing)
-- Find i: **i = ΔTb ÷ (Kb × m)**: 1.83 m boils at 102.5 °C → i = 2.5 ÷ (0.512 × 1.83) = **2.7**
-
-Molar mass from fp — 20.0 g unknown per 500 g benzene (T°f 5.444, Kf 5.12) freezes at 3.77 °C:
+- m = mol solute / **kg solvent**; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
+- **i** = particles per formula unit
+- Lowest fp for equal grams = small MM and high i (NaOH), **but the HW answer key rewards the most ions per formula (CaCl2, i = 3)**
+- Molar mass from fp — 20.0 g unknown per 500 g benzene (T°f 5.444, Kf 5.12) freezes at 3.77 °C:
 
 1. ΔTf = 5.444 − 3.77 = 1.674 °C
 2. m = ΔTf ÷ (i × Kf) = 1.674 ÷ 5.12 = 0.327 mol/kg
 3. mol = m × kg solvent = 0.327 × 0.500 = 0.163 mol
 4. MM = g ÷ mol = 20.0 ÷ 0.163 = **≈120 g/mol**
-
-- Lowest fp for equal grams = most particles per gram, i.e. small MM and high i (NaOH > KCl, CaCl2)
 
 </div>
 <div class="problem" markdown="1">
