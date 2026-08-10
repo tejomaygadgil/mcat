@@ -294,7 +294,7 @@
 <img src="assets/e_henry.png" class="eq">
 
 - kH = Henry's constant = "solubility constant of a gas" (M/atm); C = molar solubility
-- mmHg → atm: **÷ 760**
+- **1 atm** = 760 mmHg = 760 torr = 14.7 psi = 101.3 kPa = 1.01325e5 Pa (mmHg → atm: **÷ 760**)
 - kH = C/P: 1.3 M at 0.022 atm → **59 M/atm**
 - 4.7e−4 M at 522 mmHg → kH = 4.7e−4 ÷ (522/760) = **6.8e−4 M/atm**
 
