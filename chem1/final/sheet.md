@@ -84,7 +84,7 @@
 | XeF4 | 4 | 2 | sq. planar | nonpolar |
 
 - **Dipole** = separation of + / − charge
-- (μ ≠ 0) = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs)
+- (μ ≠ 0) = **polar** = bond dipoles (ΔEN) **don't cancel** (lone pairs or mixed outer atoms)
 - CH3**F** > CH3Cl > CH3Br > CH3I; NH3 > PH3 > AsH3 (EN)
 - Polar dissolves polar: NH3 in H2O ✓, H2S in NH3 ✓; CCl4, SiO2, O2, CO2 ✗
 - Solvent polarity: H2O > ethanol > acetone > CH2Cl2 > diethyl ether > toluene > hexane
@@ -372,7 +372,7 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 4. total = **87.7 kJ**
 
 - Cooling runs the same steps backward: 125 g benzene (MM 78.11), gas 425 K → liquid 335 K (bp 353, mp 279 — it never freezes): 9.5 kJ + 54.3 kJ + 3.9 kJ = **67.7 kJ removed**
-- Endo (+): melt, vaporize, sublime; Exo (−): freeze, condense, deposit; ΔHsub = ΔHfus + ΔHvap
+- ΔHsub = ΔHfus + ΔHvap (endo/exo table in (14))
 
 </div>
 <div class="problem" markdown="1">
@@ -396,8 +396,8 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 
 <img src="assets/e_coll.png" class="eq">
 
-- m = mol solute / **kg solvent**; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
-- **i** = particles per formula unit
+- m = mol solute / **kg solvent**; H2O: Kf 1.86, Kb 0.512 °C/m; Tf = T°f **−** ΔTf, Tb = T°b **+** ΔTb
+- **i** = particles per formula unit: glucose, sucrose 1; NaCl, KCl, NaOH 2; CaCl2, (NH4)2SO4 3; Al(NO3)3 4. Given the bp: i = ΔTb ÷ (Kb × m)
 - Lowest fp for equal grams = small MM and high i (NaOH), **but the HW answer key rewards the most ions per formula (CaCl2, i = 3)**
 - Molar mass from fp — 20.0 g unknown per 500 g benzene (T°f 5.444, Kf 5.12) freezes at 3.77 °C:
 
