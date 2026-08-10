@@ -339,8 +339,8 @@ Given C = 4.7e−4 mol/L at 522 mmHg:
 3. **BO = (bonding e- − antibonding e-) / 2**
 4. Any unpaired e- → **paramagnetic**; all paired → **diamagnetic**
 5. BO > 0 → stable, can form; **higher BO = stronger & shorter** bond (N2 > N2+). Counting 2p alone gives same BO (σ2s + σ*2s cancel)
-6. **Heteronuclear** (NO, CO, OF-): sum both atoms' valence e- (adjust for charge), fill the **O2 pattern** as usual. NO 11 e- → BO 2.5, para; NO+ 10 → BO 3, dia; NO- 12 → BO 2, para
-7. Two-sided diagram: the **more EN atom's orbitals sit lower** (more stable); bonding MOs resemble the more EN atom, antibonding the less EN
+6. **Heteronuclear** (NO, CO, OF-): sum both atoms' valence e-, fill the **O2 pattern**. NO 11 e- → BO 2.5, para; NO+ 10 → 3, dia; NO- 12 → 2, para
+7. Two-sided diagram: **more EN atom's orbitals sit lower** (more stable); bonding MOs resemble it
 
 | **Sp.** | **e-** | **BO** | **Mag** | **Sp.** | **e-** | **BO** | **Mag** |
 |---|---|---|---|---|---|---|---|
