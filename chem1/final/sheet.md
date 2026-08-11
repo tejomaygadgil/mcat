@@ -88,7 +88,7 @@
 - CH3**F** > CH3Cl > CH3Br > CH3I; NH3 > PH3 > AsH3 (EN)
 - Polar dissolves polar: NH3 in H2O ✓, H2S in NH3 ✓; CCl4, SiO2, O2, CO2 ✗
 - Solvent polarity: H2O > ethanol > acetone > CH2Cl2 > diethyl ether > toluene > hexane
-- Alkanes CnH2n+2, all **nonpolar** — C count: meth 1, eth 2, prop 3, but 4, pent 5, hex 6, hept 7, oct 8, non 9, dec 10
+- **Nonpolar** Alkanes CH3 [CH2(n-1)] [CH3/OH] (meth 1 (CH4), eth 2, prop 3, but 4, pent 5, hex 6, hept 7, oct 8, non 9, dec 10)
 
 </div>
 <div class="problem" markdown="1">
@@ -202,7 +202,7 @@
 | **Amorphous** | no long-range order | melts over a **range** | glass, rubber, plastic, butter, wax |
 | **Ceramic** | inorganic nonmetal, fired | brittle, heat-resistant | clay/kaolinite, porcelain, Al2O3 |
 
-- Graphite sp2 sheets: conducts along the sheets, slippery; diamond sp3: insulator
+- Graphite sp2 sheets: conducts along, slippery; diamond sp3: insulator
 - FCC packing = most space-efficient (12 neighbors)
 
 </div>
